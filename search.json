@@ -1,0 +1,898 @@
+[
+  {
+    "objectID": "software/qmcert/index.html",
+    "href": "software/qmcert/index.html",
+    "title": "QMCert",
+    "section": "",
+    "text": "Quality-control and reproducibility-assessment software for quantum-chemical calculations."
+  },
+  {
+    "objectID": "software/qmcert/index.html#public-record",
+    "href": "software/qmcert/index.html#public-record",
+    "title": "QMCert",
+    "section": "Public record",
+    "text": "Public record\n\n\n\n\n\n\n\nField\nCurrent evidence\n\n\n\n\nStatus\nPublic release\n\n\nRelease\nv1.0.0\n\n\nLanguage\nPython\n\n\nLicense\nMIT, according to the public repository metadata\n\n\nCitation metadata\nCITATION.cff, version 1.0.0, dated 2026-08-31\n\n\nDOI\nNo DOI is listed in the current repository metadata\n\n\n\n\nPyPI package\nGitHub repository"
+  },
+  {
+    "objectID": "software/qmcert/index.html#record-note",
+    "href": "software/qmcert/index.html#record-note",
+    "title": "QMCert",
+    "section": "Record note",
+    "text": "Record note\nThis page summarizes the public package, repository and release record. It does not replace the project’s documentation or technical evaluation."
+  },
+  {
+    "objectID": "software/qmcert/index.html#citation-and-archive",
+    "href": "software/qmcert/index.html#citation-and-archive",
+    "title": "QMCert",
+    "section": "Citation and archive",
+    "text": "Citation and archive\nUse the repository’s CITATION.cff for the exact citation associated with the release. If a persistent archive record is added, it will be linked here.\nBack to Scientific Software"
+  },
+  {
+    "objectID": "software/dockcert/index.html",
+    "href": "software/dockcert/index.html",
+    "title": "DockCert",
+    "section": "",
+    "text": "Statistical validation and reproducibility-assessment software for molecular docking and virtual screening."
+  },
+  {
+    "objectID": "software/dockcert/index.html#public-record",
+    "href": "software/dockcert/index.html#public-record",
+    "title": "DockCert",
+    "section": "Public record",
+    "text": "Public record\n\n\n\n\n\n\n\nField\nCurrent evidence\n\n\n\n\nStatus\nPublic release\n\n\nRelease\nv1.0.0\n\n\nLanguage\nPython\n\n\nLicense\nMIT, according to the public repository metadata\n\n\nCitation metadata\nCITATION.cff, version 1.0.0, dated 2026-08-31\n\n\nDOI\nNo DOI is listed in the current repository metadata\n\n\n\n\nPyPI package\nGitHub repository"
+  },
+  {
+    "objectID": "software/dockcert/index.html#record-note",
+    "href": "software/dockcert/index.html#record-note",
+    "title": "DockCert",
+    "section": "Record note",
+    "text": "Record note\nThis page summarizes the public package, repository and release record. It does not replace the project’s documentation or technical evaluation."
+  },
+  {
+    "objectID": "software/dockcert/index.html#citation-and-archive",
+    "href": "software/dockcert/index.html#citation-and-archive",
+    "title": "DockCert",
+    "section": "Citation and archive",
+    "text": "Citation and archive\nUse the repository’s CITATION.cff for the exact citation associated with the release. If a persistent archive record is added, it will be linked here.\nBack to Scientific Software"
+  },
+  {
+    "objectID": "software/adsorpqc/index.html",
+    "href": "software/adsorpqc/index.html",
+    "title": "AdsorpQC",
+    "section": "",
+    "text": "Quality-control software for adsorption simulations and experimental gas isotherms."
+  },
+  {
+    "objectID": "software/adsorpqc/index.html#public-record",
+    "href": "software/adsorpqc/index.html#public-record",
+    "title": "AdsorpQC",
+    "section": "Public record",
+    "text": "Public record\n\n\n\n\n\n\n\nField\nCurrent evidence\n\n\n\n\nStatus\nPublic release\n\n\nRelease\nv1.0.0\n\n\nLanguage\nPython\n\n\nLicense\nMIT, according to the public repository metadata\n\n\nCitation metadata\nCITATION.cff, version 1.0.0, dated 2026-08-31\n\n\nDOI\nNo DOI is listed in the current repository metadata\n\n\n\n\nPyPI package\nGitHub repository"
+  },
+  {
+    "objectID": "software/adsorpqc/index.html#record-note",
+    "href": "software/adsorpqc/index.html#record-note",
+    "title": "AdsorpQC",
+    "section": "Record note",
+    "text": "Record note\nThis page summarizes the public package, repository and release record. It does not replace the project’s documentation or technical evaluation."
+  },
+  {
+    "objectID": "software/adsorpqc/index.html#citation-and-archive",
+    "href": "software/adsorpqc/index.html#citation-and-archive",
+    "title": "AdsorpQC",
+    "section": "Citation and archive",
+    "text": "Citation and archive\nUse the repository’s CITATION.cff for the exact citation associated with the release. If a persistent archive record is added, it will be linked here.\nBack to Scientific Software"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "The research section connects broad areas of inquiry with formal publications, software and public writing."
+  },
+  {
+    "objectID": "research.html#public-scope",
+    "href": "research.html#public-scope",
+    "title": "Research",
+    "section": "Public scope",
+    "text": "Public scope\nThe public profile may describe broad, non-exclusive interests in biomedical and clinical engineering, clinical technology, scientific computing, scientific software, reproducibility, open science, computational science and materials science. These categories are contextual orientation only; they are not a publication list and do not disclose unpublished investigations, datasets, figures or results."
+  },
+  {
+    "objectID": "research.html#publication-boundary",
+    "href": "research.html#publication-boundary",
+    "title": "Research",
+    "section": "Publication boundary",
+    "text": "Publication boundary\nNo specific investigation, dataset, figure or result is presented here. Future research records will be connected to their publications, methods and public sources."
+  },
+  {
+    "objectID": "research.html#project-status",
+    "href": "research.html#project-status",
+    "title": "Research",
+    "section": "Project status",
+    "text": "Project status\nProject pages will use explicit states: Published, Active, Completed, Under review, Experimental or Archived. Sensitive work will show only the metadata that can be disclosed."
+  },
+  {
+    "objectID": "research.html#research-objects",
+    "href": "research.html#research-objects",
+    "title": "Research",
+    "section": "Research objects",
+    "text": "Research objects\nEach substantial investigation will eventually connect its paper, code, data, figures, software, repository, permanent record and plain-language explanation as one research object."
+  },
+  {
+    "objectID": "projects/ostrin/index.html",
+    "href": "projects/ostrin/index.html",
+    "title": "Ostrin",
+    "section": "",
+    "text": "A programming language built from first principles.\nOstrin is an experimental programming-language project for scientific computing. It is implemented in Rust and brings syntax, examples, tests and release tooling into one open-source project."
+  },
+  {
+    "objectID": "projects/ostrin/index.html#why-ostrin",
+    "href": "projects/ostrin/index.html#why-ostrin",
+    "title": "Ostrin",
+    "section": "Why Ostrin?",
+    "text": "Why Ostrin?\nScientific work depends on how ideas are represented, calculated and shared. Ostrin explores language design as a place where numerical reasoning, reproducibility and developer tooling can meet."
+  },
+  {
+    "objectID": "projects/ostrin/index.html#design-principles",
+    "href": "projects/ostrin/index.html#design-principles",
+    "title": "Ostrin",
+    "section": "Design principles",
+    "text": "Design principles\n\nStart from clear language and computational concepts.\nKeep examples close to the implementation.\nMake releases and test inventories inspectable.\nExplore scientific-computing ideas without presenting an unfinished system as a finished solution."
+  },
+  {
+    "objectID": "projects/ostrin/index.html#what-works-today",
+    "href": "projects/ostrin/index.html#what-works-today",
+    "title": "Ostrin",
+    "section": "What works today",
+    "text": "What works today\n\nA public Rust implementation with public source code and examples.\nAn MIT license and public release v0.1.0.\nA stable release test inventory and a separate development inventory.\nPublic documentation, repository history and release artifacts."
+  },
+  {
+    "objectID": "projects/ostrin/index.html#language-and-tooling",
+    "href": "projects/ostrin/index.html#language-and-tooling",
+    "title": "Ostrin",
+    "section": "Language and tooling",
+    "text": "Language and tooling\nThe public repository describes Ostrin as a design-validation compiler and interpreter for scientific computing. Its documented direction includes:\n\nphysical quantities as types, with dimensional checks before execution;\nimmutable-by-default state, records, enums, generics, traits and pattern matching;\na compiler, checker and interpreter implemented in Rust;\ndeterministic cooperative scheduling with optional native-thread support;\nJSON Lines diagnostics and compiler indexes for editor tooling;\nLSP and debug-adapter tooling, plus a VS Code extension;\nan experimental native C backend and a reproducible WASI release workflow.\n\nThese are capabilities and project descriptions reported by the public repository. They are not independent scientific validation, production-readiness claims or benchmark results. See the Ostrin README and design documentation for the canonical technical record."
+  },
+  {
+    "objectID": "projects/ostrin/index.html#tooling-and-documentation",
+    "href": "projects/ostrin/index.html#tooling-and-documentation",
+    "title": "Ostrin",
+    "section": "Tooling and documentation",
+    "text": "Tooling and documentation\nThe canonical documentation and examples live in the project website and repository. This page provides context and points back to those sources."
+  },
+  {
+    "objectID": "projects/ostrin/index.html#status-validation",
+    "href": "projects/ostrin/index.html#status-validation",
+    "title": "Ostrin",
+    "section": "Status & Validation",
+    "text": "Status & Validation\nExperimental · public · open source\nImplementation: Rust\nLicense: MIT\nStable release: v0.1.0\n\n\n\n\n\n\n\n\nTrack\nTest inventory\nMeaning\n\n\n\n\nStable v0.1.0\n208\n200 integration/example, 2 unit and 6 differential tests in the tagged release\n\n\nDevelopment main\n246\n238 integration, 2 unit and 6 differential tests in the development inventory\n\n\n\nDevelopment snapshot verified: 28 September 2026, commit d22c54750710d18be95932bce40c7777fe8d4d3a. The main count is read from the commit-pinned public repository README and may change as development continues. The 208-test and 246-test inventories describe the repository’s own test suite. They are not benchmark results, independent scientific validation, production-readiness claims or evidence of external adoption."
+  },
+  {
+    "objectID": "projects/ostrin/index.html#release-history",
+    "href": "projects/ostrin/index.html#release-history",
+    "title": "Ostrin",
+    "section": "Release history",
+    "text": "Release history\n\n\n\nReference\nStatus\nEvidence boundary\n\n\n\n\nv0.1.0\nPublic stable release record\n208 tests in the tagged release; GitHub release\n\n\nmain snapshot\nDevelopment line\n246 tests at the dated commit above; the count is dynamic and can change"
+  },
+  {
+    "objectID": "projects/ostrin/index.html#roadmap",
+    "href": "projects/ostrin/index.html#roadmap",
+    "title": "Ostrin",
+    "section": "Roadmap",
+    "text": "Roadmap\n\nDocument a focused set of reproducible language examples.\nDefine a benchmark protocol before publishing performance comparisons.\nAdd citation metadata and archive an important version.\nConsider a technical report or software publication after the project has a mature validation record."
+  },
+  {
+    "objectID": "projects/ostrin/index.html#links",
+    "href": "projects/ostrin/index.html#links",
+    "title": "Ostrin",
+    "section": "Links",
+    "text": "Links\n\nProject website\nRepository\nRelease v0.1.0\nScientific Software\n\nThe project is presented as experimental software and will develop through releases, documentation and future design notes."
+  },
+  {
+    "objectID": "profiles.html",
+    "href": "profiles.html",
+    "title": "Profiles",
+    "section": "",
+    "text": "This is the directory of Andrés Monreal’s academic, open-science, professional and public channels. Only confirmed official profiles are listed."
+  },
+  {
+    "objectID": "profiles.html#academic-profiles",
+    "href": "profiles.html#academic-profiles",
+    "title": "Profiles",
+    "section": "Academic profiles",
+    "text": "Academic profiles\n\nIdentifiers and scholarly networks\nThese are the profiles most relevant to scholarly identity and research discovery:\n\nGoogle Scholar\nORCID\nResearchGate — Andrés Monreal Hernández"
+  },
+  {
+    "objectID": "profiles.html#open-science-development",
+    "href": "profiles.html#open-science-development",
+    "title": "Profiles",
+    "section": "Open Science & Development",
+    "text": "Open Science & Development\n\nCode and packages\n\nGitHub — sircalch\nPyPI — Sircalch"
+  },
+  {
+    "objectID": "profiles.html#professional-profile",
+    "href": "profiles.html#professional-profile",
+    "title": "Profiles",
+    "section": "Professional profile",
+    "text": "Professional profile\n\n\nLinkedIn — Andrés Monreal Hernández"
+  },
+  {
+    "objectID": "profiles.html#science-communication",
+    "href": "profiles.html#science-communication",
+    "title": "Profiles",
+    "section": "Science communication",
+    "text": "Science communication\n\nThese are the public profiles and channels currently authorized for display:\n\nFacebook — Andrés Monreal Ciencia\nInstagram — @andresmonrealciencia\nX — @AndresMonrealCi"
+  },
+  {
+    "objectID": "profiles.html#books",
+    "href": "profiles.html#books",
+    "title": "Profiles",
+    "section": "Books",
+    "text": "Books\n\n\nAmazon Books — author store"
+  },
+  {
+    "objectID": "profiles.html#profile-note",
+    "href": "profiles.html#profile-note",
+    "title": "Profiles",
+    "section": "Profile note",
+    "text": "Profile note\nOnly confirmed official profiles are listed here. Other networks and identifiers can be added when they become part of the public profile."
+  },
+  {
+    "objectID": "profiles.html#identity-rule",
+    "href": "profiles.html#identity-rule",
+    "title": "Profiles",
+    "section": "Identity rule",
+    "text": "Identity rule\nUse Andrés Monreal for public presentation and Andrés Monreal Hernández for scholarly signatures, citations, DOI metadata and research records. Do not merge profiles solely because names or locations are similar."
+  },
+  {
+    "objectID": "es/software/qmcert/index.html",
+    "href": "es/software/qmcert/index.html",
+    "title": "QMCert",
+    "section": "",
+    "text": "Software de control de calidad y evaluación de reproducibilidad para cálculos químico-cuánticos."
+  },
+  {
+    "objectID": "es/software/qmcert/index.html#registro-público",
+    "href": "es/software/qmcert/index.html#registro-público",
+    "title": "QMCert",
+    "section": "Registro público",
+    "text": "Registro público\n\n\n\n\n\n\n\nCampo\nEvidencia actual\n\n\n\n\nEstado\nRelease público\n\n\nRelease\nv1.0.0\n\n\nLenguaje\nPython\n\n\nLicencia\nMIT, según los metadatos públicos del repositorio\n\n\nMetadatos de citación\nCITATION.cff, versión 1.0.0, fechado 2026-08-31\n\n\nDOI\nNo aparece un DOI en los metadatos actuales del repositorio\n\n\n\n\nPaquete en PyPI\nRepositorio en GitHub"
+  },
+  {
+    "objectID": "es/software/qmcert/index.html#nota-del-registro",
+    "href": "es/software/qmcert/index.html#nota-del-registro",
+    "title": "QMCert",
+    "section": "Nota del registro",
+    "text": "Nota del registro\nEsta página resume el registro público del paquete, el repositorio y el release. No sustituye la documentación ni la evaluación técnica del proyecto."
+  },
+  {
+    "objectID": "es/software/qmcert/index.html#cita-y-archivo",
+    "href": "es/software/qmcert/index.html#cita-y-archivo",
+    "title": "QMCert",
+    "section": "Cita y archivo",
+    "text": "Cita y archivo\nUsa el CITATION.cff del repositorio para la citación exacta asociada al release. Si el proyecto incorpora un archivo DOI, se enlazará desde aquí.\nVolver a Software científico · English version"
+  },
+  {
+    "objectID": "es/software/dockcert/index.html",
+    "href": "es/software/dockcert/index.html",
+    "title": "DockCert",
+    "section": "",
+    "text": "Software de validación estadística y evaluación de reproducibilidad para docking molecular y cribado virtual."
+  },
+  {
+    "objectID": "es/software/dockcert/index.html#registro-público",
+    "href": "es/software/dockcert/index.html#registro-público",
+    "title": "DockCert",
+    "section": "Registro público",
+    "text": "Registro público\n\n\n\n\n\n\n\nCampo\nEvidencia actual\n\n\n\n\nEstado\nRelease público\n\n\nRelease\nv1.0.0\n\n\nLenguaje\nPython\n\n\nLicencia\nMIT, según los metadatos públicos del repositorio\n\n\nMetadatos de citación\nCITATION.cff, versión 1.0.0, fechado 2026-08-31\n\n\nDOI\nNo aparece un DOI en los metadatos actuales del repositorio\n\n\n\n\nPaquete en PyPI\nRepositorio en GitHub"
+  },
+  {
+    "objectID": "es/software/dockcert/index.html#nota-del-registro",
+    "href": "es/software/dockcert/index.html#nota-del-registro",
+    "title": "DockCert",
+    "section": "Nota del registro",
+    "text": "Nota del registro\nEsta página resume el registro público del paquete, el repositorio y el release. No sustituye la documentación ni la evaluación técnica del proyecto."
+  },
+  {
+    "objectID": "es/software/dockcert/index.html#cita-y-archivo",
+    "href": "es/software/dockcert/index.html#cita-y-archivo",
+    "title": "DockCert",
+    "section": "Cita y archivo",
+    "text": "Cita y archivo\nUsa el CITATION.cff del repositorio para la citación exacta asociada al release. Si el proyecto incorpora un archivo DOI, se enlazará desde aquí.\nVolver a Software científico · English version"
+  },
+  {
+    "objectID": "es/software/adsorpqc/index.html",
+    "href": "es/software/adsorpqc/index.html",
+    "title": "AdsorpQC",
+    "section": "",
+    "text": "Software de control de calidad para simulaciones de adsorción e isotermas experimentales de gases."
+  },
+  {
+    "objectID": "es/software/adsorpqc/index.html#registro-público",
+    "href": "es/software/adsorpqc/index.html#registro-público",
+    "title": "AdsorpQC",
+    "section": "Registro público",
+    "text": "Registro público\n\n\n\n\n\n\n\nCampo\nEvidencia actual\n\n\n\n\nEstado\nRelease público\n\n\nRelease\nv1.0.0\n\n\nLenguaje\nPython\n\n\nLicencia\nMIT, según los metadatos públicos del repositorio\n\n\nMetadatos de citación\nCITATION.cff, versión 1.0.0, fechado 2026-08-31\n\n\nDOI\nNo aparece un DOI en los metadatos actuales del repositorio\n\n\n\n\nPaquete en PyPI\nRepositorio en GitHub"
+  },
+  {
+    "objectID": "es/software/adsorpqc/index.html#nota-del-registro",
+    "href": "es/software/adsorpqc/index.html#nota-del-registro",
+    "title": "AdsorpQC",
+    "section": "Nota del registro",
+    "text": "Nota del registro\nEsta página resume el registro público del paquete, el repositorio y el release. No sustituye la documentación ni la evaluación técnica del proyecto."
+  },
+  {
+    "objectID": "es/software/adsorpqc/index.html#cita-y-archivo",
+    "href": "es/software/adsorpqc/index.html#cita-y-archivo",
+    "title": "AdsorpQC",
+    "section": "Cita y archivo",
+    "text": "Cita y archivo\nUsa el CITATION.cff del repositorio para la citación exacta asociada al release. Si el proyecto incorpora un archivo DOI, se enlazará desde aquí.\nVolver a Software científico · English version"
+  },
+  {
+    "objectID": "es/research.html",
+    "href": "es/research.html",
+    "title": "Investigación",
+    "section": "",
+    "text": "La sección de investigación conecta áreas amplias de interés con publicaciones, software y escritura pública."
+  },
+  {
+    "objectID": "es/research.html#alcance-público",
+    "href": "es/research.html#alcance-público",
+    "title": "Investigación",
+    "section": "Alcance público",
+    "text": "Alcance público\nEl perfil público puede describir intereses amplios y no exclusivos en ingeniería biomédica y clínica, tecnología clínica, computación científica, software científico, reproducibilidad, ciencia abierta, ciencia computacional y ciencia de materiales. Estas categorías sólo orientan el contexto; no son una lista de publicaciones ni divulgan investigaciones, datos, figuras o resultados no publicados."
+  },
+  {
+    "objectID": "es/research.html#límite-de-publicación",
+    "href": "es/research.html#límite-de-publicación",
+    "title": "Investigación",
+    "section": "Límite de publicación",
+    "text": "Límite de publicación\nNo se presenta aquí ninguna investigación específica, conjunto de datos, figura o resultado. Los futuros registros de investigación se conectarán con sus publicaciones, métodos y fuentes públicas.\nVersión inglesa completa → · Inicio"
+  },
+  {
+    "objectID": "es/projects/ostrin/index.html",
+    "href": "es/projects/ostrin/index.html",
+    "title": "Ostrin",
+    "section": "",
+    "text": "Un lenguaje de programación construido desde primeros principios.\nOstrin es un proyecto experimental de lenguaje de programación para computación científica. Está implementado en Rust y reúne sintaxis, ejemplos, pruebas y herramientas de release en un proyecto de código abierto."
+  },
+  {
+    "objectID": "es/projects/ostrin/index.html#por-qué-ostrin",
+    "href": "es/projects/ostrin/index.html#por-qué-ostrin",
+    "title": "Ostrin",
+    "section": "¿Por qué Ostrin?",
+    "text": "¿Por qué Ostrin?\nEl trabajo científico depende de cómo se representan, calculan y comparten las ideas. Ostrin explora el diseño de lenguajes como un espacio donde pueden encontrarse el razonamiento numérico, la reproducibilidad y las herramientas de desarrollo."
+  },
+  {
+    "objectID": "es/projects/ostrin/index.html#principios-de-diseño",
+    "href": "es/projects/ostrin/index.html#principios-de-diseño",
+    "title": "Ostrin",
+    "section": "Principios de diseño",
+    "text": "Principios de diseño\n\nPartir de conceptos claros de lenguaje y computación.\nMantener los ejemplos cerca de la implementación.\nHacer inspeccionables los releases y los inventarios de pruebas.\nExplorar ideas de computación científica sin presentar un sistema en desarrollo como una solución terminada."
+  },
+  {
+    "objectID": "es/projects/ostrin/index.html#lo-que-funciona-actualmente",
+    "href": "es/projects/ostrin/index.html#lo-que-funciona-actualmente",
+    "title": "Ostrin",
+    "section": "Lo que funciona actualmente",
+    "text": "Lo que funciona actualmente\n\nImplementación pública en Rust con código fuente y ejemplos públicos.\nLicencia MIT y release pública v0.1.0.\nInventario de pruebas de la release estable y un inventario separado de desarrollo.\nDocumentación pública, historial del repositorio y artefactos de release."
+  },
+  {
+    "objectID": "es/projects/ostrin/index.html#lenguaje-y-tooling",
+    "href": "es/projects/ostrin/index.html#lenguaje-y-tooling",
+    "title": "Ostrin",
+    "section": "Lenguaje y tooling",
+    "text": "Lenguaje y tooling\nEl repositorio público describe Ostrin como un compilador e intérprete de validación de diseño para computación científica. Su dirección documentada incluye:\n\ncantidades físicas como tipos, con comprobaciones dimensionales antes de ejecutar;\nestado inmutable por defecto, registros, enumeraciones, genéricos, traits y pattern matching;\nun compilador, checker e intérprete implementados en Rust;\nscheduling cooperativo determinista con soporte opcional para hilos nativos;\ndiagnósticos JSON Lines e índices del compilador para tooling de editores;\ntooling LSP y debug adapter, además de una extensión para VS Code;\nun backend nativo experimental a C y un workflow reproducible de release para WASI.\n\nEstas son capacidades y descripciones reportadas por el repositorio público. No son validación científica independiente, afirmaciones de preparación para producción ni resultados de benchmark. Consulta el README de Ostrin y la documentación de diseño como registro técnico canónico."
+  },
+  {
+    "objectID": "es/projects/ostrin/index.html#herramientas-y-documentación",
+    "href": "es/projects/ostrin/index.html#herramientas-y-documentación",
+    "title": "Ostrin",
+    "section": "Herramientas y documentación",
+    "text": "Herramientas y documentación\nLa documentación y los ejemplos canónicos están en el sitio del proyecto y el repositorio. Esta página ofrece contexto y enlaza esas fuentes."
+  },
+  {
+    "objectID": "es/projects/ostrin/index.html#estado-y-validación",
+    "href": "es/projects/ostrin/index.html#estado-y-validación",
+    "title": "Ostrin",
+    "section": "Estado y validación",
+    "text": "Estado y validación\nExperimental · público · código abierto\nImplementación: Rust\nLicencia: MIT\nRelease estable: v0.1.0\n\n\n\n\n\n\n\n\nLínea\nInventario de pruebas\nSignificado\n\n\n\n\nEstable v0.1.0\n208\n200 de integración/ejemplos, 2 unitarias y 6 diferenciales en el release etiquetado\n\n\nDesarrollo main\n246\n238 de integración, 2 unitarias y 6 diferenciales en el inventario actual\n\n\n\nSnapshot de desarrollo verificado: 28 de septiembre de 2026, commit d22c54750710d18be95932bce40c7777fe8d4d3a. El conteo de main se lee del README público fijado al commit y puede cambiar conforme avance el desarrollo. Los inventarios de 208 y 246 pruebas describen la suite propia del repositorio. No son resultados de benchmark, validación científica independiente, afirmaciones de preparación para producción ni evidencia de adopción externa."
+  },
+  {
+    "objectID": "es/projects/ostrin/index.html#historial-de-releases",
+    "href": "es/projects/ostrin/index.html#historial-de-releases",
+    "title": "Ostrin",
+    "section": "Historial de releases",
+    "text": "Historial de releases\n\n\n\nReferencia\nEstado\nFrontera de evidencia\n\n\n\n\nv0.1.0\nRegistro de release público estable\n208 pruebas en el release etiquetado; release en GitHub\n\n\nSnapshot de main\nLínea de desarrollo\n246 pruebas en el commit fechado arriba; la cifra es dinámica y puede cambiar"
+  },
+  {
+    "objectID": "es/projects/ostrin/index.html#hoja-de-ruta",
+    "href": "es/projects/ostrin/index.html#hoja-de-ruta",
+    "title": "Ostrin",
+    "section": "Hoja de ruta",
+    "text": "Hoja de ruta\n\nDocumentar un conjunto enfocado de ejemplos de lenguaje reproducibles.\nDefinir un protocolo de benchmarks antes de publicar comparaciones de rendimiento.\nAñadir metadatos de citación y archivar una versión importante.\nConsiderar un informe técnico o una publicación de software después de construir un registro de validación maduro."
+  },
+  {
+    "objectID": "es/projects/ostrin/index.html#enlaces",
+    "href": "es/projects/ostrin/index.html#enlaces",
+    "title": "Ostrin",
+    "section": "Enlaces",
+    "text": "Enlaces\n\nSitio del proyecto\nRepositorio\nRelease v0.1.0\nSoftware científico\n\nEl proyecto se presenta como software experimental y crecerá mediante releases, documentación y futuras notas de diseño.\nVolver a Proyectos · English version"
+  },
+  {
+    "objectID": "es/profiles.html",
+    "href": "es/profiles.html",
+    "title": "Perfiles",
+    "section": "",
+    "text": "Estos son los perfiles más relevantes para la identidad académica y la localización de investigación:\n\nGoogle Scholar\nORCID\nResearchGate — Andrés Monreal Hernández"
+  },
+  {
+    "objectID": "es/profiles.html#perfiles-académicos",
+    "href": "es/profiles.html#perfiles-académicos",
+    "title": "Perfiles",
+    "section": "",
+    "text": "Estos son los perfiles más relevantes para la identidad académica y la localización de investigación:\n\nGoogle Scholar\nORCID\nResearchGate — Andrés Monreal Hernández"
+  },
+  {
+    "objectID": "es/profiles.html#ciencia-abierta-y-desarrollo",
+    "href": "es/profiles.html#ciencia-abierta-y-desarrollo",
+    "title": "Perfiles",
+    "section": "Ciencia abierta y desarrollo",
+    "text": "Ciencia abierta y desarrollo\n\nCódigo y paquetes\n\nGitHub — sircalch\nPyPI — Sircalch"
+  },
+  {
+    "objectID": "es/profiles.html#perfil-profesional",
+    "href": "es/profiles.html#perfil-profesional",
+    "title": "Perfiles",
+    "section": "Perfil profesional",
+    "text": "Perfil profesional\n\n\nLinkedIn — Andrés Monreal Hernández"
+  },
+  {
+    "objectID": "es/profiles.html#comunicación-científica",
+    "href": "es/profiles.html#comunicación-científica",
+    "title": "Perfiles",
+    "section": "Comunicación científica",
+    "text": "Comunicación científica\n\nEstos son los perfiles y canales públicos autorizados actualmente:\n\nFacebook — Andrés Monreal Ciencia\nInstagram — @andresmonrealciencia\nX — @AndresMonrealCi"
+  },
+  {
+    "objectID": "es/profiles.html#libros",
+    "href": "es/profiles.html#libros",
+    "title": "Perfiles",
+    "section": "Libros",
+    "text": "Libros\n\n\nAmazon Books — tienda del autor"
+  },
+  {
+    "objectID": "es/profiles.html#nota-de-perfiles",
+    "href": "es/profiles.html#nota-de-perfiles",
+    "title": "Perfiles",
+    "section": "Nota de perfiles",
+    "text": "Nota de perfiles\nSólo se incluyen perfiles oficiales confirmados. Se podrán añadir otras redes e identificadores cuando formen parte del perfil público.\nUsar Andrés Monreal para presentación pública y Andrés Monreal Hernández para firmas académicas, DOI y citaciones.\nVersión inglesa → · Inicio"
+  },
+  {
+    "objectID": "es/collaborate.html",
+    "href": "es/collaborate.html",
+    "title": "Colaborar",
+    "section": "",
+    "text": "Áreas de colaboración previstas:\n\nInvestigación y proyectos computacionales.\nSoftware científico y validación.\nFlujos de ciencia abierta.\nIngeniería interdisciplinaria.\nDocencia, charlas y proyectos estudiantiles.\nComunicación científica.\n\nEl canal de contacto profesional se añadirá cuando el propietario seleccione y confirme una dirección pública.\nVersión inglesa → · Inicio"
+  },
+  {
+    "objectID": "es/about.html",
+    "href": "es/about.html",
+    "title": "Acerca de Andrés",
+    "section": "",
+    "text": "Andrés Monreal trabaja entre la ciencia, la ingeniería biomédica, la tecnología clínica, la computación científica y la ciencia abierta. Su trabajo público reúne software científico, flujos computacionales, reproducibilidad y escritura técnica.\nMonreal Scientific es la denominación secundaria de este archivo personal. La identidad pública sigue siendo Andrés Monreal."
+  },
+  {
+    "objectID": "es/about.html#andrés-monreal",
+    "href": "es/about.html#andrés-monreal",
+    "title": "Acerca de Andrés",
+    "section": "",
+    "text": "Andrés Monreal trabaja entre la ciencia, la ingeniería biomédica, la tecnología clínica, la computación científica y la ciencia abierta. Su trabajo público reúne software científico, flujos computacionales, reproducibilidad y escritura técnica.\nMonreal Scientific es la denominación secundaria de este archivo personal. La identidad pública sigue siendo Andrés Monreal."
+  },
+  {
+    "objectID": "es/about.html#intereses",
+    "href": "es/about.html#intereses",
+    "title": "Acerca de Andrés",
+    "section": "Intereses",
+    "text": "Intereses\n\nIngeniería biomédica y clínica.\nTecnología clínica y equipo biomédico.\nComputación científica y software científico.\nReproducibilidad y ciencia abierta.\nCiencia computacional.\n\nEstos intereses conectan preguntas de investigación, proyectos de software y comunicación técnica pública."
+  },
+  {
+    "objectID": "es/about.html#frontera-pública",
+    "href": "es/about.html#frontera-pública",
+    "title": "Acerca de Andrés",
+    "section": "Frontera pública",
+    "text": "Frontera pública\nEste sitio contiene registros públicos y descripciones de proyectos claramente delimitadas. No publica información de contacto privada, resultados no publicados, datos experimentales ni material de investigación reservado.\nExplorar Investigación · Software científico · Perfiles"
+  },
+  {
+    "objectID": "books.html",
+    "href": "books.html",
+    "title": "Books & Long-form Works",
+    "section": "",
+    "text": "Books are a first-class part of the long-term archive, separate from journal articles and software releases."
+  },
+  {
+    "objectID": "books.html#author-store",
+    "href": "books.html#author-store",
+    "title": "Books & Long-form Works",
+    "section": "Author store",
+    "text": "Author store\nThe currently authorized public book destination is the Amazon author store."
+  },
+  {
+    "objectID": "books.html#catalogue-status",
+    "href": "books.html#catalogue-status",
+    "title": "Books & Long-form Works",
+    "section": "Catalogue status",
+    "text": "Catalogue status\nThe first verified catalogue record is:\n\n\n\nTitle\nYear\nLanguage\nType\nISBN\nSource\n\n\n\n\nIntroducción a la Ingeniería Biomédica\n2024\nSpanish\nKindle edition and paperback listing\n979-8305310252\nAmazon product page\n\n\n\nThe page record is bibliographic metadata only; it does not assert peer review or classify the work as a scientific journal publication. Additional titles remain outside the catalogue until their public author record and bibliographic details are verified.\nOpen Profiles →"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Andrés",
+    "section": "",
+    "text": "Andrés Monreal works across science, biomedical engineering, clinical technology, scientific computing and open science. His public work brings together scientific software, computational workflows, reproducibility and technical writing.\nMonreal Scientific is the secondary ecosystem label for this personal archive. The public identity remains Andrés Monreal."
+  },
+  {
+    "objectID": "about.html#andrés-monreal",
+    "href": "about.html#andrés-monreal",
+    "title": "About Andrés",
+    "section": "",
+    "text": "Andrés Monreal works across science, biomedical engineering, clinical technology, scientific computing and open science. His public work brings together scientific software, computational workflows, reproducibility and technical writing.\nMonreal Scientific is the secondary ecosystem label for this personal archive. The public identity remains Andrés Monreal."
+  },
+  {
+    "objectID": "about.html#interests",
+    "href": "about.html#interests",
+    "title": "About Andrés",
+    "section": "Interests",
+    "text": "Interests\n\nBiomedical and clinical engineering.\nClinical technology and biomedical equipment.\nScientific computing and scientific software.\nReproducibility and open science.\nComputational science.\n\nThese interests connect research questions, software projects and public technical communication."
+  },
+  {
+    "objectID": "about.html#public-boundary",
+    "href": "about.html#public-boundary",
+    "title": "About Andrés",
+    "section": "Public boundary",
+    "text": "Public boundary\nThis site contains public records and clearly bounded project descriptions. It does not publish private contact information, unpublished results, experimental data or reserved research material.\nExplore Research · Scientific Software · Profiles"
+  },
+  {
+    "objectID": "collaborate.html",
+    "href": "collaborate.html",
+    "title": "Collaborate",
+    "section": "",
+    "text": "Potential collaboration areas include:\n\nResearch and computational projects.\nScientific software and validation.\nOpen-science workflows.\nInterdisciplinary engineering.\nTeaching, speaking and student projects.\nScience communication.\n\nProfessional contact information will be added after the public contact channel is selected and verified."
+  },
+  {
+    "objectID": "es/books.html",
+    "href": "es/books.html",
+    "title": "Libros y obras extensas",
+    "section": "",
+    "text": "Los libros son una parte propia del archivo de largo plazo, separada de los artículos de revista y de los releases de software."
+  },
+  {
+    "objectID": "es/books.html#tienda-del-autor",
+    "href": "es/books.html#tienda-del-autor",
+    "title": "Libros y obras extensas",
+    "section": "Tienda del autor",
+    "text": "Tienda del autor\nEl destino público de libros autorizado actualmente es la tienda de autor en Amazon."
+  },
+  {
+    "objectID": "es/books.html#estado-del-catálogo",
+    "href": "es/books.html#estado-del-catálogo",
+    "title": "Libros y obras extensas",
+    "section": "Estado del catálogo",
+    "text": "Estado del catálogo\nEl primer registro verificado es:\n\n\n\nTítulo\nAño\nIdioma\nTipo\nISBN\nFuente\n\n\n\n\nIntroducción a la Ingeniería Biomédica\n2024\nEspañol\nEdición Kindle y ficha de tapa blanda\n979-8305310252\nFicha del libro en Amazon\n\n\n\nLa ficha contiene únicamente metadatos bibliográficos; no afirma revisión por pares ni clasifica la obra como publicación científica de revista. Los títulos adicionales permanecerán fuera del catálogo hasta verificar su registro público y sus datos bibliográficos.\nAbrir Perfiles →"
+  },
+  {
+    "objectID": "es/index.html",
+    "href": "es/index.html",
+    "title": "Andrés Monreal",
+    "section": "",
+    "text": "Andrés Monreal Ciencia · Ingeniería · Computación\nAndrés Monreal trabaja entre la ingeniería biomédica, la tecnología clínica, la computación científica, el software científico y la ciencia abierta. Este sitio reúne registros públicos, software, libros y trabajo técnico."
+  },
+  {
+    "objectID": "es/index.html#explorar",
+    "href": "es/index.html#explorar",
+    "title": "Andrés Monreal",
+    "section": "Explorar",
+    "text": "Explorar\n\n\nInvestigación\nPreguntas amplias en la intersección de la ingeniería biomédica, la tecnología clínica, la computación y la práctica científica.\nExplorar Investigación →\n\n\nSoftware científico\nProyectos de software público, releases, documentación y rutas de citación.\nAbrir Software →\n\n\nPublicaciones\nLos registros académicos formales se presentan de manera conservadora, con su fuente y estado editorial.\nVer Publicaciones →\n\n\nProyectos\nProyectos abiertos de ingeniería y computación científica, incluido Ostrin.\nVer Proyectos →"
+  },
+  {
+    "objectID": "es/index.html#destacado",
+    "href": "es/index.html#destacado",
+    "title": "Andrés Monreal",
+    "section": "Destacado",
+    "text": "Destacado\n\n\nOstrin\nUn proyecto experimental de lenguaje de programación en Rust para computación científica, con licencia MIT.\nVisitar Ostrin →\n\n\nPrepublicación\nUn preprint aprobado como metadata-only y mostrado como Preprint · Under review, sin afirmar revisión por pares.\nVer Publicaciones →\n\n\nIntroducción a la Ingeniería Biomédica\nUn registro bibliográfico verificado de un libro en español de 2024.\nVer Libros →"
+  },
+  {
+    "objectID": "es/index.html#alcance-público",
+    "href": "es/index.html#alcance-público",
+    "title": "Andrés Monreal",
+    "section": "Alcance público",
+    "text": "Alcance público\nEste archivo se centra en registros públicos, software público y trabajo técnico claramente delimitado. El material privado, los resultados no publicados y la investigación que aún no está lista para presentación pública permanecen fuera del sitio."
+  },
+  {
+    "objectID": "es/projects.html",
+    "href": "es/projects.html",
+    "title": "Proyectos",
+    "section": "",
+    "text": "Lenguaje experimental de computación científica con implementación pública en Rust, licencia MIT y release v0.1.0.\nPágina completa de Ostrin · Repositorio · Sitio del proyecto"
+  },
+  {
+    "objectID": "es/projects.html#ostrin",
+    "href": "es/projects.html#ostrin",
+    "title": "Proyectos",
+    "section": "",
+    "text": "Lenguaje experimental de computación científica con implementación pública en Rust, licencia MIT y release v0.1.0.\nPágina completa de Ostrin · Repositorio · Sitio del proyecto"
+  },
+  {
+    "objectID": "es/projects.html#límite-del-catálogo",
+    "href": "es/projects.html#límite-del-catálogo",
+    "title": "Proyectos",
+    "section": "Límite del catálogo",
+    "text": "Límite del catálogo\nLa cartera de software se centra en los proyectos con registros públicos dedicados.\nVersión inglesa → · Inicio"
+  },
+  {
+    "objectID": "es/publications.html",
+    "href": "es/publications.html",
+    "title": "Publicaciones",
+    "section": "",
+    "text": "Esta sección reúne producción académica formal, con enlaces al artículo, código, datos y citación cuando estén disponibles.\nEl registro actual contiene una prepublicación pública aprobada como metadata-only. Se muestra como Prepublicación · En revisión y no se presenta como artículo revisado por pares."
+  },
+  {
+    "objectID": "es/publications.html#registros-de-publicaciones",
+    "href": "es/publications.html#registros-de-publicaciones",
+    "title": "Publicaciones",
+    "section": "Registros de publicaciones",
+    "text": "Registros de publicaciones\n\n\n\n\nAlternate-conformer incompatibility as the dominant bottleneck in no-repair receptor preparation: a frozen compatibility audit of 30 public PDB structures\n\n\nAutores: Andrés Monreal Hernández, Sara Lizbeth Franco Amaya, Carlos Ivanhoe Martínez OsorioEstado: Prepublicación · En revisión · Año: 2026\n\n\nFuente canónica: https://doi.org/10.21203/rs.3.rs-10707112/v1\n\n\nAcceso: CC BY 4.0\n\n\nPrepublicación: https://www.researchsquare.com/article/rs-10707112/v1\n\n\nCódigo: https://github.com/sircalch/docking-reference-audit\n\n\nRevista en revisión: Journal of Molecular Modeling\n\n\nProyecto relacionado: docking-reference-audit\n\n\n\nBibTeX\n\n&lt;pre&gt;&lt;code&gt;@article{monreal2026alternate,\nauthor = {Monreal Hern{&#x27;a}ndez, Andr{&#x27;e}s and Franco Amaya, Sara Lizbeth and Mart{&#x27;i}nez Osorio, Carlos Ivanhoe}, title = {Alternate-conformer incompatibility as the dominant bottleneck in no-repair receptor preparation: a frozen compatibility audit of 30 public PDB structures}, year = {2026}, publisher = {Research Square}, doi = {10.21203/rs.3.rs-10707112/v1}, url = {https://doi.org/10.21203/rs.3.rs-10707112/v1}, note = {Public preprint; not asserted as peer reviewed} }"
+  },
+  {
+    "objectID": "es/publications.html#estado-editorial",
+    "href": "es/publications.html#estado-editorial",
+    "title": "Publicaciones",
+    "section": "Estado editorial",
+    "text": "Estado editorial\n\nPrepublicación · En revisión — una prepublicación pública cuyo proceso de revisión continúa abierto.\nMetadata-only — se muestran metadatos y enlaces de fuente sin importar resumen, figuras, resultados ni datos inéditos.\nPublicado / aceptado — reservado para registros cuya fuente canónica respalde exactamente ese estado.\n\nLa presencia de un DOI identifica un registro persistente; por sí sola no establece revisión por pares ni publicación en una revista."
+  },
+  {
+    "objectID": "es/publications.html#formato-del-registro",
+    "href": "es/publications.html#formato-del-registro",
+    "title": "Publicaciones",
+    "section": "Formato del registro",
+    "text": "Formato del registro\nCada ficha muestra, cuando está disponible, título, autores, revista o plataforma, año, DOI, estado, artículo, código, datos y citación BibTeX. Los registros nuevos permanecen fuera hasta verificar su fuente, estado y frontera de permisos.\nVersión inglesa → · Inicio"
+  },
+  {
+    "objectID": "es/software.html",
+    "href": "es/software.html",
+    "title": "Software científico",
+    "section": "",
+    "text": "La cartera de software reúne Ostrin, claimtestR, AdsorpQC, QMCert, DockCert y MDCheck. Cada proyecto conserva su propio historial de releases, documentación y ruta de citación."
+  },
+  {
+    "objectID": "es/software.html#lista-pública-de-software",
+    "href": "es/software.html#lista-pública-de-software",
+    "title": "Software científico",
+    "section": "Lista pública de software",
+    "text": "Lista pública de software\n\n\n\n\n\n\nSoftware\n\n\nRelease público\n\n\nDesarrollo\n\n\nArchivo\n\n\nFuente\n\n\n\n\n\n\nOstrin\n\n\nv0.1.0\n\n\nmain\n\n\n—\n\n\nGitHub\n\n\n\n\nclaimtestR\n\n\nv0.1.2\n\n\n—\n\n\nv0.1.1\n\n\nGitHub\n\n\n\n\nAdsorpQC\n\n\nv1.0.0\n\n\n—\n\n\n—\n\n\nGitHub · PyPI\n\n\n\n\nQMCert\n\n\nv1.0.0\n\n\n—\n\n\n—\n\n\nGitHub · PyPI\n\n\n\n\nDockCert\n\n\nv1.0.0\n\n\n—\n\n\n—\n\n\nGitHub · PyPI\n\n\n\n\nMDCheck\n\n\nv1.0.0\n\n\n—\n\n\nv1.1.0\n\n\nGitHub · PyPI"
+  },
+  {
+    "objectID": "es/software.html#qué-incluye-cada-proyecto",
+    "href": "es/software.html#qué-incluye-cada-proyecto",
+    "title": "Software científico",
+    "section": "Qué incluye cada proyecto",
+    "text": "Qué incluye cada proyecto\nLas páginas de software conectan el estado del proyecto, la versión, el lenguaje, el repositorio, la documentación, la licencia, las pruebas, el historial de releases y la información de citación disponible.\nCada página de proyecto enlaza con el repositorio público, el historial de releases y la información de citación disponible.\nLa cartera crecerá con nuevos releases, documentación y citaciones conforme se desarrollen los proyectos.\nVersión inglesa → · Inicio"
+  },
+  {
+    "objectID": "es/software/claimtestr/index.html",
+    "href": "es/software/claimtestr/index.html",
+    "title": "claimtestR",
+    "section": "",
+    "text": "Paquete de R que convierte afirmaciones estadísticas en aserciones ejecutables e inspeccionables para flujos de trabajo reproducibles."
+  },
+  {
+    "objectID": "es/software/claimtestr/index.html#registro-público",
+    "href": "es/software/claimtestr/index.html#registro-público",
+    "title": "claimtestR",
+    "section": "Registro público",
+    "text": "Registro público\n\n\n\n\n\n\n\nCampo\nEvidencia actual\n\n\n\n\nEstado\nProyecto de software público\n\n\nVersión GitHub\nv0.1.2\n\n\nArchivo actual respaldado por DOI\nZenodo v0.1.2\n\n\nLenguaje\nR\n\n\nLicencia\nMIT, según los metadatos públicos del repositorio\n\n\nMetadatos de citación\nCITATION.cff del repositorio, versión 0.1.2\n\n\n\n\nRepositorio en GitHub\nRegistro de Zenodo para v0.1.2\nDOI: 10.5281/zenodo.21962719\nRegistro histórico de Zenodo para v0.1.1"
+  },
+  {
+    "objectID": "es/software/claimtestr/index.html#versiones-y-citación",
+    "href": "es/software/claimtestr/index.html#versiones-y-citación",
+    "title": "claimtestR",
+    "section": "Versiones y citación",
+    "text": "Versiones y citación\nEl DOI actual identifica el archivo de Zenodo para v0.1.2. El registro histórico de v0.1.1 permanece visible para trazabilidad; las dos versiones no se confunden."
+  },
+  {
+    "objectID": "es/software/claimtestr/index.html#nota-del-registro",
+    "href": "es/software/claimtestr/index.html#nota-del-registro",
+    "title": "claimtestR",
+    "section": "Nota del registro",
+    "text": "Nota del registro\nEsta página resume los registros públicos del repositorio y del archivo para las versiones indicadas.\nVolver a Software científico · English version"
+  },
+  {
+    "objectID": "es/software/mdcheck/index.html",
+    "href": "es/software/mdcheck/index.html",
+    "title": "MDCheck",
+    "section": "",
+    "text": "Software para evaluar convergencia, ineficiencia estadística y reproducibilidad en simulaciones de dinámica molecular."
+  },
+  {
+    "objectID": "es/software/mdcheck/index.html#registro-público",
+    "href": "es/software/mdcheck/index.html#registro-público",
+    "title": "MDCheck",
+    "section": "Registro público",
+    "text": "Registro público\n\n\n\n\n\n\n\nCampo\nEvidencia actual\n\n\n\n\nEstado\nRelease público\n\n\nRelease público\nv1.0.0\n\n\nLenguaje\nPython\n\n\nLicencia\nMIT, según los metadatos públicos del repositorio\n\n\nMetadatos de citación\nEl CITATION.cff del repositorio reporta 1.1.0, fechado 2026-09-24\n\n\nDOI\nNo aparece un DOI en los metadatos actuales del repositorio\n\n\n\n\nPaquete en PyPI\nRepositorio en GitHub"
+  },
+  {
+    "objectID": "es/software/mdcheck/index.html#control-de-versiones-requerido",
+    "href": "es/software/mdcheck/index.html#control-de-versiones-requerido",
+    "title": "MDCheck",
+    "section": "Control de versiones requerido",
+    "text": "Control de versiones requerido\nLos registros públicos actuales reportan v1.0.0 para el paquete de PyPI y el release más reciente de GitHub, mientras que el CITATION.cff del repositorio reporta 1.1.0 con fecha 2026-09-24. Los dos registros se muestran por separado hasta alinear los metadatos del proyecto."
+  },
+  {
+    "objectID": "es/software/mdcheck/index.html#nota-del-registro",
+    "href": "es/software/mdcheck/index.html#nota-del-registro",
+    "title": "MDCheck",
+    "section": "Nota del registro",
+    "text": "Nota del registro\nEsta página resume los registros públicos del paquete, el repositorio y la citación. No sustituye la documentación ni la evaluación técnica del proyecto.\nVolver a Software científico · English version"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Andrés Monreal",
+    "section": "",
+    "text": "Andrés Monreal Science · Engineering · Computation\nAndrés Monreal works across biomedical engineering, clinical technology, scientific computing, scientific software and open science. This site brings together public records, software, books and technical work."
+  },
+  {
+    "objectID": "index.html#explore",
+    "href": "index.html#explore",
+    "title": "Andrés Monreal",
+    "section": "Explore",
+    "text": "Explore\n\n\nResearch\nBroad questions at the intersection of biomedical engineering, clinical technology, computation and scientific practice.\nExplore Research →\n\n\nScientific software\nPublic software projects, releases, documentation and citation paths.\nOpen Software →\n\n\nPublications\nFormal scholarly records are presented conservatively with their source and editorial status.\nView Publications →\n\n\nProjects\nOpen engineering and scientific-computing projects, including Ostrin.\nView Projects →"
+  },
+  {
+    "objectID": "index.html#featured",
+    "href": "index.html#featured",
+    "title": "Andrés Monreal",
+    "section": "Featured",
+    "text": "Featured\n\n\nOstrin\nAn experimental Rust programming-language project for scientific computing, released under the MIT license.\nVisit Ostrin →\n\n\nPreprint\nAn approved metadata-only preprint shown as Preprint · Under review, without a peer-reviewed claim.\nView Publications →\n\n\nIntroducción a la Ingeniería Biomédica\nA verified Spanish-language book record from 2024, presented as bibliographic metadata.\nView Books →"
+  },
+  {
+    "objectID": "index.html#public-scope",
+    "href": "index.html#public-scope",
+    "title": "Andrés Monreal",
+    "section": "Public scope",
+    "text": "Public scope\nThis archive focuses on public records, public software and clearly bounded technical work. Private material, unpublished results and research that is not ready for public presentation remain outside the site."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Status: Experimental\nType: programming language for scientific computing\nImplementation: Rust\nLicense: MIT\nPublic release: v0.1.0\nOstrin is a public project built from first principles. Its repository describes physically meaningful types, safe-by-default concurrency, an interpreter, a native backend, editor tooling and a reproducible release workflow. The project page links to the source so readers can inspect those capabilities directly.\nRepository · Project website · Release v0.1.0\nDedicated project page\nThe site presents Ostrin as an open-source experimental software project with its own release and documentation."
+  },
+  {
+    "objectID": "projects.html#ostrin",
+    "href": "projects.html#ostrin",
+    "title": "Projects",
+    "section": "",
+    "text": "Status: Experimental\nType: programming language for scientific computing\nImplementation: Rust\nLicense: MIT\nPublic release: v0.1.0\nOstrin is a public project built from first principles. Its repository describes physically meaningful types, safe-by-default concurrency, an interpreter, a native backend, editor tooling and a reproducible release workflow. The project page links to the source so readers can inspect those capabilities directly.\nRepository · Project website · Release v0.1.0\nDedicated project page\nThe site presents Ostrin as an open-source experimental software project with its own release and documentation."
+  },
+  {
+    "objectID": "projects.html#research-projects",
+    "href": "projects.html#research-projects",
+    "title": "Projects",
+    "section": "Research projects",
+    "text": "Research projects\nSpecific research projects are intentionally not included in this release. The public project area is limited to the documented software project Ostrin.\nThe software catalogue focuses on the projects with dedicated public records."
+  },
+  {
+    "objectID": "projects.html#project-levels",
+    "href": "projects.html#project-levels",
+    "title": "Projects",
+    "section": "Project levels",
+    "text": "Project levels\n\nFlagship: dedicated page, documentation, releases and permanent record.\nResearch project: project page connected to paper, methods and code.\nRepository: concise catalogue entry.\nExperimental: an active project whose design and implementation are still developing."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "This section is for formal scholarly outputs, with each work connected to its article, code, data and citation resources when available.\nThe current register contains one approved metadata-only public preprint. It is shown as Preprint · Under review and is not presented as a peer-reviewed article."
+  },
+  {
+    "objectID": "publications.html#publication-records",
+    "href": "publications.html#publication-records",
+    "title": "Publications",
+    "section": "Publication records",
+    "text": "Publication records\n\n\n\n\nAlternate-conformer incompatibility as the dominant bottleneck in no-repair receptor preparation: a frozen compatibility audit of 30 public PDB structures\n\n\nAuthors: Andrés Monreal Hernández, Sara Lizbeth Franco Amaya, Carlos Ivanhoe Martínez OsorioStatus: Preprint · Under review · Year: 2026\n\n\nCanonical source: https://doi.org/10.21203/rs.3.rs-10707112/v1\n\n\nAccess: CC BY 4.0\n\n\nPreprint: https://www.researchsquare.com/article/rs-10707112/v1\n\n\nCode: https://github.com/sircalch/docking-reference-audit\n\n\nReview venue: Journal of Molecular Modeling\n\n\nRelated project: docking-reference-audit\n\n\n\nBibTeX\n\n&lt;pre&gt;&lt;code&gt;@article{monreal2026alternate,\nauthor = {Monreal Hern{&#x27;a}ndez, Andr{&#x27;e}s and Franco Amaya, Sara Lizbeth and Mart{&#x27;i}nez Osorio, Carlos Ivanhoe}, title = {Alternate-conformer incompatibility as the dominant bottleneck in no-repair receptor preparation: a frozen compatibility audit of 30 public PDB structures}, year = {2026}, publisher = {Research Square}, doi = {10.21203/rs.3.rs-10707112/v1}, url = {https://doi.org/10.21203/rs.3.rs-10707112/v1}, note = {Public preprint; not asserted as peer reviewed} }"
+  },
+  {
+    "objectID": "publications.html#editorial-status",
+    "href": "publications.html#editorial-status",
+    "title": "Publications",
+    "section": "Editorial status",
+    "text": "Editorial status\n\nPreprint · Under review — a public preprint whose review status is still open.\nMetadata-only — bibliographic and source links are shown without importing an abstract, figures, results or unpublished data.\nPublished / accepted — reserved for records with a canonical source that supports that exact status.\n\nThe presence of a DOI identifies a persistent record; it does not by itself establish peer review or publication in a journal."
+  },
+  {
+    "objectID": "publications.html#record-format",
+    "href": "publications.html#record-format",
+    "title": "Publications",
+    "section": "Record format",
+    "text": "Record format\nEach publication record shows, when available, its title, authors, journal or platform, year, DOI, status, paper, code, data and BibTeX citation. New records remain outside the register until their source, status and permission boundary are verified."
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Scientific Software",
+    "section": "",
+    "text": "The software portfolio brings together Ostrin, claimtestR, AdsorpQC, QMCert, DockCert and MDCheck. Each project keeps its own release history, documentation and citation path."
+  },
+  {
+    "objectID": "software.html#public-software-list",
+    "href": "software.html#public-software-list",
+    "title": "Scientific Software",
+    "section": "Public software list",
+    "text": "Public software list\n\n\n\n\n\n\nSoftware\n\n\nPublic release\n\n\nDevelopment\n\n\nArchive\n\n\nSource\n\n\n\n\n\n\nOstrin\n\n\nv0.1.0\n\n\nmain\n\n\n—\n\n\nGitHub\n\n\n\n\nclaimtestR\n\n\nv0.1.2\n\n\n—\n\n\nv0.1.1\n\n\nGitHub\n\n\n\n\nAdsorpQC\n\n\nv1.0.0\n\n\n—\n\n\n—\n\n\nGitHub · PyPI\n\n\n\n\nQMCert\n\n\nv1.0.0\n\n\n—\n\n\n—\n\n\nGitHub · PyPI\n\n\n\n\nDockCert\n\n\nv1.0.0\n\n\n—\n\n\n—\n\n\nGitHub · PyPI\n\n\n\n\nMDCheck\n\n\nv1.0.0\n\n\n—\n\n\nv1.1.0\n\n\nGitHub · PyPI"
+  },
+  {
+    "objectID": "software.html#what-each-project-includes",
+    "href": "software.html#what-each-project-includes",
+    "title": "Scientific Software",
+    "section": "What each project includes",
+    "text": "What each project includes\nSoftware pages connect the project status, version, language, repository, documentation, license, tests, release history and citation information available for that project.\nEach project page points to the public repository, release history and citation information available for that project.\nThe portfolio will grow with new releases, documentation and citations as the projects develop."
+  },
+  {
+    "objectID": "software/claimtestr/index.html",
+    "href": "software/claimtestr/index.html",
+    "title": "claimtestR",
+    "section": "",
+    "text": "An R package that turns statistical claims into executable, inspectable assertions for reproducible workflows."
+  },
+  {
+    "objectID": "software/claimtestr/index.html#public-record",
+    "href": "software/claimtestr/index.html#public-record",
+    "title": "claimtestR",
+    "section": "Public record",
+    "text": "Public record\n\n\n\nField\nCurrent evidence\n\n\n\n\nStatus\nPublic software project\n\n\nGitHub version\nv0.1.2\n\n\nDOI-backed current archive\nZenodo v0.1.2\n\n\nLanguage\nR\n\n\nLicense\nMIT, according to the public repository metadata\n\n\nCitation metadata\nRepository CITATION.cff, version 0.1.2\n\n\n\n\nGitHub repository\nZenodo record for v0.1.2\nDOI: 10.5281/zenodo.21962719\nHistorical Zenodo record for v0.1.1"
+  },
+  {
+    "objectID": "software/claimtestr/index.html#versions-and-citation",
+    "href": "software/claimtestr/index.html#versions-and-citation",
+    "title": "claimtestR",
+    "section": "Versions and citation",
+    "text": "Versions and citation\nThe current DOI identifies the Zenodo archive for v0.1.2. The historical v0.1.1 record remains visible for provenance; the two versions are not silently conflated."
+  },
+  {
+    "objectID": "software/claimtestr/index.html#record-note",
+    "href": "software/claimtestr/index.html#record-note",
+    "title": "claimtestR",
+    "section": "Record note",
+    "text": "Record note\nThis page summarizes the public repository and archive records for the stated versions.\nBack to Scientific Software"
+  },
+  {
+    "objectID": "software/mdcheck/index.html",
+    "href": "software/mdcheck/index.html",
+    "title": "MDCheck",
+    "section": "",
+    "text": "Software for convergence, statistical-inefficiency and reproducibility assessment in molecular-dynamics simulations."
+  },
+  {
+    "objectID": "software/mdcheck/index.html#public-record",
+    "href": "software/mdcheck/index.html#public-record",
+    "title": "MDCheck",
+    "section": "Public record",
+    "text": "Public record\n\n\n\n\n\n\n\nField\nCurrent evidence\n\n\n\n\nStatus\nPublic release\n\n\nPublic release\nv1.0.0\n\n\nLanguage\nPython\n\n\nLicense\nMIT, according to the public repository metadata\n\n\nCitation metadata\nRepository CITATION.cff reports 1.1.0, dated 2026-09-24\n\n\nDOI\nNo DOI is listed in the current repository metadata\n\n\n\n\nPyPI package\nGitHub repository"
+  },
+  {
+    "objectID": "software/mdcheck/index.html#version-control-required",
+    "href": "software/mdcheck/index.html#version-control-required",
+    "title": "MDCheck",
+    "section": "Version control required",
+    "text": "Version control required\nThe current public records report v1.0.0 for the PyPI package and latest GitHub release, while the repository CITATION.cff reports 1.1.0 dated 2026-09-24. The two records are shown separately until the project metadata is aligned."
+  },
+  {
+    "objectID": "software/mdcheck/index.html#record-note",
+    "href": "software/mdcheck/index.html#record-note",
+    "title": "MDCheck",
+    "section": "Record note",
+    "text": "Record note\nThis page summarizes the public package, repository and citation records. It does not replace the project’s documentation or technical evaluation.\nBack to Scientific Software"
+  }
+]

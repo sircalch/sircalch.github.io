@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">AM optical micro mark</title>
+  <desc id="desc">Simplified small-size AM monogram for favicon and avatar use.</desc>
+  <g id="am-micro">
+    <path fill="#167D83" d="M240 442V146h75l45 59 45-59h62v296h-84V286l-23 37-24-37v156z"/>
+    <path fill="#0B1F33" fill-rule="evenodd" d="M45 442 158 70h74l112 372h-86l-26-94h-79l-26 94zm129-153h37l-18-75z"/>
+  </g>
+</svg>

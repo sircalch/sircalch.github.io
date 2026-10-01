@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">AM avatar</title>
+  <desc id="desc">Optical micro AM mark on a navy rounded square.</desc>
+  <rect width="512" height="512" rx="76" fill="#0B1F33"/>
+  <g transform="translate(74 74) scale(.71)">
+    <path fill="#167D83" d="M240 442V146h75l45 59 45-59h62v296h-84V286l-23 37-24-37v156z"/>
+    <path fill="#F7F8FA" fill-rule="evenodd" d="M45 442 158 70h74l112 372h-86l-26-94h-79l-26 94zm129-153h37l-18-75z"/>
+  </g>
+</svg>

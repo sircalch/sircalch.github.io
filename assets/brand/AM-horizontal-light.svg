@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
+  <title id="title">Andrés Monreal horizontal light lockup</title>
+  <desc id="desc">AM mark with Andrés Monreal and Science Engineering Computation descriptor on a light background.</desc>
+  <g id="master-mark" transform="translate(24 24) scale(.335)">
+    <path fill="#167D83" d="M242 432V146l40-54h37l41 62 39-62h55v340h-68V251l-26 40-27-40v181z"/>
+    <path fill="#0B1F33" fill-rule="evenodd" d="M58 432 166 80h70l108 352h-70l-24-80h-99l-23 80zm114-146h56l-28-96z"/>
+  </g>
+  <text x="225" y="100" fill="#0B1F33" font-family="Source Serif 4, Georgia, serif" font-size="56" font-weight="600">Andrés Monreal</text>
+  <text x="228" y="142" fill="#607080" font-family="Inter, Arial, sans-serif" font-size="21" letter-spacing="1.4">Science · Engineering · Computation</text>
+</svg>

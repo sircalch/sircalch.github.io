@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">AM primary reversed mark</title>
+  <desc id="desc">Geometric AM monogram for Andrés Monreal with a warm-white A and teal M.</desc>
+  <g id="am-mark">
+    <path fill="#167D83" d="M242 432V146l40-54h37l41 62 39-62h55v340h-68V251l-26 40-27-40v181z"/>
+    <path fill="#F7F8FA" fill-rule="evenodd" d="M58 432 166 80h70l108 352h-70l-24-80h-99l-23 80zm114-146h56l-28-96z"/>
+  </g>
+</svg>
