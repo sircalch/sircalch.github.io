@@ -120,20 +120,20 @@ ul.task-list li input[type="checkbox"] {
 }
 </script>
 <meta name="theme-color" content="#0B1F33">
+<link rel="alternate" type="application/rss+xml" title="Monreal Scientific Notes" href="../../feed.xml">
 
 
-<link rel="stylesheet" href="../../styles.css?v=e792894">
+<link rel="stylesheet" href="../../styles.css">
 <meta property="og:title" content="Ostrin – Andrés Monreal">
 <meta property="og:description" content="Experimental scientific-computing language by Andrés Monreal.">
-<meta property="og:image" content="https://sircalch.github.io/assets/brand/AM-social-card.png">
+<meta property="og:image" content="https://sircalch.github.io/projects/ostrin/assets/brand/AM-social-card.png">
 <meta property="og:site_name" content="Andrés Monreal">
 <meta property="og:image:alt" content="AM monogram — Andrés Monreal">
 <meta name="twitter:title" content="Ostrin – Andrés Monreal">
 <meta name="twitter:description" content="Experimental scientific-computing language by Andrés Monreal.">
-<meta name="twitter:image" content="https://sircalch.github.io/assets/brand/AM-social-card.png">
+<meta name="twitter:image" content="https://sircalch.github.io/projects/ostrin/assets/brand/AM-social-card.png">
 <meta name="twitter:image:alt" content="AM monogram — Andrés Monreal">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="https://sircalch.github.io/projects/ostrin/">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -179,12 +179,24 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Publications</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="../../writings.html">
+ <span class="dropdown-text">Writings</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="../../software.html">
  <span class="dropdown-text">Software</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="../../data.html">
+ <span class="dropdown-text">Open Science &amp; Data</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="../../projects.html">
  <span class="dropdown-text">Projects</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../notes.html">
+ <span class="dropdown-text">Scientific Notes</span></a>
   </li>  
     </ul>
   </li>
@@ -194,8 +206,32 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-archive">    
         <li>
+    <a class="dropdown-item" href="../../topics.html">
+ <span class="dropdown-text">Topics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../timeline.html">
+ <span class="dropdown-text">Timeline</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../archive.html">
+ <span class="dropdown-text">Archive</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="../../books.html">
  <span class="dropdown-text">Books &amp; Long-form Works</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../ideas.html">
+ <span class="dropdown-text">Ideas &amp; Questions</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../cv.html">
+ <span class="dropdown-text">CV</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../teaching.html">
+ <span class="dropdown-text">Teaching</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../profiles.html">
@@ -283,7 +319,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="what-works-today">What works today</h2>
 <ul>
 <li>A public Rust implementation with public source code and examples.</li>
-<li>An MIT license and public release <code>v0.1.0</code>.</li>
+<li>An MIT license and public releases; the latest is <code>v0.2.0</code> (15 October 2026), described by the repository as an experimental 0.x release for evaluation and feedback.</li>
 <li>A stable release test inventory and a separate development inventory.</li>
 <li>Public documentation, repository history and release artifacts.</li>
 </ul>
@@ -311,7 +347,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Experimental · public · open source</strong><br>
 Implementation: <strong>Rust</strong><br>
 License: <strong>MIT</strong><br>
-Stable release: <strong>v0.1.0</strong></p>
+Latest release: <strong>v0.2.0</strong> (experimental 0.x)</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 30%">
@@ -320,25 +356,25 @@ Stable release: <strong>v0.1.0</strong></p>
 </colgroup>
 <thead>
 <tr class="header">
-<th>Track</th>
+<th>Release</th>
 <th style="text-align: right;">Test inventory</th>
 <th>Meaning</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Stable <code>v0.1.0</code></td>
+<td><code>v0.2.0</code></td>
+<td style="text-align: right;"><strong>342</strong></td>
+<td>333 integration/example, 3 unit and 6 differential tests; <code>cargo test --locked</code> run locally on 14 November 2026 at the tagged commit <code>29c24c0bd607822dbc2609a54bfcce545ca563f6</code>: 0 failed</td>
+</tr>
+<tr class="even">
+<td><code>v0.1.0</code></td>
 <td style="text-align: right;"><strong>208</strong></td>
 <td>200 integration/example, 2 unit and 6 differential tests in the tagged release</td>
 </tr>
-<tr class="even">
-<td>Development <code>main</code></td>
-<td style="text-align: right;"><strong>246</strong></td>
-<td>238 integration, 2 unit and 6 differential tests in the development inventory</td>
-</tr>
 </tbody>
 </table>
-<p>Development snapshot verified: <strong>28 September 2026</strong>, commit <code>d22c54750710d18be95932bce40c7777fe8d4d3a</code>. The <code>main</code> count is read from the commit-pinned public repository README and may change as development continues. The 208-test and 246-test inventories describe the repository’s own test suite. They are not benchmark results, independent scientific validation, production-readiness claims or evidence of external adoption.</p>
+<p>The test counts describe the repository’s own test suite. They are not benchmark results, independent scientific validation, production-readiness claims or evidence of external adoption. The <code>v0.2.0</code> run is a local reproduction of the suite, not a third-party audit.</p>
 </section>
 <section id="release-history" class="level2">
 <h2 class="anchored" data-anchor-id="release-history">Release history</h2>
@@ -352,14 +388,14 @@ Stable release: <strong>v0.1.0</strong></p>
 </thead>
 <tbody>
 <tr class="odd">
-<td><code>v0.1.0</code></td>
-<td>Public stable release record</td>
-<td>208 tests in the tagged release; <a href="https://github.com/sircalch/Ostrin/releases/tag/v0.1.0">GitHub release</a></td>
+<td><code>v0.2.0</code></td>
+<td>Latest public release, 15 October 2026</td>
+<td>342 tests in a local run at the tagged commit; <a href="https://github.com/sircalch/Ostrin/releases/tag/v0.2.0">GitHub release</a></td>
 </tr>
 <tr class="even">
-<td><code>main</code> snapshot</td>
-<td>Development line</td>
-<td>246 tests at the dated commit above; the count is dynamic and can change</td>
+<td><code>v0.1.0</code></td>
+<td>Earlier public release, 24 September 2026</td>
+<td>208 tests in the tagged release; <a href="https://github.com/sircalch/Ostrin/releases/tag/v0.1.0">GitHub release</a></td>
 </tr>
 </tbody>
 </table>
@@ -378,8 +414,12 @@ Stable release: <strong>v0.1.0</strong></p>
 <ul>
 <li><a href="https://sircalch.github.io/Ostrin/">Project website</a></li>
 <li><a href="https://github.com/sircalch/Ostrin">Repository</a></li>
+<li><a href="https://github.com/sircalch/Ostrin/releases/tag/v0.2.0">Release v0.2.0</a></li>
 <li><a href="https://github.com/sircalch/Ostrin/releases/tag/v0.1.0">Release v0.1.0</a></li>
 <li><a href="../../software.html">Scientific Software</a></li>
+<li><a href="../../writings.html">Writings</a></li>
+<li><a href="../../writings/scientific-software-evidence/">Scientific Software Should Carry Its Evidence</a></li>
+<li><a href="../../ideas.html">Ideas &amp; Questions</a></li>
 </ul>
 <p>The project is presented as experimental software and will develop through releases, documentation and future design notes.</p>
 
