@@ -1,0 +1,1659 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="A public archive of software releases, persistent records and future scientific work by Andrés Monreal.">
+
+<title>Archive – Andrés Monreal</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./assets/brand/AM-favicon.svg" rel="icon" type="image/svg+xml">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-057710d79190a41e25ca8ce590642541.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://sircalch.github.io/#person",
+      "name": "Andrés Monreal Hernández",
+      "alternateName": "Andrés Monreal",
+      "url": "https://sircalch.github.io/",
+      "description": "Research, engineering and scientific computing by Andrés Monreal Hernández.",
+      "knowsAbout": [
+        "Scientific software",
+        "Software engineering",
+        "Reproducible computing",
+        "Open science"
+      ],
+      "sameAs": [
+        "https://github.com/sircalch",
+        "https://pypi.org/user/Sircalch/",
+        "https://orcid.org/0009-0009-1207-8597",
+        "https://scholar.google.com/citations?user=ezv2ck0AAAAJ&hl=es",
+        "https://mx.linkedin.com/in/andr%C3%A9s-monreal-hernandez-a0991b172",
+        "https://www.researchgate.net/profile/Andres-Monreal-Hernandez",
+        "https://www.facebook.com/AndresMonrealCiencia/",
+        "https://www.instagram.com/andresmonrealciencia/",
+        "https://x.com/AndresMonrealCi",
+        "https://www.amazon.es/stores/author/B0GDGXJW1X"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://sircalch.github.io/#website",
+      "url": "https://sircalch.github.io/",
+      "name": "Andrés Monreal — Science · Engineering · Computation",
+      "description": "Research, scientific software, open science and science communication.",
+      "publisher": {
+        "@id": "https://sircalch.github.io/#person"
+      }
+    }
+  ]
+}
+</script>
+<meta name="theme-color" content="#0B1F33">
+<link rel="alternate" type="application/rss+xml" title="Monreal Scientific Notes" href="./feed.xml">
+
+
+<link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Archive – Andrés Monreal">
+<meta property="og:description" content="A public archive of software releases, persistent records and future scientific work by Andrés Monreal.">
+<meta property="og:image" content="https://sircalch.github.io/assets/brand/AM-social-card.png">
+<meta property="og:site_name" content="Andrés Monreal">
+<meta property="og:image:alt" content="AM monogram — Andrés Monreal">
+<meta property="og:image:height" content="630">
+<meta property="og:image:width" content="1200">
+<meta name="twitter:title" content="Archive – Andrés Monreal">
+<meta name="twitter:description" content="A public archive of software releases, persistent records and future scientific work by Andrés Monreal.">
+<meta name="twitter:image" content="https://sircalch.github.io/assets/brand/AM-social-card.png">
+<meta name="twitter:image:alt" content="AM monogram — Andrés Monreal">
+<meta name="twitter:image-height" content="630">
+<meta name="twitter:image-width" content="1200">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./assets/brand/AM-micro.svg" alt="AM — Andrés Monreal" class="navbar-logo light-content">
+    <img src="./assets/brand/AM-micro.svg" alt="AM — Andrés Monreal" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Andrés Monreal</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-explore" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Explore</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-explore">    
+        <li>
+    <a class="dropdown-item" href="./research.html">
+ <span class="dropdown-text">Research</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./publications.html">
+ <span class="dropdown-text">Publications</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./writings.html">
+ <span class="dropdown-text">Writings</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./software.html">
+ <span class="dropdown-text">Software</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./data.html">
+ <span class="dropdown-text">Open Science &amp; Data</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects.html">
+ <span class="dropdown-text">Projects</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./notes.html">
+ <span class="dropdown-text">Scientific Notes</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-archive" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Archive</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-archive">    
+        <li>
+    <a class="dropdown-item" href="./topics.html">
+ <span class="dropdown-text">Topics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./timeline.html">
+ <span class="dropdown-text">Timeline</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./archive.html">
+ <span class="dropdown-text">Archive</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./books.html">
+ <span class="dropdown-text">Books &amp; Long-form Works</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./ideas.html">
+ <span class="dropdown-text">Ideas &amp; Questions</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./cv.html">
+ <span class="dropdown-text">CV</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./teaching.html">
+ <span class="dropdown-text">Teaching</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./profiles.html">
+ <span class="dropdown-text">Profiles</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./collaborate.html"> 
+<span class="menu-text">Collaborate</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#filters" id="toc-filters" class="nav-link active" data-scroll-target="#filters">Filters</a></li>
+  <li><a href="#current-contents" id="toc-current-contents" class="nav-link" data-scroll-target="#current-contents">Current contents</a></li>
+  <li><a href="#record-pages" id="toc-record-pages" class="nav-link" data-scroll-target="#record-pages">Record pages</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Archive</h1>
+</div>
+
+<div>
+  <div class="description">
+    A public archive of software releases, persistent records and future scientific work by Andrés Monreal.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="filters" class="level2">
+<h2 class="anchored" data-anchor-id="filters">Filters</h2>
+<p>Use the controls to browse the current public records by year, type, topic, project, language, status or text.</p>
+<!-- Generated registry view. Do not edit manually. -->
+<section class="archive-filters" aria-labelledby="archive-filter-title">
+<h3 id="archive-filter-title" class="anchored">
+Filter public objects
+</h3>
+<div class="archive-filter-grid">
+<div class="archive-filter-field">
+<label for="archive-filter-search">Search</label><input id="archive-filter-search" type="search" data-archive-filter="search" placeholder="Name, version or source">
+</div>
+<div class="archive-filter-field">
+<label for="archive-filter-year">Year</label><select id="archive-filter-year" data-archive-filter="year"><option value="">All</option><option value="2024-12-31">2024-12-31</option><option value="2026">2026</option><option value="2026-08-10">2026-08-10</option><option value="2026-08-16">2026-08-16</option><option value="2026-09-11">2026-09-11</option><option value="2026-09-24">2026-09-24</option><option value="2026-09-30">2026-09-30</option><option value="2026-10-01">2026-10-01</option><option value="2026-10-06">2026-10-06</option><option value="2026-10-07">2026-10-07</option><option value="2026-10-15">2026-10-15</option><option value="2026-10-26">2026-10-26</option><option value="2026-10-27">2026-10-27</option><option value="undated">Undated</option></select>
+</div>
+<div class="archive-filter-field">
+<label for="archive-filter-type">Type</label><select id="archive-filter-type" data-archive-filter="type"><option value="">All</option><option value="book">Book</option><option value="data_deposit">Data deposit</option><option value="preprint">Preprint</option><option value="software_archive">Software archive</option><option value="software_release">Software release</option></select>
+</div>
+<div class="archive-filter-field">
+<label for="archive-filter-topic">Topic</label><select id="archive-filter-topic" data-archive-filter="topic"><option value="">All</option><option value="biomedical engineering">Biomedical Engineering</option><option value="books">Books</option><option value="computational molecular science">Computational Molecular Science</option><option value="molecular docking">Molecular Docking</option><option value="open science">Open Science</option><option value="programming languages">Programming Languages</option><option value="reproducibility">Reproducibility</option><option value="scientific computing">Scientific Computing</option><option value="scientific software">Scientific Software</option></select>
+</div>
+<div class="archive-filter-field">
+<label for="archive-filter-project">Project</label><select id="archive-filter-project" data-archive-filter="project"><option value="">All</option><option value="AdsorpQC">AdsorpQC</option><option value="Books">Books</option><option value="claimtestR">claimtestR</option><option value="DockCert">DockCert</option><option value="docking-reference-audit">docking-reference-audit</option><option value="MDCheck">MDCheck</option><option value="Ostrin">Ostrin</option><option value="QMCert">QMCert</option><option value="Zenodo records">Zenodo records</option></select>
+</div>
+<div class="archive-filter-field">
+<label for="archive-filter-language">Language</label><select id="archive-filter-language" data-archive-filter="language"><option value="">All</option><option value="en">English</option><option value="es">Spanish</option></select>
+</div>
+<div class="archive-filter-field">
+<label for="archive-filter-status">Status</label><select id="archive-filter-status" data-archive-filter="status"><option value="">All</option><option value="public_metadata_observed">Public metadata observed</option><option value="public_preprint">Public preprint</option></select>
+</div>
+</div>
+<p id="archive-result-count" class="archive-result-count" data-template="Showing {visible} of {total} objects." role="status" aria-live="polite">
+</p>
+<button type="button" id="archive-reset" class="archive-reset">
+Reset filters
+</button>
+</section>
+</section>
+<section id="current-contents" class="level2">
+<h2 class="anchored" data-anchor-id="current-contents">Current contents</h2>
+<p>The current register contains software, software-archive and data-deposit objects with DOIs, one approved metadata-only preprint and one book record. Items without a confirmed date remain outside the chronological timeline.</p>
+<!-- Generated registry view. Do not edit manually. -->
+<div class="archive-table-wrap">
+<table class="archive-table" id="archive-table">
+<thead>
+<tr>
+<th scope="col">
+Object
+</th>
+<th scope="col">
+Type
+</th>
+<th scope="col">
+Version
+</th>
+<th scope="col">
+Source
+</th>
+<th scope="col">
+Status
+</th>
+</tr>
+</thead>
+<tbody>
+<tr data-object-id="ostrin-release-v0.1.0" data-year="2026-09-24" data-type="software_release" data-topic="scientific computing|programming languages|reproducibility|open science" data-project="Ostrin" data-language="en|es" data-status="public_metadata_observed">
+<th scope="row">
+Ostrin
+</th>
+<td>
+Software release
+</td>
+<td>
+<code>v0.1.0</code>
+</td>
+<td>
+<a href="https://github.com/sircalch/Ostrin/releases/tag/v0.1.0">GitHub release</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="ostrin-release-v0.2.0" data-year="2026-10-15" data-type="software_release" data-topic="scientific computing|programming languages|reproducibility|open science" data-project="Ostrin" data-language="en|es" data-status="public_metadata_observed">
+<th scope="row">
+Ostrin
+</th>
+<td>
+Software release
+</td>
+<td>
+<code>v0.2.0</code>
+</td>
+<td>
+<a href="https://github.com/sircalch/Ostrin/releases/tag/v0.2.0">GitHub release</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="claimtestr-github-v0.1.2" data-year="undated" data-type="software_release" data-topic="scientific software|reproducibility|open science" data-project="claimtestR" data-language="en|es" data-status="public_metadata_observed">
+<th scope="row">
+claimtestR
+</th>
+<td>
+Software release
+</td>
+<td>
+<code>v0.1.2</code>
+</td>
+<td>
+<a href="https://github.com/sircalch/claimtestR">GitHub repository</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="claimtestr-zenodo-v0.1.1" data-year="undated" data-type="software_archive" data-topic="scientific software|reproducibility|open science" data-project="claimtestR" data-language="en|es" data-status="public_metadata_observed">
+<th scope="row">
+claimtestR
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>v0.1.1</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/21941395">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.21941395">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="claimtestr-zenodo-v0.1.2" data-year="2026-08-16" data-type="software_archive" data-topic="scientific software|reproducibility|open science" data-project="claimtestR" data-language="en|es" data-status="public_metadata_observed">
+<th scope="row">
+claimtestR
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>v0.1.2</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/21962719">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.21962719">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="adsorpqc-release-v1.0.0" data-year="undated" data-type="software_release" data-topic="scientific software|reproducibility|open science" data-project="AdsorpQC" data-language="en|es" data-status="public_metadata_observed">
+<th scope="row">
+AdsorpQC
+</th>
+<td>
+Software release
+</td>
+<td>
+<code>v1.0.0</code>
+</td>
+<td>
+<a href="https://github.com/sircalch/adsorpqc">GitHub repository</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="qmcert-release-v1.0.0" data-year="undated" data-type="software_release" data-topic="scientific software|reproducibility|open science" data-project="QMCert" data-language="en|es" data-status="public_metadata_observed">
+<th scope="row">
+QMCert
+</th>
+<td>
+Software release
+</td>
+<td>
+<code>v1.0.0</code>
+</td>
+<td>
+<a href="https://github.com/sircalch/qmcert">GitHub repository</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="dockcert-release-v1.0.0" data-year="undated" data-type="software_release" data-topic="scientific software|reproducibility|open science" data-project="DockCert" data-language="en|es" data-status="public_metadata_observed">
+<th scope="row">
+DockCert
+</th>
+<td>
+Software release
+</td>
+<td>
+<code>v1.0.0</code>
+</td>
+<td>
+<a href="https://github.com/sircalch/dockcert">GitHub repository</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="mdcheck-release-v1.0.0" data-year="undated" data-type="software_release" data-topic="scientific software|reproducibility|open science" data-project="MDCheck" data-language="en|es" data-status="public_metadata_observed">
+<th scope="row">
+MDCheck
+</th>
+<td>
+Software release
+</td>
+<td>
+<code>v1.0.0</code>
+</td>
+<td>
+<a href="https://github.com/sircalch/mdcheck">GitHub repository</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="alternate-conformer-preprint-2026" data-year="2026" data-type="preprint" data-topic="computational molecular science|molecular docking|reproducibility" data-project="docking-reference-audit" data-language="en" data-status="public_preprint">
+<th scope="row">
+Alternate-conformer incompatibility as the dominant bottleneck in no-repair receptor preparation: a frozen compatibility audit of 30 public PDB structures
+</th>
+<td>
+Preprint
+</td>
+<td>
+<code>v1</code>
+</td>
+<td>
+<a href="https://www.researchsquare.com/article/rs-10707112/v1">Research Square preprint</a> · <a href="https://doi.org/10.21203/rs.3.rs-10707112/v1">DOI</a>
+</td>
+<td>
+Public preprint
+</td>
+</tr>
+<tr data-object-id="introduccion-ingenieria-biomedica-2024" data-year="2024-12-31" data-type="book" data-topic="biomedical engineering|books" data-project="Books" data-language="es" data-status="public_metadata_observed">
+<th scope="row">
+Introducción a la Ingeniería Biomédica
+</th>
+<td>
+Book
+</td>
+<td>
+<code>Edition 1</code>
+</td>
+<td>
+<a href="https://www.amazon.es/Introducci%C3%B3n-Ingenier%C3%ADa-Biom%C3%A9dica-Monreal-Hernandez-ebook/dp/B0DRZCGK4G">Amazon product page</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="kras-g12d-gcn-zenodo-v3.0.0" data-year="2026-10-26" data-type="software_archive" data-topic="computational molecular science|molecular docking|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+KRAS-G12D inhibitors on graphitic carbon nitride: docking, GFN2-xTB adsorption and QSPR (code and data, v3.0.0)
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>v3.0.0</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23681297">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23681297">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="b36n36-zenodo-v3.0.0" data-year="2026-10-26" data-type="software_archive" data-topic="computational molecular science|molecular docking|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+B36N36 cage as a carrier for triple-negative breast cancer drugs: docking, GFN2-xTB adsorption and QSPR (code and data, v3.0.0)
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>v3.0.0</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23681316">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23681316">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="nanozyme-db-audit-zenodo-v1.0.4" data-year="2026-10-26" data-type="software_archive" data-topic="scientific software|reproducibility|open science" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+Nanozyme-DB-Audit v1.0.4: code and data for 'Public nanozyme databases document laboratory assay activity, not environmental-contaminant degradation, despite claims of environmental application'
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>v1.0.4</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23683483">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23683483">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="dude-receptor-prep-audit-zenodo" data-year="2026-08-10" data-type="software_archive" data-topic="computational molecular science|molecular docking|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+DUD-E receptor-preparation compatibility audit
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>Not recorded</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/21866318">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.21866318">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="adsorpqc-zenodo" data-year="2026-09-30" data-type="software_archive" data-topic="computational molecular science|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+AdsorpQC: An Open-Source Toolkit for Quality-Control, GCMC Burn-in Detection, Isotherm Fitting, and Reproducibility Assessment of Adsorption Simulations
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>1.1.0</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23072031">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23072031">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="alphacert-zenodo" data-year="2026-09-30" data-type="software_archive" data-topic="scientific software|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+AlphaCert: An Open-Source Toolkit for Quality-Control, pLDDT/PAE Assessment, and Stereochemical Certification of Predicted Protein Structures
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>1.1.0</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23072032">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23072032">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="arsenic-mof-lomo-zenodo" data-year="2026-10-26" data-type="software_archive" data-topic="computational molecular science|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+Arsenic-MOF-LOMO v1.0.2: code, data and results for 'Random splits reward recognizing the adsorbent: a leave-one-MOF-out re-evaluation of a machine-learning model of arsenate adsorption on metal–organic frameworks'
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>1.0.2</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23683472">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23683472">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="2d-drug-carrier-screens-audit-zenodo" data-year="2026-10-26" data-type="software_archive" data-topic="scientific software|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+Auditing computational screens of 2D drug carriers: eight failure modes and a checklist (evidence, scripts and pre-rebuild files, v2.0.0)
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>2.0.0</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23681267">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23681267">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="catcert-zenodo" data-year="2026-10-07" data-type="software_archive" data-topic="computational molecular science|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+CatCert: surface slab certification (vacuum, dipole, surface energy, adsorption), version 1.2.0
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>1.2.0</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23225279">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23225279">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="competitive-adsorption-and-amyloid-nucleation-zenodo" data-year="2026-10-26" data-type="data_deposit" data-topic="computational molecular science|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+Competitive adsorption and amyloid nucleation of the Tau PHF6 motif at 2D borophene interfaces
+</th>
+<td>
+Data deposit
+</td>
+<td>
+<code>1.2.0</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23681274">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23681274">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="cqd-prospective-replay-zenodo" data-year="2026-10-26" data-type="software_archive" data-topic="computational molecular science|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+CQD-Prospective-Replay v1.0.3: code, data and results for 'A decreasing error curve does not show that a surrogate model learns: prospective replay of a machine-learning-guided carbon quantum dot synthesis'
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>1.0.3</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23683486">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23683486">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="cyanide-bridged-prussian-blue-data-zenodo" data-year="2026-10-26" data-type="data_deposit" data-topic="computational molecular science|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+Data and code for: Metal-dependent charge-transfer character in cyanide-bridged Prussian blue analogue and MOF cluster models: a validated DFT screening
+</th>
+<td>
+Data deposit
+</td>
+<td>
+<code>1.0.1</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23683505">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23683505">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="dock-r-case-studies-zenodo" data-year="2026-10-26" data-type="software_archive" data-topic="computational molecular science|molecular docking|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+dock*R case studies: DUD-E score tables and a seed-replicate study through nine R packages, with a tie-handling fix (v1.0.0)
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>1.0.0</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23681339">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23681339">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="dockbenchmarkr-zenodo" data-year="2026-10-26" data-type="software_archive" data-topic="computational molecular science|molecular docking|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+dockbenchmarkR: retrospective assessment of molecular docking prioritizations
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>0.1.1</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23683510">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23683510">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="dockcert-zenodo" data-year="2026-09-30" data-type="software_archive" data-topic="computational molecular science|molecular docking|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+DockCert: An Open-Source Toolkit for Statistical Validation, Enrichment Metrics, and Reproducibility Assessment of Molecular Docking Studies
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>1.1.0</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23072030">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23072030">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="dockclaimr-zenodo" data-year="2026-10-26" data-type="software_archive" data-topic="computational molecular science|molecular docking|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+dockclaimR: transparent rank-stability assessment for precomputed molecular docking prioritizations
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>0.1.2</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23683515">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23683515">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="dockcomparer-zenodo" data-year="2026-10-26" data-type="software_archive" data-topic="computational molecular science|molecular docking|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+dockcompareR: comparison of precomputed molecular docking campaign tables
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>0.1.1</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23683516">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23683516">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="dockconsensusr-zenodo" data-year="2026-10-26" data-type="software_archive" data-topic="computational molecular science|molecular docking|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+dockconsensusR: consensus across precomputed docking prioritizations
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>0.1.1</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23683517">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23683517">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="dockprepr-zenodo" data-year="2026-10-26" data-type="software_archive" data-topic="computational molecular science|molecular docking|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+dockprepR: audit precomputed molecular docking result tables
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>0.1.1</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23683528">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23683528">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="dockreportr-zenodo" data-year="2026-10-26" data-type="software_archive" data-topic="computational molecular science|molecular docking|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+dockreportR: reproducible summaries of precomputed docking result tables
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>0.1.1</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23683533">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23683533">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="docktracer-zenodo" data-year="2026-10-26" data-type="software_archive" data-topic="computational molecular science|molecular docking|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+docktraceR: file provenance manifests for computational campaigns
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>0.1.1</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23683538">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23683538">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="ti3c2tx-mxene-explainable-ai-zenodo" data-year="2026-09-11" data-type="data_deposit" data-topic="computational molecular science|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+Explainable AI and Quantum Chemical Exploration of 2D Titanium Carbide MXene (Ti3C2Tx) Nanocarriers for Glioblastoma Therapeutics
+</th>
+<td>
+Data deposit
+</td>
+<td>
+<code>v2.0.0</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/22700227">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.22700227">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="fepcert-zenodo" data-year="2026-10-01" data-type="software_archive" data-topic="scientific software|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+FEPCert: An Open-Source Toolkit for Quality-Control, Phase Space Overlap, and Thermodynamic Cycle Closure Certification of Alchemical Free Energy Simulations
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>1.2.0</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23085662">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23085662">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="mdcheck-zenodo" data-year="2026-10-27" data-type="software_archive" data-topic="scientific software|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+MDCheck: Automated Convergence, Statistical Inefficiency, and Reproducibility Assessment for Molecular Dynamics Simulations (v1.1.0)
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>1.1.0</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23719908">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23719908">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="microplastic-loso-zenodo" data-year="2026-10-26" data-type="software_archive" data-topic="computational molecular science|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+Microplastic-LOSO v1.0.3: code and results for 'Recognizing the study is not predicting adsorption: leave-one-study-out re-evaluation of machine-learning models for microplastic removal by biomass composites'
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>1.0.3</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23683490">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23683490">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="nebcert-zenodo" data-year="2026-10-01" data-type="software_archive" data-topic="scientific software|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+NEBCert: quality checks for NEB paths, transition states and tunnelling-corrected rate constants
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>1.2.0</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23094136">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23094136">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="pfas-carbon-lopo-zenodo" data-year="2026-10-26" data-type="software_archive" data-topic="computational molecular science|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+PFAS-Carbon-LOPO v1.0.3: code, split indices and results for 'Does a machine-learning model of PFAS adsorption on carbon materials transfer to PFAS it has not seen? A leakage-free, leave-one-compound-out re-evaluation'
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>1.0.3</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23683464">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23683464">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="qmcert-zenodo" data-year="2026-09-30" data-type="software_archive" data-topic="computational molecular science|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+QMCert: Automated Quality-Control, Stationary Point Certification, and Reproducibility Assessment for Quantum-Chemical Calculations
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>1.2.0</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23072029">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23072029">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="qsarcert-zenodo" data-year="2026-09-30" data-type="software_archive" data-topic="scientific software|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+QSARCert: An Open-Source Toolkit for OECD Validation Principles, Applicability Domain Assessment, Y-Randomization, and Reproducibility Certification of QSAR and Molecular Machine Learning Models
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>1.2.0</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23071981">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23071981">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="resonator-selfref-zenodo" data-year="2026-10-26" data-type="software_archive" data-topic="scientific software|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+Resonator-SelfRef v1.0.3: code and results for 'Fabrication tolerance does not limit self-referenced sensing with dielectric core-shell nanoresonators, but optical contrast does: the case of adsorbed PFAS'
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>1.0.3</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23683496">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23683496">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="simcert-zenodo" data-year="2026-10-27" data-type="software_archive" data-topic="scientific software|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+SimCert: A Unified Scientific Simulation Quality-Control and Reproducibility Meta-Framework (v1.7.0)
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>1.7.0</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23720774">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23720774">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="speccert-zenodo" data-year="2026-10-06" data-type="software_archive" data-topic="scientific software|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+SpecCert: checked UV-Vis and IR spectra from ORCA outputs and d-band moments from VASP DOSCAR files
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>1.2.0</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23224480">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23224480">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="study-aware-validation-protein-corona-zenodo" data-year="2026-10-26" data-type="software_archive" data-topic="scientific software|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+Study-aware validation of cross-study transportability in protein-corona detection models
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>1.0.2</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23681337">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23681337">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="targetevidencer-zenodo" data-year="2026-10-26" data-type="software_archive" data-topic="scientific software|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+targetevidenceR: audit traceable target-disease evidence tables
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>0.1.1</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23683541">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23683541">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="tau-directed-drugs-on-beta12-zenodo" data-year="2026-10-27" data-type="software_archive" data-topic="computational molecular science|molecular docking|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+Tau-directed drugs on beta12 borophene: docking and GFN2-xTB adsorption (code and data, v3.0.0)
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>3.0.0</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23722213">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23722213">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="tau-llps-two-phase-framework-zenodo" data-year="2026-10-26" data-type="software_archive" data-topic="scientific software|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+Two-phase thermodynamic framework for Tau LLPS at adsorbing 2D interfaces: code and data (v2.0.0)
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>2.0.0</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23681286">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23681286">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+<tr data-object-id="zno-selectivity-windows-zenodo" data-year="2026-10-26" data-type="software_archive" data-topic="scientific software|reproducibility" data-project="Zenodo records" data-language="en" data-status="public_metadata_observed">
+<th scope="row">
+ZnO-Selectivity-Windows v1.0.2: code and data for 'Selectivity windows reported for zinc oxide nanoparticles are not reproduced by independent cytotoxicity data: a cross-database and paired-study comparison'
+</th>
+<td>
+Software archive
+</td>
+<td>
+<code>1.0.2</code>
+</td>
+<td>
+<a href="https://zenodo.org/records/23683494">Zenodo archive</a> · <a href="https://doi.org/10.5281/zenodo.23683494">DOI</a>
+</td>
+<td>
+Public metadata observed
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="record-pages" class="level2">
+<h2 class="anchored" data-anchor-id="record-pages">Record pages</h2>
+<ul>
+<li><a href="records/kras-g12d-gcn/index.html">KRAS-G12D on graphitic carbon nitride</a></li>
+<li><a href="records/b36n36-carrier/index.html">B36N36 cage as a carrier</a></li>
+<li><a href="records/nanozyme-db-audit/index.html">Nanozyme-DB-Audit</a></li>
+<li><a href="records/dude-receptor-prep-audit/index.html">DUD-E receptor-preparation audit</a></li>
+<li><a href="records/adsorpqc/index.html">AdsorpQC</a></li>
+<li><a href="records/alphacert/index.html">AlphaCert</a></li>
+<li><a href="records/arsenic-mof-lomo/index.html">Arsenic-MOF-LOMO v1.0.2</a></li>
+<li><a href="records/2d-drug-carrier-screens-audit/index.html">Auditing computational screens of 2D drug carriers</a></li>
+<li><a href="records/catcert/index.html">CatCert</a></li>
+<li><a href="records/competitive-adsorption-and-amyloid-nucleation/index.html">Competitive adsorption and amyloid nucleation of the Tau PHF6 motif at 2D borophene interfaces</a></li>
+<li><a href="records/cqd-prospective-replay/index.html">CQD-Prospective-Replay v1.0.3</a></li>
+<li><a href="records/cyanide-bridged-prussian-blue-data/index.html">Data and code for</a></li>
+<li><a href="records/dock-r-case-studies/index.html">dock*R case studies</a></li>
+<li><a href="records/dockbenchmarkr/index.html">dockbenchmarkR</a></li>
+<li><a href="records/dockcert/index.html">DockCert</a></li>
+<li><a href="records/dockclaimr/index.html">dockclaimR</a></li>
+<li><a href="records/dockcomparer/index.html">dockcompareR</a></li>
+<li><a href="records/dockconsensusr/index.html">dockconsensusR</a></li>
+<li><a href="records/dockprepr/index.html">dockprepR</a></li>
+<li><a href="records/dockreportr/index.html">dockreportR</a></li>
+<li><a href="records/docktracer/index.html">docktraceR</a></li>
+<li><a href="records/ti3c2tx-mxene-explainable-ai/index.html">Explainable AI and Quantum Chemical Exploration of 2D Titanium Carbide MXene</a></li>
+<li><a href="records/fepcert/index.html">FEPCert</a></li>
+<li><a href="records/mdcheck/index.html">MDCheck</a></li>
+<li><a href="records/microplastic-loso/index.html">Microplastic-LOSO v1.0.3</a></li>
+<li><a href="records/nebcert/index.html">NEBCert</a></li>
+<li><a href="records/pfas-carbon-lopo/index.html">PFAS-Carbon-LOPO v1.0.3</a></li>
+<li><a href="records/qmcert/index.html">QMCert</a></li>
+<li><a href="records/qsarcert/index.html">QSARCert</a></li>
+<li><a href="records/resonator-selfref/index.html">Resonator-SelfRef v1.0.3</a></li>
+<li><a href="records/simcert/index.html">SimCert</a></li>
+<li><a href="records/speccert/index.html">SpecCert</a></li>
+<li><a href="records/study-aware-validation-protein-corona/index.html">Study-aware validation of cross-study transportability in protein-corona detection models</a></li>
+<li><a href="records/targetevidencer/index.html">targetevidenceR</a></li>
+<li><a href="records/tau-directed-drugs-on-beta12/index.html">Tau-directed drugs on beta12 borophene</a></li>
+<li><a href="records/tau-llps-two-phase-framework/index.html">Two-phase thermodynamic framework for Tau LLPS at adsorbing 2D interfaces</a></li>
+<li><a href="records/zno-selectivity-windows/index.html">ZnO-Selectivity-Windows v1.0.2</a></li>
+</ul>
+<script src="assets/archive-filters.js"></script>
+<p>The archive records public metadata and links each item to its source. A software release, archive record, preprint or DOI is presented as its own object rather than as a substitute for a peer-reviewed scholarly publication.</p>
+<p>The approved writing candidate, talks, teaching and biographical milestones remain in their dedicated sections until their publication status or evidence boundary is ready for archive inclusion.</p>
+<p><a href="./topics.html">Browse Topics →</a> · <a href="./writings.html">Browse Writings →</a> · <a href="./profiles.html">Open Profiles →</a></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/sircalch\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Andrés Monreal · Science · Engineering · Computation</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>2026</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

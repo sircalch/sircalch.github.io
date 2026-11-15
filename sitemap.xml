@@ -1,123 +1,507 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://sircalch.github.io/software/qmcert/index.html</loc>
-    <lastmod>2026-10-01T06:01:37.698Z</lastmod>
+    <loc>https://sircalch.github.io/writings/scientific-software-evidence/index.html</loc>
+    <lastmod>2026-11-15T06:03:16.858Z</lastmod>
   </url>
   <url>
-    <loc>https://sircalch.github.io/software/dockcert/index.html</loc>
-    <lastmod>2026-10-01T06:01:37.684Z</lastmod>
+    <loc>https://sircalch.github.io/topics.html</loc>
+    <lastmod>2026-11-15T05:38:26.038Z</lastmod>
   </url>
   <url>
-    <loc>https://sircalch.github.io/software/adsorpqc/index.html</loc>
-    <lastmod>2026-10-01T06:01:37.674Z</lastmod>
+    <loc>https://sircalch.github.io/teaching.html</loc>
+    <lastmod>2026-11-15T06:03:16.862Z</lastmod>
   </url>
   <url>
-    <loc>https://sircalch.github.io/research.html</loc>
-    <lastmod>2026-09-27T16:58:57.743Z</lastmod>
+    <loc>https://sircalch.github.io/software/mdcheck/index.html</loc>
+    <lastmod>2026-11-15T05:40:08.040Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/software/claimtestr/index.html</loc>
+    <lastmod>2026-11-15T05:40:08.039Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/software.html</loc>
+    <lastmod>2026-09-27T16:55:42.129Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/zno-selectivity-windows/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.054Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/tau-llps-two-phase-framework/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.053Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/targetevidencer/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.052Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/speccert/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.051Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/resonator-selfref/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.050Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/qmcert/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.049Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/nebcert/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.049Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/microplastic-loso/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.048Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/kras-g12d-gcn/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.047Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/dude-receptor-prep-audit/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.046Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/dockreportr/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.045Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/dockconsensusr/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.044Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/dockclaimr/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.043Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/dockbenchmarkr/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.042Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/cyanide-bridged-prussian-blue-data/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.041Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/competitive-adsorption-and-amyloid-nucleation/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.041Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/b36n36-carrier/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.040Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/alphacert/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.039Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/2d-drug-carrier-screens-audit/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.038Z</lastmod>
   </url>
   <url>
     <loc>https://sircalch.github.io/projects/ostrin/index.html</loc>
-    <lastmod>2026-10-01T06:02:26.491Z</lastmod>
+    <lastmod>2026-11-15T05:40:08.038Z</lastmod>
   </url>
   <url>
     <loc>https://sircalch.github.io/profiles.html</loc>
-    <lastmod>2026-10-01T06:01:37.548Z</lastmod>
+    <lastmod>2026-11-15T05:38:26.035Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/notes.html</loc>
+    <lastmod>2026-11-15T06:03:16.864Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/ideas.html</loc>
+    <lastmod>2026-11-15T06:03:16.859Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/writings.html</loc>
+    <lastmod>2026-11-15T06:03:16.859Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/timeline.html</loc>
+    <lastmod>2026-11-15T05:38:26.056Z</lastmod>
   </url>
   <url>
     <loc>https://sircalch.github.io/es/software/qmcert/index.html</loc>
-    <lastmod>2026-10-01T06:01:37.659Z</lastmod>
+    <lastmod>2026-11-15T05:40:08.044Z</lastmod>
   </url>
   <url>
     <loc>https://sircalch.github.io/es/software/dockcert/index.html</loc>
-    <lastmod>2026-10-01T06:01:37.645Z</lastmod>
+    <lastmod>2026-11-15T05:40:08.043Z</lastmod>
   </url>
   <url>
     <loc>https://sircalch.github.io/es/software/adsorpqc/index.html</loc>
-    <lastmod>2026-10-01T06:01:37.636Z</lastmod>
+    <lastmod>2026-11-15T05:40:08.042Z</lastmod>
   </url>
   <url>
     <loc>https://sircalch.github.io/es/research.html</loc>
     <lastmod>2026-09-27T16:58:57.754Z</lastmod>
   </url>
   <url>
-    <loc>https://sircalch.github.io/es/projects/ostrin/index.html</loc>
-    <lastmod>2026-10-01T06:02:26.492Z</lastmod>
+    <loc>https://sircalch.github.io/es/records/ti3c2tx-mxene-explainable-ai/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.074Z</lastmod>
   </url>
   <url>
-    <loc>https://sircalch.github.io/es/profiles.html</loc>
-    <lastmod>2026-10-01T06:01:37.595Z</lastmod>
+    <loc>https://sircalch.github.io/es/records/tau-directed-drugs-on-beta12/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.073Z</lastmod>
   </url>
   <url>
-    <loc>https://sircalch.github.io/es/collaborate.html</loc>
-    <lastmod>2026-09-27T20:18:50.199Z</lastmod>
+    <loc>https://sircalch.github.io/es/records/study-aware-validation-protein-corona/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.072Z</lastmod>
   </url>
   <url>
-    <loc>https://sircalch.github.io/es/about.html</loc>
-    <lastmod>2026-10-01T06:01:16.180Z</lastmod>
+    <loc>https://sircalch.github.io/es/records/simcert/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.071Z</lastmod>
   </url>
   <url>
-    <loc>https://sircalch.github.io/books.html</loc>
-    <lastmod>2026-10-01T06:01:37.531Z</lastmod>
+    <loc>https://sircalch.github.io/es/records/qsarcert/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.070Z</lastmod>
   </url>
   <url>
-    <loc>https://sircalch.github.io/about.html</loc>
-    <lastmod>2026-10-01T06:01:16.180Z</lastmod>
+    <loc>https://sircalch.github.io/es/records/pfas-carbon-lopo/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.069Z</lastmod>
   </url>
   <url>
-    <loc>https://sircalch.github.io/collaborate.html</loc>
-    <lastmod>2026-09-27T20:18:50.198Z</lastmod>
+    <loc>https://sircalch.github.io/es/records/nanozyme-db-audit/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.068Z</lastmod>
   </url>
   <url>
-    <loc>https://sircalch.github.io/es/books.html</loc>
-    <lastmod>2026-10-01T06:02:26.490Z</lastmod>
+    <loc>https://sircalch.github.io/es/records/mdcheck/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.067Z</lastmod>
   </url>
   <url>
-    <loc>https://sircalch.github.io/es/index.html</loc>
-    <lastmod>2026-10-01T06:01:16.179Z</lastmod>
+    <loc>https://sircalch.github.io/es/records/fepcert/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.066Z</lastmod>
   </url>
   <url>
-    <loc>https://sircalch.github.io/es/projects.html</loc>
-    <lastmod>2026-09-27T17:11:02.083Z</lastmod>
+    <loc>https://sircalch.github.io/es/records/docktracer/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.065Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/records/dockprepr/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.064Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/records/dockcomparer/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.064Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/records/dockcert/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.063Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/records/dock-r-case-studies/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.062Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/records/cqd-prospective-replay/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.061Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/records/catcert/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.060Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/records/arsenic-mof-lomo/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.059Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/records/adsorpqc/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.058Z</lastmod>
   </url>
   <url>
     <loc>https://sircalch.github.io/es/publications.html</loc>
     <lastmod>2026-09-27T20:08:20.322Z</lastmod>
   </url>
   <url>
+    <loc>https://sircalch.github.io/es/projects.html</loc>
+    <lastmod>2026-11-15T03:37:58.625Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/outreach.html</loc>
+    <lastmod>2026-11-15T06:03:16.865Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/index.html</loc>
+    <lastmod>2026-11-15T06:03:16.862Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/data.html</loc>
+    <lastmod>2026-11-15T06:05:35.173Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/collaborate.html</loc>
+    <lastmod>2026-09-27T20:18:50.199Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/archive.html</loc>
+    <lastmod>2026-11-15T05:38:26.055Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/data.html</loc>
+    <lastmod>2026-11-15T06:05:35.172Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/collaborate.html</loc>
+    <lastmod>2026-09-27T20:18:50.198Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/archive.html</loc>
+    <lastmod>2026-11-15T05:38:26.036Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/about.html</loc>
+    <lastmod>2026-11-15T05:40:08.036Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/books.html</loc>
+    <lastmod>2026-11-15T05:38:26.036Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/cv.html</loc>
+    <lastmod>2026-11-15T05:35:28.725Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/about.html</loc>
+    <lastmod>2026-11-15T05:40:08.041Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/books.html</loc>
+    <lastmod>2026-11-15T05:38:26.056Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/cv.html</loc>
+    <lastmod>2026-11-15T05:35:28.726Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/ideas.html</loc>
+    <lastmod>2026-11-15T06:03:16.861Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/notes.html</loc>
+    <lastmod>2026-11-15T06:03:16.864Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/profiles.html</loc>
+    <lastmod>2026-11-15T05:38:26.055Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/projects/ostrin/index.html</loc>
+    <lastmod>2026-11-15T05:40:08.041Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/records/2d-drug-carrier-screens-audit/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.057Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/records/alphacert/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.058Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/records/b36n36-carrier/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.059Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/records/competitive-adsorption-and-amyloid-nucleation/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.060Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/records/cyanide-bridged-prussian-blue-data/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.061Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/records/dockbenchmarkr/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.062Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/records/dockclaimr/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.063Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/records/dockconsensusr/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.064Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/records/dockreportr/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.065Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/records/dude-receptor-prep-audit/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.066Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/records/kras-g12d-gcn/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.067Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/records/microplastic-loso/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.068Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/records/nebcert/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.069Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/records/qmcert/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.070Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/records/resonator-selfref/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.070Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/records/speccert/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.071Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/records/targetevidencer/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.072Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/records/tau-llps-two-phase-framework/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.073Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/records/zno-selectivity-windows/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.074Z</lastmod>
+  </url>
+  <url>
     <loc>https://sircalch.github.io/es/software.html</loc>
-    <lastmod>2026-10-01T06:02:26.491Z</lastmod>
+    <lastmod>2026-09-27T16:55:52.415Z</lastmod>
   </url>
   <url>
     <loc>https://sircalch.github.io/es/software/claimtestr/index.html</loc>
-    <lastmod>2026-10-01T06:01:37.638Z</lastmod>
+    <lastmod>2026-11-15T05:40:08.042Z</lastmod>
   </url>
   <url>
     <loc>https://sircalch.github.io/es/software/mdcheck/index.html</loc>
-    <lastmod>2026-10-01T06:01:37.653Z</lastmod>
+    <lastmod>2026-11-15T05:40:08.043Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/teaching.html</loc>
+    <lastmod>2026-11-15T06:03:16.863Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/topics.html</loc>
+    <lastmod>2026-11-15T05:38:26.057Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/es/writings/scientific-software-evidence/index.html</loc>
+    <lastmod>2026-11-15T06:03:16.858Z</lastmod>
   </url>
   <url>
     <loc>https://sircalch.github.io/index.html</loc>
-    <lastmod>2026-10-01T06:01:16.178Z</lastmod>
+    <lastmod>2026-11-15T06:03:16.861Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/outreach.html</loc>
+    <lastmod>2026-11-15T06:03:16.865Z</lastmod>
   </url>
   <url>
     <loc>https://sircalch.github.io/projects.html</loc>
-    <lastmod>2026-09-27T17:10:55.308Z</lastmod>
+    <lastmod>2026-11-15T03:37:58.625Z</lastmod>
   </url>
   <url>
     <loc>https://sircalch.github.io/publications.html</loc>
     <lastmod>2026-09-27T20:08:20.321Z</lastmod>
   </url>
   <url>
-    <loc>https://sircalch.github.io/software.html</loc>
-    <lastmod>2026-10-01T06:01:27.760Z</lastmod>
+    <loc>https://sircalch.github.io/records/adsorpqc/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.038Z</lastmod>
   </url>
   <url>
-    <loc>https://sircalch.github.io/software/claimtestr/index.html</loc>
-    <lastmod>2026-10-01T06:01:37.676Z</lastmod>
+    <loc>https://sircalch.github.io/records/arsenic-mof-lomo/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.039Z</lastmod>
   </url>
   <url>
-    <loc>https://sircalch.github.io/software/mdcheck/index.html</loc>
-    <lastmod>2026-10-01T06:01:37.691Z</lastmod>
+    <loc>https://sircalch.github.io/records/catcert/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.040Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/cqd-prospective-replay/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.041Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/dock-r-case-studies/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.042Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/dockcert/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.043Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/dockcomparer/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.044Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/dockprepr/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.045Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/docktracer/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.046Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/fepcert/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.046Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/mdcheck/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.047Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/nanozyme-db-audit/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.048Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/pfas-carbon-lopo/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.049Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/qsarcert/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.050Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/simcert/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.051Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/study-aware-validation-protein-corona/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.052Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/tau-directed-drugs-on-beta12/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.053Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/records/ti3c2tx-mxene-explainable-ai/index.html</loc>
+    <lastmod>2026-11-15T05:38:26.054Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/research.html</loc>
+    <lastmod>2026-09-27T16:58:57.743Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/software/adsorpqc/index.html</loc>
+    <lastmod>2026-11-15T05:40:08.038Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/software/dockcert/index.html</loc>
+    <lastmod>2026-11-15T05:40:08.039Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/software/qmcert/index.html</loc>
+    <lastmod>2026-11-15T05:40:08.040Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/timeline.html</loc>
+    <lastmod>2026-11-15T05:38:26.037Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sircalch.github.io/writings.html</loc>
+    <lastmod>2026-11-15T06:03:16.859Z</lastmod>
   </url>
 </urlset>
