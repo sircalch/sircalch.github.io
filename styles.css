@@ -282,3 +282,6 @@ a {
     grid-template-columns: 1fr;
   }
 }
+
+.about-photo{float:right;margin:0 0 1rem 1.5rem;border-radius:12px;max-width:40%;height:auto}
+@media(max-width:600px){.about-photo{float:none;margin:0 0 1rem;max-width:100%}}
