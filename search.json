@@ -161,6 +161,13 @@
     "text": "The software portfolio brings together Ostrin, claimtestR, AdsorpQC, QMCert, DockCert and MDCheck. Each project keeps its own release history, documentation and citation path."
   },
   {
+    "objectID": "software.html#a-shared-theme-quality-control-and-reproducibility",
+    "href": "software.html#a-shared-theme-quality-control-and-reproducibility",
+    "title": "Scientific Software",
+    "section": "A shared theme: quality control and reproducibility",
+    "text": "A shared theme: quality control and reproducibility\nFive of these projects (DockCert, AdsorpQC, MDCheck, QMCert and claimtestR) address the same question from different angles: how can a computational result be checked, documented and repeated?\n\n\n\nProject\nWhat it helps check\n\n\n\n\nDockCert\nStatistical validation and reproducibility assessment in molecular docking\n\n\nMDCheck\nConvergence and statistical inefficiency in molecular-dynamics simulations\n\n\nAdsorpQC\nQuality control for adsorption simulations and gas-isotherm workflows\n\n\nQMCert\nQuality control and reproducibility assessment for quantum-chemistry workflows\n\n\nclaimtestR\nStatistical claims written as executable, inspectable assertions (R)\n\n\n\nThey are open-source (MIT), each with its own repository, release history, CITATION.cff and Zenodo archive. This grouping describes the tools’ purpose; it does not claim independent validation or peer-reviewed evaluation of the software."
+  },
+  {
     "objectID": "software.html#public-software-list",
     "href": "software.html#public-software-list",
     "title": "Scientific Software",
@@ -2693,6 +2700,13 @@
     "title": "Software científico",
     "section": "",
     "text": "La cartera de software reúne Ostrin, claimtestR, AdsorpQC, QMCert, DockCert y MDCheck. Cada proyecto conserva su propio historial de releases, documentación y ruta de citación."
+  },
+  {
+    "objectID": "es/software.html#un-tema-común-control-de-calidad-y-reproducibilidad",
+    "href": "es/software.html#un-tema-común-control-de-calidad-y-reproducibilidad",
+    "title": "Software científico",
+    "section": "Un tema común: control de calidad y reproducibilidad",
+    "text": "Un tema común: control de calidad y reproducibilidad\nCinco de estos proyectos (DockCert, AdsorpQC, MDCheck, QMCert y claimtestR) abordan la misma pregunta desde ángulos distintos: ¿cómo se puede verificar, documentar y repetir un resultado computacional?\n\n\n\nProyecto\nQué ayuda a revisar\n\n\n\n\nDockCert\nValidación estadística y evaluación de reproducibilidad en docking molecular\n\n\nMDCheck\nConvergencia e ineficiencia estadística en simulaciones de dinámica molecular\n\n\nAdsorpQC\nControl de calidad de simulaciones de adsorción y flujos de isotermas de gases\n\n\nQMCert\nControl de calidad y evaluación de reproducibilidad en flujos de química cuántica\n\n\nclaimtestR\nAfirmaciones estadísticas como pruebas ejecutables e inspeccionables (R)\n\n\n\nSon de código abierto (MIT); cada una tiene su repositorio, historial de versiones, CITATION.cff y archivo en Zenodo. Esta agrupación describe el propósito de las herramientas; no afirma validación independiente ni evaluación arbitrada del software."
   },
   {
     "objectID": "es/software.html#lista-pública-de-software",
