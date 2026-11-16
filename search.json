@@ -116,14 +116,7 @@
     "href": "software/mdcheck/index.html#public-record",
     "title": "MDCheck",
     "section": "Public record",
-    "text": "Public record\n\n\n\n\n\n\n\nField\nCurrent evidence\n\n\n\n\nStatus\nPublic release\n\n\nPublic release\nv1.0.0\n\n\nLanguage\nPython\n\n\nLicense\nMIT, according to the public repository metadata\n\n\nCitation metadata\nRepository CITATION.cff reports 1.1.0, dated 2026-09-24\n\n\nDOI\nNo DOI is listed in the current repository metadata\n\n\n\n\nPyPI package\nGitHub repository"
-  },
-  {
-    "objectID": "software/mdcheck/index.html#version-control-required",
-    "href": "software/mdcheck/index.html#version-control-required",
-    "title": "MDCheck",
-    "section": "Version control required",
-    "text": "Version control required\nThe current public records report v1.0.0 for the PyPI package and latest GitHub release, while the repository CITATION.cff reports 1.1.0 dated 2026-09-24. The two records are shown separately until the project metadata is aligned."
+    "text": "Public record\n\n\n\nField\nCurrent evidence\n\n\n\n\nStatus\nPublic release\n\n\nRelease\nv1.1.0 (GitHub release, 2026-10-28)\n\n\nLanguage\nPython\n\n\nLicense\nMIT, according to the public repository metadata\n\n\nCitation metadata\nCITATION.cff, version 1.1.0, dated 2026-10-27\n\n\nDOI (this version)\n10.5281/zenodo.23719908\n\n\nDOI (all versions)\n10.5281/zenodo.22217568\n\n\n\n\nPyPI package\nGitHub repository\nZenodo record for v1.1.0"
   },
   {
     "objectID": "software/mdcheck/index.html#record-note",
@@ -172,7 +165,7 @@
     "href": "software.html#public-software-list",
     "title": "Scientific Software",
     "section": "Public software list",
-    "text": "Public software list\n\n\n\n\n\n\nSoftware\n\n\nPublic release\n\n\nDevelopment\n\n\nArchive\n\n\nSource\n\n\n\n\n\n\nOstrin\n\n\nv0.1.0\n\n\nmain\n\n\n—\n\n\nGitHub\n\n\n\n\nclaimtestR\n\n\nv0.1.2\n\n\n—\n\n\nv0.1.1\n\n\nGitHub\n\n\n\n\nAdsorpQC\n\n\nv1.0.0\n\n\n—\n\n\n—\n\n\nGitHub · PyPI\n\n\n\n\nQMCert\n\n\nv1.0.0\n\n\n—\n\n\n—\n\n\nGitHub · PyPI\n\n\n\n\nDockCert\n\n\nv1.0.0\n\n\n—\n\n\n—\n\n\nGitHub · PyPI\n\n\n\n\nMDCheck\n\n\nv1.0.0\n\n\n—\n\n\nv1.1.0\n\n\nGitHub · PyPI"
+    "text": "Public software list\n\n\n\n\n\n\nSoftware\n\n\nPublic release\n\n\nDevelopment\n\n\nArchive\n\n\nSource\n\n\n\n\n\n\nOstrin\n\n\nv0.2.0\n\n\nmain\n\n\n—\n\n\nGitHub\n\n\n\n\nclaimtestR\n\n\nv0.1.2\n\n\n—\n\n\nv0.1.1\n\n\nGitHub\n\n\n\n\nAdsorpQC\n\n\nv1.1.0\n\n\n—\n\n\n—\n\n\nGitHub · PyPI\n\n\n\n\nQMCert\n\n\nv1.2.0\n\n\n—\n\n\n—\n\n\nGitHub · PyPI\n\n\n\n\nDockCert\n\n\nv1.1.0\n\n\n—\n\n\n—\n\n\nGitHub · PyPI\n\n\n\n\nMDCheck\n\n\nv1.1.0\n\n\n—\n\n\nv1.1.0\n\n\nGitHub · PyPI"
   },
   {
     "objectID": "software.html#what-each-project-includes",
@@ -935,7 +928,7 @@
     "href": "es/software/qmcert/index.html#registro-público",
     "title": "QMCert",
     "section": "Registro público",
-    "text": "Registro público\n\n\n\n\n\n\n\nCampo\nEvidencia actual\n\n\n\n\nEstado\nRelease público\n\n\nRelease\nv1.0.0\n\n\nLenguaje\nPython\n\n\nLicencia\nMIT, según los metadatos públicos del repositorio\n\n\nMetadatos de citación\nCITATION.cff, versión 1.0.0, fechado 2026-08-31\n\n\nDOI\nNo aparece un DOI en los metadatos actuales del repositorio\n\n\n\n\nPaquete en PyPI\nRepositorio en GitHub"
+    "text": "Registro público\n\n\n\nCampo\nEvidencia actual\n\n\n\n\nEstado\nRelease público\n\n\nRelease\nv1.2.0 (release de GitHub, 2026-09-30)\n\n\nLenguaje\nPython\n\n\nLicencia\nMIT, según los metadatos públicos del repositorio\n\n\nMetadatos de citación\nCITATION.cff, versión 1.2.0, fechado 2026-09-30\n\n\nDOI (esta versión)\n10.5281/zenodo.23072029\n\n\nDOI (todas las versiones)\n10.5281/zenodo.22217572\n\n\n\n\nPaquete en PyPI\nRepositorio en GitHub\nRegistro de Zenodo para v1.2.0"
   },
   {
     "objectID": "es/software/qmcert/index.html#nota-del-registro",
@@ -949,7 +942,7 @@
     "href": "es/software/qmcert/index.html#cita-y-archivo",
     "title": "QMCert",
     "section": "Cita y archivo",
-    "text": "Cita y archivo\nUsa el CITATION.cff del repositorio para la citación exacta asociada al release. Si el proyecto incorpora un archivo DOI, se enlazará desde aquí.\nVolver a Software científico · English version"
+    "text": "Cita y archivo\nUsa el CITATION.cff del repositorio para la citación exacta. El DOI de la versión identifica el archivo de Zenodo de v1.2.0; el DOI de todas las versiones apunta siempre a la última versión archivada. Los archivos son registros de citación, no validación independiente.\nVolver a Software científico · English version"
   },
   {
     "objectID": "es/software/dockcert/index.html",
@@ -963,7 +956,7 @@
     "href": "es/software/dockcert/index.html#registro-público",
     "title": "DockCert",
     "section": "Registro público",
-    "text": "Registro público\n\n\n\n\n\n\n\nCampo\nEvidencia actual\n\n\n\n\nEstado\nRelease público\n\n\nRelease\nv1.0.0\n\n\nLenguaje\nPython\n\n\nLicencia\nMIT, según los metadatos públicos del repositorio\n\n\nMetadatos de citación\nCITATION.cff, versión 1.0.0, fechado 2026-08-31\n\n\nDOI\nNo aparece un DOI en los metadatos actuales del repositorio\n\n\n\n\nPaquete en PyPI\nRepositorio en GitHub"
+    "text": "Registro público\n\n\n\nCampo\nEvidencia actual\n\n\n\n\nEstado\nRelease público\n\n\nRelease\nv1.1.0 (release de GitHub, 2026-09-30)\n\n\nLenguaje\nPython\n\n\nLicencia\nMIT, según los metadatos públicos del repositorio\n\n\nMetadatos de citación\nCITATION.cff, versión 1.1.0, fechado 2026-09-30\n\n\nDOI (esta versión)\n10.5281/zenodo.23072030\n\n\nDOI (todas las versiones)\n10.5281/zenodo.22217570\n\n\n\n\nPaquete en PyPI\nRepositorio en GitHub\nRegistro de Zenodo para v1.1.0"
   },
   {
     "objectID": "es/software/dockcert/index.html#nota-del-registro",
@@ -977,7 +970,7 @@
     "href": "es/software/dockcert/index.html#cita-y-archivo",
     "title": "DockCert",
     "section": "Cita y archivo",
-    "text": "Cita y archivo\nUsa el CITATION.cff del repositorio para la citación exacta asociada al release. Si el proyecto incorpora un archivo DOI, se enlazará desde aquí.\nVolver a Software científico · English version"
+    "text": "Cita y archivo\nUsa el CITATION.cff del repositorio para la citación exacta. El DOI de la versión identifica el archivo de Zenodo de v1.1.0; el DOI de todas las versiones apunta siempre a la última versión archivada. Los archivos son registros de citación, no validación independiente.\nVolver a Software científico · English version"
   },
   {
     "objectID": "es/software/adsorpqc/index.html",
@@ -991,7 +984,7 @@
     "href": "es/software/adsorpqc/index.html#registro-público",
     "title": "AdsorpQC",
     "section": "Registro público",
-    "text": "Registro público\n\n\n\n\n\n\n\nCampo\nEvidencia actual\n\n\n\n\nEstado\nRelease público\n\n\nRelease\nv1.0.0\n\n\nLenguaje\nPython\n\n\nLicencia\nMIT, según los metadatos públicos del repositorio\n\n\nMetadatos de citación\nCITATION.cff, versión 1.0.0, fechado 2026-08-31\n\n\nDOI\nNo aparece un DOI en los metadatos actuales del repositorio\n\n\n\n\nPaquete en PyPI\nRepositorio en GitHub"
+    "text": "Registro público\n\n\n\nCampo\nEvidencia actual\n\n\n\n\nEstado\nRelease público\n\n\nRelease\nv1.1.0 (release de GitHub, 2026-09-30)\n\n\nLenguaje\nPython\n\n\nLicencia\nMIT, según los metadatos públicos del repositorio\n\n\nMetadatos de citación\nCITATION.cff, versión 1.1.0, fechado 2026-09-30\n\n\nDOI (esta versión)\n10.5281/zenodo.23072031\n\n\nDOI (todas las versiones)\n10.5281/zenodo.22217574\n\n\n\n\nPaquete en PyPI\nRepositorio en GitHub\nRegistro de Zenodo para v1.1.0"
   },
   {
     "objectID": "es/software/adsorpqc/index.html#nota-del-registro",
@@ -1005,7 +998,7 @@
     "href": "es/software/adsorpqc/index.html#cita-y-archivo",
     "title": "AdsorpQC",
     "section": "Cita y archivo",
-    "text": "Cita y archivo\nUsa el CITATION.cff del repositorio para la citación exacta asociada al release. Si el proyecto incorpora un archivo DOI, se enlazará desde aquí.\nVolver a Software científico · English version"
+    "text": "Cita y archivo\nUsa el CITATION.cff del repositorio para la citación exacta. El DOI de la versión identifica el archivo de Zenodo de v1.1.0; el DOI de todas las versiones apunta siempre a la última versión archivada. Los archivos son registros de citación, no validación independiente.\nVolver a Software científico · English version"
   },
   {
     "objectID": "es/research.html",
@@ -2706,7 +2699,7 @@
     "href": "es/software.html#lista-pública-de-software",
     "title": "Software científico",
     "section": "Lista pública de software",
-    "text": "Lista pública de software\n\n\n\n\n\n\nSoftware\n\n\nRelease público\n\n\nDesarrollo\n\n\nArchivo\n\n\nFuente\n\n\n\n\n\n\nOstrin\n\n\nv0.1.0\n\n\nmain\n\n\n—\n\n\nGitHub\n\n\n\n\nclaimtestR\n\n\nv0.1.2\n\n\n—\n\n\nv0.1.1\n\n\nGitHub\n\n\n\n\nAdsorpQC\n\n\nv1.0.0\n\n\n—\n\n\n—\n\n\nGitHub · PyPI\n\n\n\n\nQMCert\n\n\nv1.0.0\n\n\n—\n\n\n—\n\n\nGitHub · PyPI\n\n\n\n\nDockCert\n\n\nv1.0.0\n\n\n—\n\n\n—\n\n\nGitHub · PyPI\n\n\n\n\nMDCheck\n\n\nv1.0.0\n\n\n—\n\n\nv1.1.0\n\n\nGitHub · PyPI"
+    "text": "Lista pública de software\n\n\n\n\n\n\nSoftware\n\n\nRelease público\n\n\nDesarrollo\n\n\nArchivo\n\n\nFuente\n\n\n\n\n\n\nOstrin\n\n\nv0.2.0\n\n\nmain\n\n\n—\n\n\nGitHub\n\n\n\n\nclaimtestR\n\n\nv0.1.2\n\n\n—\n\n\nv0.1.1\n\n\nGitHub\n\n\n\n\nAdsorpQC\n\n\nv1.1.0\n\n\n—\n\n\n—\n\n\nGitHub · PyPI\n\n\n\n\nQMCert\n\n\nv1.2.0\n\n\n—\n\n\n—\n\n\nGitHub · PyPI\n\n\n\n\nDockCert\n\n\nv1.1.0\n\n\n—\n\n\n—\n\n\nGitHub · PyPI\n\n\n\n\nMDCheck\n\n\nv1.1.0\n\n\n—\n\n\nv1.1.0\n\n\nGitHub · PyPI"
   },
   {
     "objectID": "es/software.html#qué-incluye-cada-proyecto",
@@ -2755,14 +2748,7 @@
     "href": "es/software/mdcheck/index.html#registro-público",
     "title": "MDCheck",
     "section": "Registro público",
-    "text": "Registro público\n\n\n\n\n\n\n\nCampo\nEvidencia actual\n\n\n\n\nEstado\nRelease público\n\n\nRelease público\nv1.0.0\n\n\nLenguaje\nPython\n\n\nLicencia\nMIT, según los metadatos públicos del repositorio\n\n\nMetadatos de citación\nEl CITATION.cff del repositorio reporta 1.1.0, fechado 2026-09-24\n\n\nDOI\nNo aparece un DOI en los metadatos actuales del repositorio\n\n\n\n\nPaquete en PyPI\nRepositorio en GitHub"
-  },
-  {
-    "objectID": "es/software/mdcheck/index.html#control-de-versiones-requerido",
-    "href": "es/software/mdcheck/index.html#control-de-versiones-requerido",
-    "title": "MDCheck",
-    "section": "Control de versiones requerido",
-    "text": "Control de versiones requerido\nLos registros públicos actuales reportan v1.0.0 para el paquete de PyPI y el release más reciente de GitHub, mientras que el CITATION.cff del repositorio reporta 1.1.0 con fecha 2026-09-24. Los dos registros se muestran por separado hasta alinear los metadatos del proyecto."
+    "text": "Registro público\n\n\n\nCampo\nEvidencia actual\n\n\n\n\nEstado\nRelease público\n\n\nRelease\nv1.1.0 (release de GitHub, 2026-10-28)\n\n\nLenguaje\nPython\n\n\nLicencia\nMIT, según los metadatos públicos del repositorio\n\n\nMetadatos de citación\nCITATION.cff, versión 1.1.0, fechado 2026-10-27\n\n\nDOI (esta versión)\n10.5281/zenodo.23719908\n\n\nDOI (todas las versiones)\n10.5281/zenodo.22217568\n\n\n\n\nPaquete en PyPI\nRepositorio en GitHub\nRegistro de Zenodo para v1.1.0"
   },
   {
     "objectID": "es/software/mdcheck/index.html#nota-del-registro",
@@ -3546,7 +3532,7 @@
     "href": "software/adsorpqc/index.html#public-record",
     "title": "AdsorpQC",
     "section": "Public record",
-    "text": "Public record\n\n\n\n\n\n\n\nField\nCurrent evidence\n\n\n\n\nStatus\nPublic release\n\n\nRelease\nv1.0.0\n\n\nLanguage\nPython\n\n\nLicense\nMIT, according to the public repository metadata\n\n\nCitation metadata\nCITATION.cff, version 1.0.0, dated 2026-08-31\n\n\nDOI\nNo DOI is listed in the current repository metadata\n\n\n\n\nPyPI package\nGitHub repository"
+    "text": "Public record\n\n\n\nField\nCurrent evidence\n\n\n\n\nStatus\nPublic release\n\n\nRelease\nv1.1.0 (GitHub release, 2026-09-30)\n\n\nLanguage\nPython\n\n\nLicense\nMIT, according to the public repository metadata\n\n\nCitation metadata\nCITATION.cff, version 1.1.0, dated 2026-09-30\n\n\nDOI (this version)\n10.5281/zenodo.23072031\n\n\nDOI (all versions)\n10.5281/zenodo.22217574\n\n\n\n\nPyPI package\nGitHub repository\nZenodo record for v1.1.0"
   },
   {
     "objectID": "software/adsorpqc/index.html#record-note",
@@ -3560,7 +3546,7 @@
     "href": "software/adsorpqc/index.html#citation-and-archive",
     "title": "AdsorpQC",
     "section": "Citation and archive",
-    "text": "Citation and archive\nUse the repository’s CITATION.cff for the exact citation associated with the release. If a persistent archive record is added, it will be linked here.\nBack to Scientific Software"
+    "text": "Citation and archive\nUse the repository’s CITATION.cff for the exact citation. The version DOI identifies the Zenodo archive of v1.1.0; the all-versions DOI always points to the latest archived version. Archives are citation records, not independent validation.\nBack to Scientific Software"
   },
   {
     "objectID": "software/dockcert/index.html",
@@ -3574,7 +3560,7 @@
     "href": "software/dockcert/index.html#public-record",
     "title": "DockCert",
     "section": "Public record",
-    "text": "Public record\n\n\n\n\n\n\n\nField\nCurrent evidence\n\n\n\n\nStatus\nPublic release\n\n\nRelease\nv1.0.0\n\n\nLanguage\nPython\n\n\nLicense\nMIT, according to the public repository metadata\n\n\nCitation metadata\nCITATION.cff, version 1.0.0, dated 2026-08-31\n\n\nDOI\nNo DOI is listed in the current repository metadata\n\n\n\n\nPyPI package\nGitHub repository"
+    "text": "Public record\n\n\n\nField\nCurrent evidence\n\n\n\n\nStatus\nPublic release\n\n\nRelease\nv1.1.0 (GitHub release, 2026-09-30)\n\n\nLanguage\nPython\n\n\nLicense\nMIT, according to the public repository metadata\n\n\nCitation metadata\nCITATION.cff, version 1.1.0, dated 2026-09-30\n\n\nDOI (this version)\n10.5281/zenodo.23072030\n\n\nDOI (all versions)\n10.5281/zenodo.22217570\n\n\n\n\nPyPI package\nGitHub repository\nZenodo record for v1.1.0"
   },
   {
     "objectID": "software/dockcert/index.html#record-note",
@@ -3588,7 +3574,7 @@
     "href": "software/dockcert/index.html#citation-and-archive",
     "title": "DockCert",
     "section": "Citation and archive",
-    "text": "Citation and archive\nUse the repository’s CITATION.cff for the exact citation associated with the release. If a persistent archive record is added, it will be linked here.\nBack to Scientific Software"
+    "text": "Citation and archive\nUse the repository’s CITATION.cff for the exact citation. The version DOI identifies the Zenodo archive of v1.1.0; the all-versions DOI always points to the latest archived version. Archives are citation records, not independent validation.\nBack to Scientific Software"
   },
   {
     "objectID": "software/qmcert/index.html",
@@ -3602,7 +3588,7 @@
     "href": "software/qmcert/index.html#public-record",
     "title": "QMCert",
     "section": "Public record",
-    "text": "Public record\n\n\n\n\n\n\n\nField\nCurrent evidence\n\n\n\n\nStatus\nPublic release\n\n\nRelease\nv1.0.0\n\n\nLanguage\nPython\n\n\nLicense\nMIT, according to the public repository metadata\n\n\nCitation metadata\nCITATION.cff, version 1.0.0, dated 2026-08-31\n\n\nDOI\nNo DOI is listed in the current repository metadata\n\n\n\n\nPyPI package\nGitHub repository"
+    "text": "Public record\n\n\n\nField\nCurrent evidence\n\n\n\n\nStatus\nPublic release\n\n\nRelease\nv1.2.0 (GitHub release, 2026-09-30)\n\n\nLanguage\nPython\n\n\nLicense\nMIT, according to the public repository metadata\n\n\nCitation metadata\nCITATION.cff, version 1.2.0, dated 2026-09-30\n\n\nDOI (this version)\n10.5281/zenodo.23072029\n\n\nDOI (all versions)\n10.5281/zenodo.22217572\n\n\n\n\nPyPI package\nGitHub repository\nZenodo record for v1.2.0"
   },
   {
     "objectID": "software/qmcert/index.html#record-note",
@@ -3616,7 +3602,7 @@
     "href": "software/qmcert/index.html#citation-and-archive",
     "title": "QMCert",
     "section": "Citation and archive",
-    "text": "Citation and archive\nUse the repository’s CITATION.cff for the exact citation associated with the release. If a persistent archive record is added, it will be linked here.\nBack to Scientific Software"
+    "text": "Citation and archive\nUse the repository’s CITATION.cff for the exact citation. The version DOI identifies the Zenodo archive of v1.2.0; the all-versions DOI always points to the latest archived version. Archives are citation records, not independent validation.\nBack to Scientific Software"
   },
   {
     "objectID": "timeline.html",
