@@ -308,7 +308,7 @@ Filtrar objetos públicos
 <label for="archive-filter-search">Buscar</label><input id="archive-filter-search" type="search" data-archive-filter="search" placeholder="Nombre, versión o fuente">
 </div>
 <div class="archive-filter-field">
-<label for="archive-filter-year">Año</label><select id="archive-filter-year" data-archive-filter="year"><option value="">Todos</option><option value="2024-12-31">2024-12-31</option><option value="2026">2026</option><option value="2026-08-10">2026-08-10</option><option value="2026-08-16">2026-08-16</option><option value="2026-09-11">2026-09-11</option><option value="2026-09-24">2026-09-24</option><option value="2026-09-30">2026-09-30</option><option value="2026-10-01">2026-10-01</option><option value="2026-10-06">2026-10-06</option><option value="2026-10-07">2026-10-07</option><option value="2026-10-15">2026-10-15</option><option value="2026-10-26">2026-10-26</option><option value="2026-10-27">2026-10-27</option><option value="undated">Sin fecha</option></select>
+<label for="archive-filter-year">Año</label><select id="archive-filter-year" data-archive-filter="year"><option value="">Todos</option><option value="2024-12-31">2024-12-31</option><option value="2026">2026</option><option value="2026-08-10">2026-08-10</option><option value="2026-08-16">2026-08-16</option><option value="2026-09-11">2026-09-11</option><option value="2026-09-24">2026-09-24</option><option value="2026-09-30">2026-09-30</option><option value="2026-10-01">2026-10-01</option><option value="2026-10-06">2026-10-06</option><option value="2026-10-07">2026-10-07</option><option value="2026-10-15">2026-10-15</option><option value="2026-10-26">2026-10-26</option><option value="2026-10-27">2026-10-27</option><option value="2026-11-17">2026-11-17</option><option value="undated">Sin fecha</option></select>
 </div>
 <div class="archive-filter-field">
 <label for="archive-filter-type">Tipo</label><select id="archive-filter-type" data-archive-filter="type"><option value="">Todos</option><option value="book">Libro</option><option value="data_deposit">Depósito de datos</option><option value="preprint">Prepublicación</option><option value="software_archive">Archivo de software</option><option value="software_release">Release de software</option></select>
@@ -317,7 +317,7 @@ Filtrar objetos públicos
 <label for="archive-filter-topic">Tema</label><select id="archive-filter-topic" data-archive-filter="topic"><option value="">Todos</option><option value="biomedical engineering">Ingeniería biomédica</option><option value="books">Libros</option><option value="computational molecular science">Ciencia molecular computacional</option><option value="molecular docking">Docking molecular</option><option value="open science">Ciencia abierta</option><option value="programming languages">Lenguajes de programación</option><option value="reproducibility">Reproducibilidad</option><option value="scientific computing">Computación científica</option><option value="scientific software">Software científico</option></select>
 </div>
 <div class="archive-filter-field">
-<label for="archive-filter-project">Proyecto</label><select id="archive-filter-project" data-archive-filter="project"><option value="">Todos</option><option value="AdsorpQC">AdsorpQC</option><option value="Books">Books</option><option value="claimtestR">claimtestR</option><option value="DockCert">DockCert</option><option value="docking-reference-audit">docking-reference-audit</option><option value="MDCheck">MDCheck</option><option value="Ostrin">Ostrin</option><option value="QMCert">QMCert</option><option value="Zenodo records">Zenodo records</option></select>
+<label for="archive-filter-project">Proyecto</label><select id="archive-filter-project" data-archive-filter="project"><option value="">Todos</option><option value="AdsorpQC">AdsorpQC</option><option value="adsorpqc">adsorpqc</option><option value="Books">Books</option><option value="claimtestR">claimtestR</option><option value="DockCert">DockCert</option><option value="docking-reference-audit">docking-reference-audit</option><option value="MDCheck">MDCheck</option><option value="Ostrin">Ostrin</option><option value="QMCert">QMCert</option><option value="Zenodo records">Zenodo records</option></select>
 </div>
 <div class="archive-filter-field">
 <label for="archive-filter-language">Idioma</label><select id="archive-filter-language" data-archive-filter="language"><option value="">Todos</option><option value="en">Inglés</option><option value="es">Español</option></select>
@@ -335,7 +335,7 @@ Restablecer filtros
 </section>
 <section id="contenido-actual" class="level2">
 <h2 class="anchored" data-anchor-id="contenido-actual">Contenido actual</h2>
-<p>El registro actual contiene objetos de software, archivos de software y datos con DOI, una prepublicación aprobada como metadata-only y un registro de libro. Los objetos sin fecha confirmada permanecen fuera de la cronología.</p>
+<p>El registro actual contiene objetos de software, archivos de software y datos con DOI, dos prepublicaciones solo con metadatos y un registro de libro. Los objetos sin fecha confirmada permanecen fuera de la cronología.</p>
 <!-- Generated registry view. Do not edit manually. -->
 <div class="archive-table-wrap">
 <table class="archive-table" id="archive-table">
@@ -524,6 +524,23 @@ Prepublicación
 </td>
 <td>
 <a href="https://www.researchsquare.com/article/rs-10707112/v1">Research Square preprint</a> · <a href="https://doi.org/10.21203/rs.3.rs-10707112/v1">DOI</a>
+</td>
+<td>
+Prepublicación pública
+</td>
+</tr>
+<tr data-object-id="adsorpqc-postprocessing-preprint-2026" data-year="2026-11-17" data-type="preprint" data-topic="computational molecular science|reproducibility|scientific software" data-project="adsorpqc" data-language="en" data-status="public_preprint">
+<th scope="row">
+Checking the post-processing of adsorption simulations: Henry coefficients, isosteric heats, IAST and stationarity tests validated against RASPA3
+</th>
+<td>
+Prepublicación
+</td>
+<td>
+<code>v1</code>
+</td>
+<td>
+<a href="https://www.researchsquare.com/article/rs-11626447/v1">Research Square preprint</a> · <a href="https://doi.org/10.21203/rs.3.rs-11626447/v1">DOI</a>
 </td>
 <td>
 Prepublicación pública
