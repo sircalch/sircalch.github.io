@@ -1,0 +1,16 @@
+{
+  "source": "https://raw.githubusercontent.com/NIST-ISODB/isodb-library/9e1ee472967d66ec7845e23c5d5b986eca5ff020/Library/10.1007s104500189958x/10.1007s10450-018-9958-x.LogisticModel.json",
+  "input_sha256": "5a02f206291a6621a076cf6d2651366bce5cba7c15aa5128d7f581603cf5ad15",
+  "adsorpqc": "1.2.0",
+  "numpy": "2.5.2",
+  "scipy": "1.18.1",
+  "calibration_rows": 96,
+  "evaluation_rows": 23,
+  "lowest_calibration_aicc": "Dual-Site Langmuir",
+  "held_out_rmse_mol_kg": {
+    "Langmuir": 0.09912131,
+    "Dual-Site Langmuir": 0.00944578,
+    "Sips": 0.02757146,
+    "Toth": 0.01511822
+  }
+}

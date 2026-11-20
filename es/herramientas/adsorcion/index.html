@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Caso reproducible de adsorción con AdsorpQC | Andrés Monreal Ciencia</title>
+<meta name="description" content="Ejemplo ejecutable con una tabla de referencia pública del NIST.">
+<meta property="og:title" content="Caso reproducible de adsorción con AdsorpQC">
+<meta property="og:description" content="Ejemplo ejecutable con una tabla de referencia pública del NIST.">
+<link rel="canonical" href="https://sircalch.github.io/es/herramientas/adsorcion/">
+<link rel="stylesheet" href="../recursos.css">
+
+</head>
+<body>
+<header><nav aria-label="Navegación principal">
+<a class="brand" href="../../">Andrés Monreal Ciencia</a>
+<a class="nav-tools" href="../">Herramientas</a>
+</nav></header>
+<main>
+<h1>Caso reproducible de adsorción con AdsorpQC</h1>
+<p class="lead">Ejemplo ejecutable con una tabla de referencia pública del NIST.</p>
+<article class="copy"><h2>Datos y procedimiento</h2>
+<p>El ejemplo usa la tabla del modelo de referencia de adsorción de CO₂ en ZSM-5 amoniacal del NIST a 293 K. La tabla contiene adsorción en exceso. Las presiones se mantienen en bar y los valores de mmol/g equivalen numéricamente a mol/kg. El código deja fuera cada quinto punto después de ordenar por presión.</p>
+<p>Se ajustan cuatro modelos con 96 puntos y se calcula el error cuadrático medio, en su forma de raíz (RMSE), sobre 23 puntos de evaluación. Son puntos de la misma curva de referencia. El caso sirve para reproducir una comparación local dentro de su intervalo y no estima incertidumbre interlaboratorio.</p>
+<p>Fuentes. <a href="https://www.nist.gov/mml/fact/reference-isotherm-co2zsm-5">NIST</a> · <a href="https://doi.org/10.1007/s10450-018-9958-x">Estudio interlaboratorio</a> · <a href="https://raw.githubusercontent.com/NIST-ISODB/isodb-library/9e1ee472967d66ec7845e23c5d5b986eca5ff020/Library/10.1007s104500189958x/10.1007s10450-018-9958-x.LogisticModel.json">Tabla en la revisión fijada</a>.</p>
+<h2>Repite el cálculo</h2>
+<p><a href="caso_nist.py" download>Descargar código Python</a> · <a href="resultados.json" download>Descargar resultados y procedencia</a>.</p>
+<pre><code>python -m pip install adsorpqc==1.2.0
+python caso_nist.py</code></pre>
+<p>El código descarga la tabla en una revisión fija de ISODB y registra la huella SHA-256 del archivo que procesa. También acepta <code>--input</code> con una copia local de esa tabla. El resultado de referencia se calculó con NumPy 2.5.2 y SciPy 1.18.1.</p>
+<h2>Resultados del caso</h2>
+<ul class="list"><li>Langmuir · 0.09912 mol/kg</li><li>Dual-Site Langmuir · 0.00945 mol/kg</li><li>Sips · 0.02757 mol/kg</li><li>Toth · 0.01512 mol/kg</li></ul>
+<p>El ajuste con menor AICc entre los cuatro en esta muestra fue Dual-Site Langmuir. Para trabajos nuevos, registra la versión de <a href="https://github.com/sircalch/adsorpqc/tree/v1.2.0">AdsorpQC</a> y comprueba que las unidades y el tipo de adsorción correspondan a tus datos.</p></article>
+</main>
+<footer><a href="../../collaborate.html">Contacto académico</a> · <a href="../../software.html">Software científico</a></footer>
+</body>
+</html>
