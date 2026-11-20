@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Laboratorio de correlación | Andrés Monreal Ciencia</title>
+<meta name="description" content="Compara lo que dicen los datos por grupo y lo que muestra el conjunto.">
+<meta property="og:title" content="Laboratorio de correlación">
+<meta property="og:description" content="Compara lo que dicen los datos por grupo y lo que muestra el conjunto.">
+<link rel="canonical" href="https://sircalch.github.io/es/herramientas/correlacion/">
+<link rel="stylesheet" href="../recursos.css">
+<script src="../simuladores.js" defer></script>
+</head>
+<body>
+<header><nav aria-label="Navegación principal">
+<a class="brand" href="../../">Andrés Monreal Ciencia</a>
+<a class="nav-tools" href="../">Herramientas</a>
+</nav></header>
+<main>
+<h1>Laboratorio de correlación</h1>
+<p class="lead">Compara lo que dicen los datos por grupo y lo que muestra el conjunto.</p>
+<div class="workspace">
+<form class="panel" data-simulation="groups" aria-label="Parámetros de los grupos">
+  <label>Separación de los grupos <input type="number" min="0" max="8" step="0.1" value="5" required></label>
+  <label>Dispersión vertical <input type="number" min="0" max="2" step="0.1" value="0.3" required></label>
+  <button type="submit">Descargar CSV</button>
+  <p id="status" class="muted" role="status"></p>
+</form>
+<section class="panel" aria-labelledby="series-title">
+  <h2 id="series-title">Relación entre X e Y</h2>
+  <p class="muted">Círculos verdes para el grupo A. Cuadrados cafés para el grupo B.</p>
+  <canvas role="img" aria-label="Gráfico de dispersión con dos grupos de datos. Los coeficientes aparecen debajo.">Los datos se pueden consultar en el CSV.</canvas>
+  <dl class="stats" aria-label="Correlación de Pearson"><div><dt>Grupo A</dt><dd data-stat></dd></div><div><dt>Grupo B</dt><dd data-stat></dd></div><div><dt>Ambos grupos</dt><dd data-stat></dd></div></dl>
+</section></div>
+<section class="copy">
+<h2>Qué observar</h2>
+<p>Con la separación inicial, X e Y tienden a subir juntas dentro de cada grupo. Al reunirlos, aparece una relación negativa. Reduce la separación a cero y compara los tres coeficientes de Pearson. El ejemplo usa 12 observaciones por grupo, con posiciones fijas en X y perturbaciones seudoaleatorias en Y.</p>
+<p><a href="../leer-una-correlacion/">Lectura complementaria sobre datos agrupados</a></p>
+</section>
+</main>
+<footer><a href="../../collaborate.html">Contacto académico</a> · <a href="../../software.html">Software científico</a></footer>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Laboratorio de medición | Andrés Monreal Ciencia</title>
+<meta name="description" content="Explora cómo el sesgo y el ruido cambian una serie de mediciones.">
+<meta property="og:title" content="Laboratorio de medición">
+<meta property="og:description" content="Explora cómo el sesgo y el ruido cambian una serie de mediciones.">
+<link rel="canonical" href="https://sircalch.github.io/es/herramientas/medicion/">
+<link rel="stylesheet" href="../recursos.css">
+<script src="../simuladores.js" defer></script>
+</head>
+<body>
+<header><nav aria-label="Navegación principal">
+<a class="brand" href="../../">Andrés Monreal Ciencia</a>
+<a class="nav-tools" href="../">Herramientas</a>
+</nav></header>
+<main>
+<h1>Laboratorio de medición</h1>
+<p class="lead">Explora cómo el sesgo y el ruido cambian una serie de mediciones.</p>
+<div class="workspace">
+<form class="panel" data-simulation="measurement" aria-label="Parámetros de medición">
+  <p class="muted">Referencia fija de 10 unidades.</p>
+  <label>Sesgo <input type="number" min="-5" max="5" step="0.1" value="0.5" required></label>
+  <label>Ruido <input type="number" min="0" max="4" step="0.1" value="1" required></label>
+  <label>Número de mediciones <input type="number" min="5" max="200" step="1" value="50" required></label>
+  <button type="submit">Descargar CSV</button>
+  <p id="status" class="muted" role="status"></p>
+</form>
+<section class="panel" aria-labelledby="series-title">
+  <h2 id="series-title">Serie de mediciones</h2>
+  <canvas role="img" aria-label="Mediciones en el orden en que se generaron. La línea discontinua marca las 10 unidades de referencia.">Los datos se pueden consultar en el CSV.</canvas>
+  <dl class="stats" aria-label="Estadísticas de la muestra"><div><dt>Media</dt><dd data-stat></dd></div><div><dt>Sesgo observado</dt><dd data-stat></dd></div><div><dt>Desviación estándar</dt><dd data-stat></dd></div></dl>
+</section></div>
+<section class="copy">
+<h2>Prueba en tres pasos</h2>
+<ol class="list"><li>Fija el ruido en cero. Cambia el sesgo y compara la media con 10.</li><li>Fija el sesgo en cero. Sube el ruido y observa qué cambia en el conjunto.</li><li>Compara la media de 5 y de 100 mediciones con el mismo sesgo y ruido. Verifica en el CSV que ambas series comparten sus primeras cinco observaciones.</li></ol>
+<h2>Cómo se producen los datos</h2>
+<p>Cada valor se calcula como <code>10 + sesgo + ruido × Z</code>. <code>Z</code> es una realización normal estándar seudoaleatoria con semilla fija. El sesgo observado es la media menos 10. La desviación estándar se calcula con el divisor <code>n − 1</code>. Es un modelo didáctico en unidades arbitrarias.</p>
+<p><a href="../medir-bien/">Lectura complementaria sobre exactitud y precisión</a></p>
+</section>
+</main>
+<footer><a href="../../collaborate.html">Contacto académico</a> · <a href="../../software.html">Software científico</a></footer>
+</body>
+</html>
