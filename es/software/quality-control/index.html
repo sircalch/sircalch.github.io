@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Una familia de herramientas de código abierto para revisar, documentar y repetir resultados computacionales en ciencia molecular: DockCert, MDCheck, AdsorpQC, QMCert y claimtestR.">
+<meta name="description" content="Una familia de herramientas de código abierto para revisar, documentar y repetir resultados computacionales en ciencia molecular: DockCert, MDCheck, AdsorpQC, QMCert, AlphaCert, CatCert, FEPCert, NEBCert, QSARCert, SpecCert y claimtestR.">
 
 <title>Software de control de calidad y reproducibilidad – Andrés Monreal</title>
 <style>
@@ -127,12 +127,12 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="../../../styles.css">
 <meta property="og:title" content="Software de control de calidad y reproducibilidad – Andrés Monreal">
-<meta property="og:description" content="Una familia de herramientas de código abierto para revisar, documentar y repetir resultados computacionales en ciencia molecular: DockCert, MDCheck, AdsorpQC, QMCert y claimtestR.">
+<meta property="og:description" content="Una familia de herramientas de código abierto para revisar, documentar y repetir resultados computacionales en ciencia molecular: DockCert, MDCheck, AdsorpQC, QMCert, AlphaCert, CatCert, FEPCert, NEBCert, QSARCert, SpecCert y claimtestR.">
 <meta property="og:image" content="https://sircalch.github.io/es/software/quality-control/assets/brand/AM-social-card.png">
 <meta property="og:site_name" content="Andrés Monreal">
 <meta property="og:image:alt" content="AM monogram — Andrés Monreal">
 <meta name="twitter:title" content="Software de control de calidad y reproducibilidad – Andrés Monreal">
-<meta name="twitter:description" content="Una familia de herramientas de código abierto para revisar, documentar y repetir resultados computacionales en ciencia molecular: DockCert, MDCheck, AdsorpQC, QMCert y claimtestR.">
+<meta name="twitter:description" content="Una familia de herramientas de código abierto para revisar, documentar y repetir resultados computacionales en ciencia molecular: DockCert, MDCheck, AdsorpQC, QMCert, AlphaCert, CatCert, FEPCert, NEBCert, QSARCert, SpecCert y claimtestR.">
 <meta name="twitter:image" content="https://sircalch.github.io/es/software/quality-control/assets/brand/AM-social-card.png">
 <meta name="twitter:image:alt" content="AM monogram — Andrés Monreal">
 <meta name="twitter:card" content="summary_large_image">
@@ -263,7 +263,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#las-cinco-herramientas" id="toc-las-cinco-herramientas" class="nav-link active" data-scroll-target="#las-cinco-herramientas">Las cinco herramientas</a></li>
+  <li><a href="#las-once-herramientas" id="toc-las-once-herramientas" class="nav-link active" data-scroll-target="#las-once-herramientas">Las once herramientas</a></li>
   <li><a href="#un-preprint-público-relacionado" id="toc-un-preprint-público-relacionado" class="nav-link" data-scroll-target="#un-preprint-público-relacionado">Un preprint público relacionado</a></li>
   <li><a href="#cómo-citar" id="toc-cómo-citar" class="nav-link" data-scroll-target="#cómo-citar">Cómo citar</a></li>
   <li><a href="#alcance-de-estas-afirmaciones" id="toc-alcance-de-estas-afirmaciones" class="nav-link" data-scroll-target="#alcance-de-estas-afirmaciones">Alcance de estas afirmaciones</a></li>
@@ -281,7 +281,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Una familia de herramientas de código abierto para revisar, documentar y repetir resultados computacionales en ciencia molecular: DockCert, MDCheck, AdsorpQC, QMCert y claimtestR.
+    Una familia de herramientas de código abierto para revisar, documentar y repetir resultados computacionales en ciencia molecular: DockCert, MDCheck, AdsorpQC, QMCert, AlphaCert, CatCert, FEPCert, NEBCert, QSARCert, SpecCert y claimtestR.
   </div>
 </div>
 
@@ -299,9 +299,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Los resultados computacionales en química, materiales y ciencia molecular dependen de muchas decisiones pequeñas: preparación de entradas, convergencia, posprocesamiento, semillas aleatorias, versiones de software. Estas herramientas existen para hacer visibles esas decisiones, de modo que un resultado pueda <strong>revisarse, documentarse y repetirse</strong>.</p>
-<p>Los cinco proyectos son de código abierto (MIT), escritos por Andrés Monreal Hernández, y cada uno conserva su repositorio, historial de versiones, <code>CITATION.cff</code> y archivo en Zenodo.</p>
-<section id="las-cinco-herramientas" class="level2">
-<h2 class="anchored" data-anchor-id="las-cinco-herramientas">Las cinco herramientas</h2>
+<p>Los once proyectos son de código abierto (MIT), escritos por Andrés Monreal Hernández, y cada uno conserva su repositorio, historial de versiones, <code>CITATION.cff</code> y archivo en Zenodo.</p>
+<section id="las-once-herramientas" class="level2">
+<h2 class="anchored" data-anchor-id="las-once-herramientas">Las once herramientas</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -318,28 +318,70 @@ ul.task-list li input[type="checkbox"] {
 <td>Docking molecular</td>
 <td>Validación estadística y evaluación de reproducibilidad</td>
 <td>Python</td>
-<td><code>v1.1.0</code></td>
+<td><code>v1.2.2</code></td>
 </tr>
 <tr class="even">
 <td><a href="../../../es/software/mdcheck/index.html">MDCheck</a></td>
 <td>Dinámica molecular</td>
 <td>Convergencia e ineficiencia estadística</td>
 <td>Python</td>
-<td><code>v1.1.0</code></td>
+<td><code>v1.2.2</code></td>
 </tr>
 <tr class="odd">
 <td><a href="../../../es/software/adsorpqc/index.html">AdsorpQC</a></td>
 <td>Simulación de adsorción</td>
 <td>Control de calidad de simulaciones y flujos de isotermas de gases</td>
 <td>Python</td>
-<td><code>v1.1.0</code></td>
+<td><code>v1.2.2</code></td>
 </tr>
 <tr class="even">
 <td><a href="../../../es/software/qmcert/index.html">QMCert</a></td>
 <td>Química cuántica</td>
 <td>Control de calidad y evaluación de reproducibilidad</td>
 <td>Python</td>
-<td><code>v1.2.0</code></td>
+<td><code>v1.3.2</code></td>
+</tr>
+<tr class="odd">
+<td><a href="../../../es/software/alphacert/index.html">AlphaCert</a></td>
+<td>Calidad pLDDT/PAE y estereoquímica de estructuras predichas</td>
+<td>Predicción de estructura de proteínas</td>
+<td>Python</td>
+<td><code>v1.1.2</code></td>
+</tr>
+<tr class="even">
+<td><a href="../../../es/software/catcert/index.html">CatCert</a></td>
+<td>Espesor de vacío, corrección dipolar y convergencia de la energía superficial</td>
+<td>Catálisis heterogénea (DFT)</td>
+<td>Python</td>
+<td><code>v1.2.2</code></td>
+</tr>
+<tr class="odd">
+<td><a href="../../../es/software/fepcert/index.html">FEPCert</a></td>
+<td>Traslape en el espacio de fases y cierre de ciclos termodinámicos</td>
+<td>Energía libre alquímica</td>
+<td>Python</td>
+<td><code>v1.2.2</code></td>
+</tr>
+<tr class="even">
+<td><a href="../../../es/software/nebcert/index.html">NEBCert</a></td>
+<td>Rutas NEB, estados de transición y velocidades con corrección por túnel</td>
+<td>Rutas de reacción y cinética</td>
+<td>Python</td>
+<td><code>v1.2.2</code></td>
+</tr>
+<tr class="odd">
+<td><a href="../../../es/software/qsarcert/index.html">QSARCert</a></td>
+<td>Principios OCDE, dominio de aplicabilidad, Y-aleatorización y fuga por andamiaje</td>
+<td>QSAR y aprendizaje automático molecular</td>
+<td>Python</td>
+<td><code>v1.2.2</code></td>
+</tr>
+<tr class="even">
+<td><a href="../../../es/software/speccert/index.html">SpecCert</a></td>
+<td>Espectros UV-Vis e IR y momentos de la banda d</td>
+<td>Espectroscopía computacional</td>
+<td>Python</td>
+<td><code>v1.2.2</code></td>
 </tr>
 <tr class="odd">
 <td><a href="../../../es/software/claimtestr/index.html">claimtestR</a></td>
