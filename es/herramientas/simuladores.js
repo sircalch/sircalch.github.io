@@ -70,7 +70,39 @@ function groups() {
   };
 }
 
-function paint({ points, reference, xLabel, yLabel, xMin, xMax }) {
+function signalFilter() {
+  const [size] = numbers();
+  const samplingRate = 100;
+  const lowHz = 2;
+  const highHz = 20;
+  const duration = 2;
+  const rows = Array.from({ length: duration * samplingRate }, (_, index) => {
+    const time = index / samplingRate;
+    const tone = Math.sin(2 * Math.PI * lowHz * time);
+    const interference = .45 * Math.sin(2 * Math.PI * highHz * time);
+    return { time, tone, interference, input: tone + interference };
+  });
+  const filtered = rows.map((row, index) => {
+    const window = rows.slice(Math.max(0, index + 1 - size), index + 1);
+    return { ...row, used: window.length, output: mean(window.map(sample => sample.input)) };
+  });
+  const gain = frequency => {
+    const angle = Math.PI * frequency / samplingRate;
+    return 100 * Math.abs(Math.sin(size * angle) / (size * Math.sin(angle)));
+  };
+  return {
+    points: filtered.map(row => ({ x: row.time, y: row.output })),
+    input: filtered.map(row => ({ x: row.time, y: row.input })),
+    values: [gain(lowHz), gain(highHz), (size - 1) * 500 / samplingRate],
+    units: ['%', '%', 'ms'],
+    xLabel: 'Tiempo (s)', yLabel: 'Amplitud', xMin: 0, xMax: duration,
+    csv: ['muestra,tiempo_s,tono_2_hz,interferencia_20_hz,entrada,salida,ventana,muestras_usadas',
+      ...filtered.map((row, index) => [index + 1, row.time, row.tone, row.interference,
+        row.input, row.output, size, row.used].join(','))],
+  };
+}
+
+function paint({ points, input, reference, xLabel, yLabel, xMin, xMax }) {
   const width = chart.clientWidth;
   const height = chart.clientHeight;
   if (!width || !height) return;
@@ -81,6 +113,7 @@ function paint({ points, reference, xLabel, yLabel, xMin, xMax }) {
   context.scale(scale, scale);
   const bounds = { left: 47, right: width - 15, top: 12, bottom: height - 42 };
   const ys = points.map(point => point.y);
+  if (input) ys.push(...input.map(point => point.y));
   if (reference !== undefined) ys.push(reference);
   const minimum = Math.min(...ys);
   const maximum = Math.max(...ys);
@@ -101,7 +134,8 @@ function paint({ points, reference, xLabel, yLabel, xMin, xMax }) {
     context.moveTo(bounds.left, line);
     context.lineTo(bounds.right, line);
     context.stroke();
-    context.fillText(numberFormat.format(Math.round(value * 10) / 10), bounds.left - 6, line + 4);
+    const rounded = Math.round(value * 10) / 10;
+    context.fillText(numberFormat.format(rounded === 0 ? 0 : rounded), bounds.left - 6, line + 4);
   }
   context.strokeStyle = '#8494a3';
   context.beginPath();
@@ -120,7 +154,8 @@ function paint({ points, reference, xLabel, yLabel, xMin, xMax }) {
   }
   context.textAlign = 'center';
   for (let tick = 0; tick <= 4; tick++) {
-    const value = Math.round(xMin + (xMax - xMin) * tick / 4);
+    const position = xMin + (xMax - xMin) * tick / 4;
+    const value = input ? position : Math.round(position);
     context.fillText(numberFormat.format(value), x(value), bounds.bottom + 15);
   }
   context.fillText(xLabel, (bounds.left + bounds.right) / 2, height - 8);
@@ -129,6 +164,18 @@ function paint({ points, reference, xLabel, yLabel, xMin, xMax }) {
   context.rotate(-Math.PI / 2);
   context.fillText(yLabel, 0, 0);
   context.restore();
+  if (input) {
+    for (const [series, color, dash] of [[input, seriesColors[1], [4, 3]], [points, seriesColors[0], []]]) {
+      context.strokeStyle = color;
+      context.lineWidth = 1.7;
+      context.setLineDash(dash);
+      context.beginPath();
+      context.moveTo(x(series[0].x), y(series[0].y));
+      for (const point of series.slice(1)) context.lineTo(x(point.x), y(point.y));
+      context.stroke();
+    }
+    return;
+  }
   for (const point of points) {
     context.fillStyle = seriesColors[point.group];
     if (point.group) {
@@ -141,16 +188,26 @@ function paint({ points, reference, xLabel, yLabel, xMin, xMax }) {
   }
 }
 
+const simulations = {
+  measurement: { calculate: measurement, filename: 'mediciones-simuladas.csv' },
+  groups: { calculate: groups, filename: 'correlacion-simuladas.csv' },
+  signal: { calculate: signalFilter, filename: 'signalforge-filtrado.csv' },
+};
+const selected = simulations[simulation.dataset.simulation];
+
 let current;
 function update() {
   if (!simulation.checkValidity()) {
-    document.querySelector('#status').textContent = 'Revisa los rangos de los parámetros.';
+    document.querySelector('#status').textContent = current
+      ? 'Revisa los parámetros. Se conserva la última gráfica válida.'
+      : 'Revisa los rangos de los parámetros.';
     simulation.querySelector('button').disabled = true;
     return;
   }
-  current = simulation.dataset.simulation === 'measurement' ? measurement() : groups();
+  current = selected.calculate();
   current.values.forEach((value, index) => {
-    stats[index].textContent = value === null ? 'Sin definir' : numberFormat.format(value);
+    const unit = current.units?.[index];
+    stats[index].textContent = value === null ? 'Sin definir' : numberFormat.format(value) + (unit ? ` ${unit}` : '');
   });
   document.querySelector('#status').textContent = `${current.points.length} observaciones simuladas.`;
   simulation.querySelector('button').disabled = false;
@@ -163,7 +220,7 @@ simulation.addEventListener('submit', event => {
   const url = URL.createObjectURL(new Blob([current.csv.join('\r\n') + '\r\n'], { type: 'text/csv;charset=utf-8' }));
   const link = document.createElement('a');
   link.href = url;
-  link.download = `${simulation.dataset.simulation === 'measurement' ? 'mediciones' : 'correlacion'}-simuladas.csv`;
+  link.download = selected.filename;
   link.click();
   setTimeout(() => URL.revokeObjectURL(url), 3000);
 });
