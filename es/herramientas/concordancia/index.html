@@ -67,6 +67,12 @@
   <summary>Resultados esperados</summary>
   <p>Con desplazamiento constante, r = 1, el sesgo es +5 y 0 de 8 pares cumplen ±2. Con diferencia proporcional, las lecturas mayores se separan más. Con variación alrededor de cero, el sesgo es 0, los límites son aproximadamente ±2.57 y 8 de 8 pares cumplen ±2.</p>
 </details>
+<h2>Repite el análisis en Python</h2>
+<p>El cuaderno de Jupyter reproduce los tres ejemplos con resultados y gráficos precalculados. También admite el CSV que descargues aquí. Necesitas Python 3.10 o posterior y Matplotlib 3.7 o posterior.</p>
+<ul class="list">
+  <li><a href="concordancia-reproducible.ipynb" download>Descargar cuaderno de Jupyter</a></li>
+  <li><a href="mediciones-ejemplo.csv" download>Descargar ocho pares de ejemplo en CSV</a></li>
+</ul>
 <h2>Interpretación</h2>
 <p>Los límites se calculan como el sesgo ± 1.96 veces la desviación estándar muestral de las diferencias. Su interpretación como límites aproximados del 95 % requiere pares independientes y diferencias aproximadamente normales con dispersión estable en el rango de medición. Cuando la magnitud cambia la diferencia, revisa el patrón antes de resumirlo con dos números. El recuento dentro de la tolerancia describe los pares de esta muestra.</p>
 <p>Usa el laboratorio para prácticas con datos sintéticos o datos de banco. Los pares se procesan en tu navegador. Consulta el <a href="https://www-users.york.ac.uk/~mb55/meas/ba.htm">artículo de Bland y Altman</a> y explora el <a href="../correlacion/">laboratorio de correlación</a>.</p>
