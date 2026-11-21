@@ -3787,5 +3787,12 @@
     "title": "Generador de citas de software",
     "section": "",
     "text": "Prepara CITATION.cff y una referencia de texto. Registra la version, los autores, el DOI y el repositorio del software."
+  },
+  {
+    "objectID": "es/herramientas/ruta-senales/",
+    "href": "es/herramientas/ruta-senales/",
+    "title": "De una señal a un resultado reproducible",
+    "section": "",
+    "text": "Práctica docente de muestreo y filtrado con cuatro casos, datos sintéticos, hoja CSV y criterios de evaluación."
   }
 ]
