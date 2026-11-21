@@ -36,6 +36,7 @@ canvas { display: block; width: 100%; height: clamp(220px, 34vw, 300px); }
 .signal-legend li { display: flex; align-items: center; gap: .45rem; color: var(--muted); font-size: .92rem; }
 .signal-legend li::before { content: ""; width: 1.4rem; border-top: 2px solid var(--teal); }
 .signal-legend .signal-input::before { border-color: #99521d; border-top-style: dashed; }
+.signal-legend .signal-samples::before { width: .5rem; height: .5rem; border: 0; border-radius: 50%; background: var(--ink); }
 .stats { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); margin: .5rem 0 0; text-align: center; }
 .stats div { padding: .7rem .35rem .3rem; }
 .stats div + div { border-inline-start: 1px solid var(--line); }

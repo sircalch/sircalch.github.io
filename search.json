@@ -3773,5 +3773,12 @@
     "title": "Laboratorio de filtrado de señales",
     "section": "",
     "text": "Actividad de SignalForge sobre un promedio móvil causal. Compara amplitudes de 2 Hz y 20 Hz, retardo, borde inicial y exporta señales sintéticas a CSV."
+  },
+  {
+    "objectID": "es/herramientas/muestreo-senales/",
+    "href": "es/herramientas/muestreo-senales/",
+    "title": "Laboratorio de muestreo y aliasing",
+    "section": "",
+    "text": "Actividad con cosenos sinteticos, frecuencia de muestreo, aliasing, limite de Nyquist y exportacion de muestras a CSV."
   }
 ]
