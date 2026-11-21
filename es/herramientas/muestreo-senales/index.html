@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Laboratorio de muestreo y aliasing | Andrés Monreal Ciencia</title>
+<meta name="description" content="Descubre cuándo dos señales con frecuencias distintas producen exactamente las mismas muestras.">
+<meta property="og:title" content="Laboratorio de muestreo y aliasing">
+<meta property="og:description" content="Descubre cuándo dos señales con frecuencias distintas producen exactamente las mismas muestras.">
+<link rel="canonical" href="https://sircalch.github.io/es/herramientas/muestreo-senales/">
+<link rel="stylesheet" href="../recursos.css">
+<script src="../simuladores.js" defer></script>
+</head>
+<body>
+<header><nav aria-label="Navegación principal">
+<a class="brand" href="../../">Andrés Monreal Ciencia</a>
+<a class="nav-tools" href="../">Herramientas</a>
+</nav></header>
+<main>
+<h1>Laboratorio de muestreo y aliasing</h1>
+<p class="lead">Descubre cuándo dos señales con frecuencias distintas producen exactamente las mismas muestras.</p>
+<div class="workspace">
+<form class="panel" data-simulation="aliasing" aria-label="Parámetros de muestreo">
+  <label>Frecuencia de la señal (Hz) <input type="number" min="1" max="140" step="1" value="70" required></label>
+  <label>Frecuencia de muestreo (Hz) <input type="number" min="50" max="240" step="1" value="100" required></label>
+  <button type="submit" disabled>Descargar CSV</button>
+  <p id="status" class="muted" role="status"></p>
+  <noscript><p>Activa JavaScript para calcular y descargar las muestras.</p></noscript>
+</form>
+<section class="panel" aria-labelledby="series-title">
+  <h2 id="series-title">Dos curvas y las muestras</h2>
+  <ul class="signal-legend" aria-label="Leyenda de la gráfica">
+    <li class="signal-input">Entrada</li><li>Coseno equivalente</li><li class="signal-samples">Muestras</li>
+  </ul>
+  <canvas role="img" aria-label="Coseno original, coseno equivalente y puntos de muestreo frente al tiempo.">Las muestras están en el CSV.</canvas>
+  <dl class="stats" aria-label="Frecuencias y error entre las muestras">
+    <div><dt>Frecuencia equivalente</dt><dd data-stat>—</dd></div>
+    <div><dt>Frecuencia de Nyquist</dt><dd data-stat>—</dd></div>
+    <div><dt>Diferencia máxima*</dt><dd data-stat>—</dd></div>
+  </dl>
+  <p class="muted">* Diferencia absoluta entre las dos curvas en los tiempos de muestreo, redondeada a tres decimales.</p>
+</section></div>
+<section class="copy">
+<h2>Prueba tres escenarios</h2>
+<ol class="list">
+  <li>Deja 70 Hz y 100 Hz. Observa que dos curvas distintas pasan por los mismos puntos. Guarda el CSV y compara sus dos columnas de amplitud.</li>
+  <li>Aumenta el muestreo a 160 Hz. Comprueba qué frecuencia aparece y compara el límite de Nyquist con el del primer caso.</li>
+  <li>Usa 100 Hz como frecuencia de entrada y 100 Hz de muestreo. Explica por qué todas las muestras coinciden a pesar de que la señal oscila entre ellas.</li>
+</ol>
+<h2>Por qué ocurre</h2>
+<p>El laboratorio genera un coseno de fase cero en unidades arbitrarias. Las muestras se toman a intervalos iguales durante los primeros 100 milisegundos. Si <var>f</var> es la frecuencia de entrada y <var>F</var> la de muestreo, la frecuencia del coseno equivalente en el intervalo de cero a <var>F</var>/2 se obtiene con <code>|f − F × redondear(f / F)|</code>.</p>
+<p>El teorema de muestreo permite recuperar una señal limitada en banda cuando la frecuencia de muestreo supera el doble de su frecuencia máxima. El caso exacto de Nyquist depende de la fase. Este simulador utiliza fase cero. El alias aparece al muestrear. En un equipo real, un filtro analógico previo puede reducir las componentes fuera de la banda.</p>
+<p>Referencia. <a href="https://ocw.mit.edu/courses/res-6-007-signals-and-systems-spring-2011/resources/lecture-16-sampling/">MIT OpenCourseWare, Sampling</a>. Explora después el <a href="../filtrado-senales/">laboratorio de filtrado</a>.</p>
+</section>
+</main>
+<footer><a href="../../collaborate.html">Contacto académico</a> · <a href="../../software.html">Software científico</a></footer>
+</body>
+</html>

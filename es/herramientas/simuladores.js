@@ -102,7 +102,37 @@ function signalFilter() {
   };
 }
 
-function paint({ points, input, reference, xLabel, yLabel, xMin, xMax }) {
+function aliasing() {
+  const [frequency, rate] = numbers();
+  const duration = 100;
+  const equivalent = Math.abs(frequency - rate * Math.round(frequency / rate));
+  const amplitude = (hz, milliseconds) => Math.cos(2 * Math.PI * hz * milliseconds / 1000);
+  const time = Array.from({ length: 401 }, (_, i) => i * duration / 400);
+  const samples = Array.from({ length: Math.floor(rate / 10) + 1 }, (_, index) => {
+    const milliseconds = 1000 * index / rate;
+    return {
+      x: milliseconds,
+      y: amplitude(frequency, milliseconds),
+      apparent: amplitude(equivalent, milliseconds),
+    };
+  });
+  const mode = 2 * frequency === rate
+    ? 'Caso de Nyquist. La práctica usa fase cero.'
+    : frequency > rate / 2 ? 'Hay aliasing en este ejemplo.' : 'La frecuencia de entrada queda por debajo de Nyquist.';
+  return {
+    input: time.map(x => ({ x, y: amplitude(frequency, x) })),
+    points: time.map(x => ({ x, y: amplitude(equivalent, x) })),
+    markers: samples,
+    values: [equivalent, rate / 2, Math.max(...samples.map(row => Math.abs(row.y - row.apparent)))],
+    units: ['Hz', 'Hz', ''],
+    status: `${samples.length} muestras. ${mode}`,
+    xLabel: 'Tiempo (ms)', yLabel: 'Amplitud', xMin: 0, xMax: duration,
+    csv: ['muestra,tiempo_ms,entrada,coseno_equivalente,frecuencia_entrada_hz,muestreo_hz,frecuencia_equivalente_hz',
+      ...samples.map((row, index) => [index + 1, row.x, row.y, row.apparent, frequency, rate, equivalent].join(','))],
+  };
+}
+
+function paint({ points, input, markers, reference, xLabel, yLabel, xMin, xMax }) {
   const width = chart.clientWidth;
   const height = chart.clientHeight;
   if (!width || !height) return;
@@ -174,6 +204,18 @@ function paint({ points, input, reference, xLabel, yLabel, xMin, xMax }) {
       for (const point of series.slice(1)) context.lineTo(x(point.x), y(point.y));
       context.stroke();
     }
+    if (markers) {
+      context.setLineDash([]);
+      context.fillStyle = '#152137';
+      context.strokeStyle = '#fff';
+      context.lineWidth = 1;
+      for (const point of markers) {
+        context.beginPath();
+        context.arc(x(point.x), y(point.y), 3.7, 0, Math.PI * 2);
+        context.fill();
+        context.stroke();
+      }
+    }
     return;
   }
   for (const point of points) {
@@ -192,6 +234,7 @@ const simulations = {
   measurement: { calculate: measurement, filename: 'mediciones-simuladas.csv' },
   groups: { calculate: groups, filename: 'correlacion-simuladas.csv' },
   signal: { calculate: signalFilter, filename: 'signalforge-filtrado.csv' },
+  aliasing: { calculate: aliasing, filename: 'muestreo-aliasing.csv' },
 };
 const selected = simulations[simulation.dataset.simulation];
 
@@ -209,7 +252,7 @@ function update() {
     const unit = current.units?.[index];
     stats[index].textContent = value === null ? 'Sin definir' : numberFormat.format(value) + (unit ? ` ${unit}` : '');
   });
-  document.querySelector('#status').textContent = `${current.points.length} observaciones simuladas.`;
+  document.querySelector('#status').textContent = current.status ?? `${current.points.length} observaciones simuladas.`;
   simulation.querySelector('button').disabled = false;
   paint(current);
 }
