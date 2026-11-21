@@ -1,0 +1,9 @@
+particion,modelo,rmse_mol_kg
+Puntos intercalados,Langmuir,0.09912131
+Puntos intercalados,Dual-Site Langmuir,0.00944578
+Puntos intercalados,Sips,0.02757146
+Puntos intercalados,Toth,0.01511822
+Extremo de alta presión,Langmuir,0.12906474
+Extremo de alta presión,Dual-Site Langmuir,0.01920596
+Extremo de alta presión,Sips,0.03846178
+Extremo de alta presión,Toth,0.01957381

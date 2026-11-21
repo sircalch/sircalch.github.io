@@ -31,6 +31,29 @@ python caso_nist.py</code></pre>
 <h2>Resultados del caso</h2>
 <ul class="list"><li>Langmuir · 0.09912 mol/kg</li><li>Dual-Site Langmuir · 0.00945 mol/kg</li><li>Sips · 0.02757 mol/kg</li><li>Toth · 0.01512 mol/kg</li></ul>
 <p>El ajuste con menor AICc entre los cuatro en esta muestra fue Dual-Site Langmuir. Para trabajos nuevos, registra la versión de <a href="https://github.com/sircalch/adsorpqc/tree/v1.2.0">AdsorpQC</a> y comprueba que las unidades y el tipo de adsorción correspondan a tus datos.</p></article>
+<section aria-labelledby="presiones-altas">
+<div class="copy">
+<h2 id="presiones-altas">Qué cambia al reservar las presiones altas</h2>
+<p>Comparamos dos particiones de la misma tabla, con 96 filas para ajustar y 23 para evaluar en cada una. La primera reserva puntos intercalados en el rango de ajuste. La segunda ajusta hasta 33.5 bar y reserva todas las filas de 34 a 45 bar.</p>
+<p>Dual-Site Langmuir obtiene el menor RMSE en ambos casos. Al evaluar fuera del intervalo ajustado, su error en este ejemplo cambia de 0.00945 a 0.01921 mol/kg, alrededor de 2.03 veces el error intercalado. En la franja de presión alta, Toth queda cerca del mejor resultado. El orden y los errores describen estas dos evaluaciones de la curva de referencia.</p>
+</div>
+<figure style="margin:1rem 0">
+<a href="figura-rango-presion.png"><img src="figura-rango-presion.png" width="2486" height="968" style="max-width:100%;height:auto" alt="Dos gráficos de la curva de adsorción. A la izquierda se distribuyen los puntos reservados. A la derecha se agrupan entre 34 y 45 bar, en la franja sombreada."></a>
+<figcaption>Las cruces indican filas reservadas. La franja sombreada queda fuera del intervalo ajustado en el segundo esquema.</figcaption>
+</figure>
+<div class="copy">
+<table cellpadding="6" style="border-collapse:collapse">
+<caption>RMSE de evaluación (mol/kg)</caption>
+<thead><tr><th scope="col">Modelo</th><th scope="col">Intercalados</th><th scope="col">Alta presión</th></tr></thead>
+<tbody><tr><th scope="row">Langmuir</th><td>0.09912</td><td>0.12906</td></tr><tr><th scope="row">Dual-Site Langmuir</th><td>0.00945</td><td>0.01921</td></tr><tr><th scope="row">Sips</th><td>0.02757</td><td>0.03846</td></tr><tr><th scope="row">Toth</th><td>0.01512</td><td>0.01957</td></tr></tbody>
+</table>
+<p><a href="errores-rango-presion.csv" download>Descargar tabla CSV</a> · <a href="particiones-presion.json" download>Descargar procedencia y rangos</a> · <a href="evaluar_rango.py" download>Descargar código de la comparación</a></p>
+<p>Guarda <code>caso_nist.py</code> y <code>evaluar_rango.py</code> en la misma carpeta. El segundo script guarda la figura y las dos tablas en la carpeta indicada.</p>
+<pre style="overflow-x:auto"><code>python -m pip install adsorpqc==1.2.0 matplotlib
+python evaluar_rango.py resultados-presion</code></pre>
+<p>Para una práctica, calcula la razón entre ambos errores por modelo y explica qué significa extrapolar a una presión que queda fuera del intervalo empleado para ajustar.</p>
+</div>
+</section>
 </main>
 <footer><a href="../../collaborate.html">Contacto académico</a> · <a href="../../software.html">Software científico</a></footer>
 </body>

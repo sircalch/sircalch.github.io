@@ -16,7 +16,7 @@ SOURCE = f"{REPOSITORY}/{REVISION}/{DATASET}"
 INCHI_KEY = "CURLTUGMZLYLDI-UHFFFAOYSA-N"
 
 
-def evaluate(raw):
+def read_reference(raw):
     data = json.loads(raw)
     expected = {"DOI": "10.1007/s10450-018-9958-x", "temperature": 293, "pressureUnits": "bar",
                 "adsorptionUnits": "mmol/g", "isotherm_type": "excess"}
@@ -30,6 +30,11 @@ def evaluate(raw):
     pressure, loading = np.asarray(sorted(rows), dtype=float).T
     if not np.all(np.isfinite([pressure, loading])) or not np.all(np.diff(pressure) > 0):
         raise ValueError("Expected finite data and unique increasing pressures")
+    return pressure, loading
+
+
+def evaluate(raw):
+    pressure, loading = read_reference(raw)
     holdout = np.arange(len(pressure)) % 5 == 4
     fits = adsorpqc.fit_all_isotherm_models(pressure[~holdout], loading[~holdout])
     if not fits["models"]:
