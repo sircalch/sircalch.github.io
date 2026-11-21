@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>De una señal a un resultado reproducible | Andrés Monreal Ciencia</title>
+<meta name="description" content="Práctica de 45 minutos para muestrear, filtrar y documentar una decisión con datos sintéticos.">
+<meta property="og:title" content="De una señal a un resultado reproducible">
+<meta property="og:description" content="Práctica de 45 minutos para muestrear, filtrar y documentar una decisión con datos sintéticos.">
+<link rel="canonical" href="https://sircalch.github.io/es/herramientas/ruta-senales/">
+<link rel="stylesheet" href="../recursos.css">
+
+</head>
+<body>
+<header><nav aria-label="Navegación principal">
+<a class="brand" href="../../">Andrés Monreal Ciencia</a>
+<a class="nav-tools" href="../">Herramientas</a>
+</nav></header>
+<main>
+<h1>De una señal a un resultado reproducible</h1>
+<p class="lead">Práctica de 45 minutos para muestrear, filtrar y documentar una decisión con datos sintéticos.</p>
+
+<article class="copy">
+<p>Necesitas un navegador y una hoja de cálculo. Si trabajas en pareja, una persona ejecuta el caso y la otra repite los pasos con la hoja de registro. Intercambien papeles en la segunda parte.</p>
+<p><a href="hoja-practica.csv" download>Descargar hoja de registro CSV</a></p>
+<h2>1. Elige cómo muestrear</h2>
+<ol class="list">
+<li>En el <a href="../muestreo-senales/">laboratorio de muestreo</a>, usa una entrada de 70 Hz y muestrea a 100 Hz. Anota la frecuencia equivalente y descarga las muestras.</li>
+<li>Sube la tasa a 160 Hz. Explica por qué cambia la frecuencia equivalente. Registra cuál elegirías de las dos tasas para conservar una entrada de 70 Hz.</li>
+</ol>
+<h2>2. Elige un filtro</h2>
+<ol class="list">
+<li>En el <a href="../filtrado-senales/">laboratorio de filtrado</a>, usa ventanas de 5 y 25 muestras. El segundo laboratorio tiene una entrada distinta: 2 Hz con interferencia de 20 Hz. Registra amplitud del tono de 2 Hz y retardo de cada ventana.</li>
+<li>Elige una ventana que conserve al menos 95 % del tono de 2 Hz. Justifica la elección. Descarga el CSV con ventana de 5 muestras y señala cuántas filas se promedian con una ventana parcial.</li>
+</ol>
+<h2>3. Deja evidencia para repetir el resultado</h2>
+<p>Entrega los dos CSV descargados, la hoja con tus decisiones y una nota corta con la URL de cada herramienta, la fecha de ejecución y los parámetros exactos. Si ejecutaste código desde un repositorio, registra la revisión que usaste. Si hay un archivo de citación o un DOI para esa versión, conserva el identificador correspondiente.</p>
+<p><a href="../citar-software/">Generador de referencias de software</a> · <a href="../documentar-una-figura/">Cómo documentar una figura</a></p>
+<details>
+<summary>Resultados esperados y criterio de evaluación</summary>
+<ul class="list">
+<li><strong>Muestreo.</strong> A 100 Hz aparece un equivalente de 30 Hz. A 160 Hz aparece uno de 70 Hz. Un filtro digital posterior trabaja con los datos ya muestreados y no distingue por sí solo dos entradas que generaron la misma secuencia.</li>
+<li><strong>Filtrado.</strong> La ventana de 5 conserva alrededor del 98.43 % a 2 Hz con 20 ms de retardo nominal. La de 25 conserva alrededor del 63.70 % con 120 ms. La primera cumple el umbral. Con cinco muestras, las primeras cuatro filas usan ventana parcial.</li>
+<li><strong>Reproducción.</strong> Entrega ambos CSV y los parámetros. La otra persona debe poder repetir las decisiones con los mismos valores. Otorga un punto a la explicación de muestreo, uno a la elección del filtro y uno a la trazabilidad.</li>
+</ul>
+</details>
+<p>Consulta el material de <a href="https://ocw.mit.edu/courses/res-6-007-signals-and-systems-spring-2011/resources/lecture-16-sampling/">Muestreo, MIT OpenCourseWare</a> y la <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.freqz.html">respuesta en frecuencia documentada en SciPy</a>.</p>
+</article>
+</main>
+<footer><a href="../../collaborate.html">Contacto académico</a> · <a href="../../software.html">Software científico</a></footer>
+</body>
+</html>

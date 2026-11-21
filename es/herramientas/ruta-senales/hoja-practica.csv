@@ -1,0 +1,5 @@
+caso,entrada_hz,muestreo_hz,ventana_muestras,frecuencia_equivalente_hz,amplitud_2_hz_pct,retardo_ms,fecha,url_o_revision,decision
+muestreo_a_100,70,100,,,,,,,
+muestreo_a_160,70,160,,,,,,,
+filtrado_5,2 y 20,100,5,,,,,,
+filtrado_25,2 y 20,100,25,,,,,,
