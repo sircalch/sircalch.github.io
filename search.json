@@ -3780,5 +3780,12 @@
     "title": "Laboratorio de muestreo y aliasing",
     "section": "",
     "text": "Actividad con cosenos sinteticos, frecuencia de muestreo, aliasing, limite de Nyquist y exportacion de muestras a CSV."
+  },
+  {
+    "objectID": "es/herramientas/citar-software/",
+    "href": "es/herramientas/citar-software/",
+    "title": "Generador de citas de software",
+    "section": "",
+    "text": "Prepara CITATION.cff y una referencia de texto. Registra la version, los autores, el DOI y el repositorio del software."
   }
 ]

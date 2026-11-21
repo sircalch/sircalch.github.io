@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Generador de citas de software | Andrés Monreal Ciencia</title>
+<meta name="description" content="Prepara un archivo CITATION.cff y una referencia para la versión que quieres citar.">
+<meta property="og:title" content="Generador de citas de software">
+<meta property="og:description" content="Prepara un archivo CITATION.cff y una referencia para la versión que quieres citar.">
+<link rel="canonical" href="https://sircalch.github.io/es/herramientas/citar-software/">
+<link rel="stylesheet" href="../recursos.css">
+<script src="../citas.js" defer></script>
+</head>
+<body>
+<header><nav aria-label="Navegación principal">
+<a class="brand" href="../../">Andrés Monreal Ciencia</a>
+<a class="nav-tools" href="../">Herramientas</a>
+</nav></header>
+<main>
+<h1>Generador de citas de software</h1>
+<p class="lead">Prepara un archivo CITATION.cff y una referencia para la versión que quieres citar.</p>
+<div class="workspace citation-workspace">
+<form class="panel" id="citation-form" aria-labelledby="citation-fields">
+  <h2 id="citation-fields">Datos de la versión</h2>
+  <label>Nombre del software <input name="title" maxlength="160" required></label>
+  <label>Versión <input name="version" maxlength="48" required placeholder="1.2.0"></label>
+  <label>Autores
+    <textarea name="authors" rows="3" maxlength="1800" required aria-describedby="authors-help"></textarea>
+  </label>
+  <p class="muted" id="authors-help">Un autor por línea en el formato Apellidos, Nombres. Para un equipo usa Equipo: seguido de su nombre.</p>
+  <label>Fecha de lanzamiento <input name="released" type="date" min="0001-01-01" max="9999-12-31"></label>
+  <label>DOI de la versión <input name="doi" maxlength="220" placeholder="10.…"></label>
+  <label>URL del repositorio <input name="repository" type="url" maxlength="420" placeholder="https://github.com/…"></label>
+  <p class="muted">La fecha, el DOI y el repositorio son opcionales.</p>
+  <div class="citation-actions"><button type="submit" disabled>Generar cita</button><button type="button" id="citation-example">Cargar ejemplo</button></div>
+  <noscript><p>Activa JavaScript para generar y descargar la cita.</p></noscript>
+</form>
+<section class="panel" aria-labelledby="citation-preview">
+  <h2 id="citation-preview">Vista previa</h2>
+  <p id="citation-status" class="muted" role="status">Completa los datos del software para generar los archivos.</p>
+  <label>Archivo CITATION.cff<textarea id="cff-preview" rows="12" readonly></textarea></label>
+  <label>Referencia en texto<textarea id="plain-preview" rows="4" readonly></textarea></label>
+  <div class="citation-actions">
+    <button type="button" id="download-cff" disabled>Descargar CITATION.cff</button>
+    <button type="button" id="download-citation" disabled>Descargar referencia</button>
+  </div>
+</section></div>
+<section class="copy">
+<h2>Dónde dejar la cita</h2>
+<p>Guarda el archivo como <code>CITATION.cff</code> en la raíz del repositorio. GitHub puede mostrarlo en la opción para citar el repositorio. Usa el DOI de la versión ejecutada. Si solo tienes el enlace, incluye el repositorio y la versión.</p>
+<p>El generador trabaja en tu navegador. Comprueba los metadatos en el depósito antes de publicar. <a href="../encontrar-la-version/">Cómo elegir la versión que citas</a>.</p>
+<p>Referencias. <a href="https://github.com/citation-file-format/citation-file-format/blob/1.2.0/schema-guide.md">Esquema CFF 1.2.0</a> · <a href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files">CITATION.cff en GitHub</a>.</p>
+</section>
+</main>
+<footer><a href="../../collaborate.html">Contacto académico</a> · <a href="../../software.html">Software científico</a></footer>
+</body>
+</html>

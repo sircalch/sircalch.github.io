@@ -27,6 +27,10 @@ p { margin: .6rem 0 1rem; }
 .panel h2 { margin-top: 0; }
 label { display: block; font-weight: 680; margin-block: 0 .95rem; }
 input, button { font: inherit; }
+.citation-workspace { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.citation-workspace textarea { display: block; width: 100%; margin-top: .25rem; border: 1px solid #919faf; border-radius: 5px; padding: .45rem .55rem; resize: vertical; font: inherit; color: var(--ink); }
+.citation-workspace textarea[readonly] { background: #f6f8fa; font-family: ui-monospace, monospace; font-size: .9rem; }
+.citation-actions { display: flex; flex-wrap: wrap; gap: .55rem; }
 input { display: block; width: 100%; border: 1px solid #919faf; border-radius: 5px; padding: .35rem .55rem; margin-top: .25rem; }
 button { border: 1px solid var(--nav); border-radius: 6px; background: var(--nav); color: white; font-weight: 680; padding: .55rem .8rem; cursor: pointer; }
 button:disabled { opacity: .6; cursor: default; }
