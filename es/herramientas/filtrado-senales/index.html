@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Laboratorio de filtrado de señales | Andrés Monreal Ciencia</title>
+<meta name="description" content="Cambia la ventana de un promedio móvil y compara cuánto atenúa y retrasa una señal sintética.">
+<meta property="og:title" content="Laboratorio de filtrado de señales">
+<meta property="og:description" content="Cambia la ventana de un promedio móvil y compara cuánto atenúa y retrasa una señal sintética.">
+<link rel="canonical" href="https://sircalch.github.io/es/herramientas/filtrado-senales/">
+<link rel="stylesheet" href="../recursos.css">
+<script src="../simuladores.js" defer></script>
+</head>
+<body>
+<header><nav aria-label="Navegación principal">
+<a class="brand" href="../../">Andrés Monreal Ciencia</a>
+<a class="nav-tools" href="../">Herramientas</a>
+</nav></header>
+<main>
+<h1>Laboratorio de filtrado de señales</h1>
+<p class="lead">Cambia la ventana de un promedio móvil y compara cuánto atenúa y retrasa una señal sintética.</p>
+<div class="workspace">
+<form class="panel" data-simulation="signal" aria-label="Parámetros del filtro">
+  <p class="muted">Muestreo a 100 Hz. La señal combina un tono de 2 Hz con una interferencia de 20 Hz.</p>
+  <label>Ventana en muestras <input type="number" min="1" max="31" step="2" value="5" required aria-describedby="window-range"></label>
+  <p id="window-range" class="muted">Elige un número impar entre 1 y 31.</p>
+  <button type="submit" disabled>Descargar CSV</button>
+  <p id="status" class="muted" role="status"></p>
+  <noscript><p>Activa JavaScript para calcular y descargar la serie.</p></noscript>
+</form>
+<section class="panel" aria-labelledby="series-title">
+  <h2 id="series-title">Antes y después del filtro</h2>
+  <ul class="signal-legend" aria-label="Leyenda de la gráfica">
+    <li class="signal-input">Entrada</li><li class="signal-output">Salida filtrada</li>
+  </ul>
+  <canvas role="img" aria-label="Amplitud de la mezcla sintética y de la salida filtrada frente al tiempo.">Los datos se pueden consultar en el CSV.</canvas>
+  <dl class="stats" aria-label="Respuesta del filtro con ventana completa">
+    <div><dt>Amplitud a 2 Hz</dt><dd data-stat>—</dd></div>
+    <div><dt>Amplitud a 20 Hz</dt><dd data-stat>—</dd></div>
+    <div><dt>Retardo nominal</dt><dd data-stat>—</dd></div>
+  </dl>
+  <p class="muted">Las amplitudes indican el porcentaje respecto a cada tono de entrada. Se calculan con la ventana completa.</p>
+</section></div>
+<section class="copy">
+<h2>Prueba tres ventanas</h2>
+<ol class="list">
+  <li>Elige 1 muestra. Comprueba que ambas curvas coinciden y guarda el CSV como control.</li>
+  <li>Elige 5 muestras. La interferencia de 20 Hz tiene un periodo de 5 muestras. Observa qué ocurre al promediar un periodo completo y compara el resultado con la primera ventana.</li>
+  <li>Elige 25 muestras. Compara la amplitud a 2 Hz y el retardo con los de la ventana de 5. Si te piden conservar al menos el 95 % del tono lento, ¿cuál de las dos ventanas elegirías?</li>
+</ol>
+<h2>Cómo se calcula</h2>
+<p>La práctica reproduce el filtro de SignalForge en el navegador. Genera 200 muestras en unidades arbitrarias. La entrada suma dos senos de amplitud 1 y 0.45. En cada instante el filtro promedia la muestra actual y las anteriores hasta completar la ventana. Al inicio usa solo las muestras disponibles. Para una ventana de 5, el primer promedio completo aparece en la quinta fila de datos del CSV.</p>
+<p>El porcentaje se obtiene del módulo de la respuesta en frecuencia del filtro con coeficientes iguales. El retardo nominal de la ventana completa de <var>M</var> muestras es <code>(M − 1) / 2</code> muestras. La actividad usa datos sintéticos para enseñar filtrado.</p>
+<p>El CSV incluye el tiempo, el tono de 2 Hz, la interferencia, la entrada, la salida, el tamaño elegido y el número de muestras usadas en cada promedio.</p>
+<p>Referencia. <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.freqz.html">Documentación de la respuesta en frecuencia digital en SciPy</a>.</p>
+</section>
+</main>
+<footer><a href="../../collaborate.html">Contacto académico</a> · <a href="../../software.html">Software científico</a></footer>
+</body>
+</html>
