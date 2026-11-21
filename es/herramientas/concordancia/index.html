@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Laboratorio de concordancia | Andrés Monreal Ciencia</title>
+<meta name="description" content="Compara dos métodos de medición con correlación, sesgo y un gráfico de Bland–Altman.">
+<meta property="og:title" content="Laboratorio de concordancia">
+<meta property="og:description" content="Compara dos métodos de medición con correlación, sesgo y un gráfico de Bland–Altman.">
+<link rel="canonical" href="https://sircalch.github.io/es/herramientas/concordancia/">
+<link rel="icon" href="../../../assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../recursos.css">
+<script src="../concordancia.js" defer></script>
+</head>
+<body>
+<header><nav aria-label="Navegación principal">
+<a class="brand" href="../../">Andrés Monreal Ciencia</a>
+<a class="nav-tools" href="../">Herramientas</a>
+</nav></header>
+<main>
+<h1>Laboratorio de concordancia</h1>
+<p class="lead">Compara dos métodos de medición con correlación, sesgo y un gráfico de Bland–Altman.</p>
+<div class="workspace">
+<form class="panel concordance-controls" id="agreement-form">
+  <h2>Lecturas pareadas</h2>
+  <label for="example">Ejemplo sintético</label>
+  <select id="example">
+    <option value="offset">Desplazamiento constante</option>
+    <option value="proportional">Diferencia proporcional</option>
+    <option value="variation">Variación alrededor de cero</option>
+  </select>
+  <label for="pairs">Método A y método B</label>
+  <p class="muted" id="pairs-help">Un par en la misma unidad por línea. Usa coma con decimales de punto o punto y coma con decimales de coma. También puedes pegar un CSV descargado aquí.</p>
+  <textarea id="pairs" aria-describedby="pairs-help" rows="8" required maxlength="60000" spellcheck="false"></textarea>
+  <label for="tolerance">Tolerancia simétrica (opcional)
+    <input id="tolerance" type="number" min="0" max="1000000000" step="any" value="2">
+  </label>
+  <div class="citation-actions">
+    <button type="submit">Calcular concordancia</button>
+    <button type="button" id="save-pairs" disabled>Descargar CSV</button>
+  </div>
+  <p class="muted" id="agreement-status" role="status"></p>
+</form>
+<section class="panel" aria-labelledby="plot-title">
+  <h2 id="plot-title">Gráfico de Bland–Altman</h2>
+  <p class="muted">El eje horizontal muestra la media del par. El eje vertical muestra B − A.</p>
+  <canvas id="agreement-plot" role="img" aria-label="Diferencias B menos A en función de la media de cada par.">Los resultados numéricos aparecen debajo.</canvas>
+  <ul class="signal-legend">
+    <li class="signal-samples">Cada par</li><li>Sesgo medio</li><li class="signal-input">Límites estimados</li>
+  </ul>
+  <dl class="stats" aria-label="Resumen de la concordancia">
+    <div><dt>Correlación de Pearson</dt><dd id="pearson">—</dd></div>
+    <div><dt>Sesgo medio (B − A)</dt><dd id="bias">—</dd></div>
+    <div><dt>Límites estimados</dt><dd id="limits">—</dd></div>
+  </dl>
+  <p id="tolerance-result" class="muted" aria-live="polite"></p>
+</section>
+</div>
+<section class="copy">
+<h2>Práctica de 15 minutos</h2>
+<ol class="list">
+  <li>Deja la tolerancia en ±2 y compara la correlación con el sesgo del desplazamiento constante. Registra cuántos pares cumplen la tolerancia.</li>
+  <li>Elige la diferencia proporcional. Describe cómo cambia la separación entre métodos a medida que sube la lectura media.</li>
+  <li>Elige la variación alrededor de cero y descarga el CSV. Calcula la media y la desviación estándar muestral de la columna <code>diferencia_b_menos_a</code> en una hoja de cálculo.</li>
+</ol>
+<details>
+  <summary>Resultados esperados</summary>
+  <p>Con desplazamiento constante, r = 1, el sesgo es +5 y 0 de 8 pares cumplen ±2. Con diferencia proporcional, las lecturas mayores se separan más. Con variación alrededor de cero, el sesgo es 0, los límites son aproximadamente ±2.57 y 8 de 8 pares cumplen ±2.</p>
+</details>
+<h2>Interpretación</h2>
+<p>Los límites se calculan como el sesgo ± 1.96 veces la desviación estándar muestral de las diferencias. Su interpretación como límites aproximados del 95 % requiere pares independientes y diferencias aproximadamente normales con dispersión estable en el rango de medición. Cuando la magnitud cambia la diferencia, revisa el patrón antes de resumirlo con dos números. El recuento dentro de la tolerancia describe los pares de esta muestra.</p>
+<p>Usa el laboratorio para prácticas con datos sintéticos o datos de banco. Los pares se procesan en tu navegador. Consulta el <a href="https://www-users.york.ac.uk/~mb55/meas/ba.htm">artículo de Bland y Altman</a> y explora el <a href="../correlacion/">laboratorio de correlación</a>.</p>
+</section>
+
+</main>
+<footer><a href="../../collaborate.html">Contacto académico</a> · <a href="../../software.html">Software científico</a></footer>
+</body>
+</html>

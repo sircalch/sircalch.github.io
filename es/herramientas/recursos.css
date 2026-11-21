@@ -31,6 +31,12 @@ input, button { font: inherit; }
 .citation-workspace textarea { display: block; width: 100%; margin-top: .25rem; border: 1px solid #919faf; border-radius: 5px; padding: .45rem .55rem; resize: vertical; font: inherit; color: var(--ink); }
 .citation-workspace textarea[readonly] { background: #f6f8fa; font-family: ui-monospace, monospace; font-size: .9rem; }
 .citation-actions { display: flex; flex-wrap: wrap; gap: .55rem; }
+.concordance-controls label[for="example"], .concordance-controls label[for="pairs"] { margin-bottom: .25rem; }
+.concordance-controls select, .concordance-controls textarea { width: 100%; border: 1px solid #919faf; border-radius: 5px; padding: .4rem .55rem; color: var(--ink); font: inherit; background: white; }
+.concordance-controls select { margin-bottom: .95rem; }
+.concordance-controls textarea { display: block; margin-bottom: .9rem; resize: vertical; font-family: ui-monospace, monospace; }
+#pairs-help { margin: 0 0 .45rem; }
+#limits { overflow-wrap: anywhere; }
 input { display: block; width: 100%; border: 1px solid #919faf; border-radius: 5px; padding: .35rem .55rem; margin-top: .25rem; }
 button { border: 1px solid var(--nav); border-radius: 6px; background: var(--nav); color: white; font-weight: 680; padding: .55rem .8rem; cursor: pointer; }
 button:disabled { opacity: .6; cursor: default; }

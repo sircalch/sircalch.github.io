@@ -3794,5 +3794,12 @@
     "title": "De una señal a un resultado reproducible",
     "section": "",
     "text": "Práctica docente de muestreo y filtrado con cuatro casos, datos sintéticos, hoja CSV y criterios de evaluación."
+  },
+  {
+    "objectID": "es/herramientas/concordancia/",
+    "href": "es/herramientas/concordancia/",
+    "title": "Laboratorio de concordancia | Andrés Monreal Ciencia",
+    "section": "",
+    "text": "Laboratorio de concordancia Compara dos métodos de medición con correlación, sesgo y un gráfico de Bland–Altman. Lecturas pareadas Ejemplo sintético Desplazamiento constante Diferencia proporcional Variación alrededor de cero Método A y método B Un par en la misma unidad por línea. Usa coma con decimales de punto o punto y coma con decimales de coma. También puedes pegar un CSV descargado aquí. Tolerancia simétrica (opcional) Calcular concordancia Descargar CSV Gráfico de Bland–Altman El eje horizontal muestra la media del par. El eje vertical muestra B − A. Los resultados numéricos aparecen debajo. Cada par Sesgo medio Límites estimados Correlación de Pearson — Sesgo medio (B − A) — Límites estimados — Práctica de 15 minutos Deja la tolerancia en ±2 y compara la correlación con el sesgo del desplazamiento constante. Registra cuántos pares cumplen la tolerancia. Elige la diferencia proporcional. Describe cómo cambia la separación entre métodos a medida que sube la lectura media. Elige la variación alrededor de cero y descarga el CSV. Calcula la media y la desviación estándar muestral de la columna diferencia_b_menos_a en una hoja de cálculo. Resultados esperados Con desplazamiento constante, r = 1, el sesgo es +5 y 0 de 8 pares cumplen ±2. Con diferencia proporcional, las lecturas mayores se separan más. Con variación alrededor de cero, el sesgo es 0, los límites son aproximadamente ±2.57 y 8 de 8 pares cumplen ±2. Interpretación Los límites se calculan como el sesgo ± 1.96 veces la desviación estándar muestral de las diferencias. Su interpretación como límites aproximados del 95 % requiere pares independientes y diferencias aproximadamente normales con dispersión estable en el rango de medición. Cuando la magnitud cambia la diferencia, revisa el patrón antes de resumirlo con dos números. El recuento dentro de la tolerancia describe los pares de esta muestra. Usa el laboratorio para prácticas con datos sintéticos o datos de banco. Los pares se procesan en tu navegador. Consulta el artículo de Bland y Altman y explora el laboratorio de correlación ."
   }
 ]
