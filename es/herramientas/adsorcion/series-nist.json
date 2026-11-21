@@ -1,0 +1,102 @@
+{
+  "doi": "10.1007/s10450-018-9958-x",
+  "data_revision": "9e1ee472967d66ec7845e23c5d5b986eca5ff020",
+  "pressure_filter": "0 < p <= 45 bar",
+  "validation_unit": "one archived series, not a laboratory",
+  "scoring_rule": "only measured test points within training pressure range",
+  "mean_rule": "arithmetic mean of per-series RMSE with equal weight for each series",
+  "archived_series": 13,
+  "archived_rows": 344,
+  "evaluated_rows": 322,
+  "excluded_outside_training_range": 2,
+  "adsorpqc": "1.2.0",
+  "numpy": "2.5.2",
+  "scipy": "1.18.1",
+  "matplotlib": "3.11.1",
+  "mean_rmse_mol_kg": {
+    "Langmuir": 0.12168749730669838,
+    "Dual-Site Langmuir": 0.05203201658023192,
+    "Sips": 0.05698743873436581,
+    "Toth": 0.05098364505388707
+  },
+  "series": {
+    "Lab01": {
+      "url": "https://raw.githubusercontent.com/NIST-ISODB/isodb-library/9e1ee472967d66ec7845e23c5d5b986eca5ff020/Library/10.1007s104500189958x/10.1007s10450-018-9958-x.Lab01.json",
+      "sha256": "e81a2b792103cb9814f0e069f6801432507e5dcc7b8e209727c6b735e9aa176f",
+      "original_rows": 48,
+      "rows_after_pressure_filter": 46
+    },
+    "Lab02": {
+      "url": "https://raw.githubusercontent.com/NIST-ISODB/isodb-library/9e1ee472967d66ec7845e23c5d5b986eca5ff020/Library/10.1007s104500189958x/10.1007s10450-018-9958-x.Lab02.json",
+      "sha256": "72538688b74480237f2290d63f59d0c0d7c7ae0c2eb3ac6d0315ead26c71dee5",
+      "original_rows": 27,
+      "rows_after_pressure_filter": 26
+    },
+    "Lab03": {
+      "url": "https://raw.githubusercontent.com/NIST-ISODB/isodb-library/9e1ee472967d66ec7845e23c5d5b986eca5ff020/Library/10.1007s104500189958x/10.1007s10450-018-9958-x.Lab03.json",
+      "sha256": "54e3a49baa14655f6ef06defe9bd7546766430419bad7e9974d3b9f8ea2b897b",
+      "original_rows": 18,
+      "rows_after_pressure_filter": 18
+    },
+    "Lab04": {
+      "url": "https://raw.githubusercontent.com/NIST-ISODB/isodb-library/9e1ee472967d66ec7845e23c5d5b986eca5ff020/Library/10.1007s104500189958x/10.1007s10450-018-9958-x.Lab04.json",
+      "sha256": "6fc94ba395558d4bceeb26769d92e782ad260c98172dfd27e78b11d24d867db1",
+      "original_rows": 14,
+      "rows_after_pressure_filter": 14
+    },
+    "Lab05": {
+      "url": "https://raw.githubusercontent.com/NIST-ISODB/isodb-library/9e1ee472967d66ec7845e23c5d5b986eca5ff020/Library/10.1007s104500189958x/10.1007s10450-018-9958-x.Lab05.json",
+      "sha256": "2216386c0bf284dbf16ec557d412e8fcceb870cf7eee9e124f61a2fa2c90aec5",
+      "original_rows": 45,
+      "rows_after_pressure_filter": 45
+    },
+    "Lab06": {
+      "url": "https://raw.githubusercontent.com/NIST-ISODB/isodb-library/9e1ee472967d66ec7845e23c5d5b986eca5ff020/Library/10.1007s104500189958x/10.1007s10450-018-9958-x.Lab06.json",
+      "sha256": "8a9bda18af5657d9ed0e06be6fe072eb83d15fda7570b8b0e813741b04b25d28",
+      "original_rows": 19,
+      "rows_after_pressure_filter": 19
+    },
+    "Lab07": {
+      "url": "https://raw.githubusercontent.com/NIST-ISODB/isodb-library/9e1ee472967d66ec7845e23c5d5b986eca5ff020/Library/10.1007s104500189958x/10.1007s10450-018-9958-x.Lab07.json",
+      "sha256": "d7d362891783fab3b581290d263ce25d59d3141455409239ebb2f8a5e3c9e720",
+      "original_rows": 14,
+      "rows_after_pressure_filter": 13
+    },
+    "Lab08": {
+      "url": "https://raw.githubusercontent.com/NIST-ISODB/isodb-library/9e1ee472967d66ec7845e23c5d5b986eca5ff020/Library/10.1007s104500189958x/10.1007s10450-018-9958-x.Lab08.json",
+      "sha256": "b880ce9f817f4d0091d2feb835e0869f5954447c7317a10a1ef095152d0304d0",
+      "original_rows": 36,
+      "rows_after_pressure_filter": 23
+    },
+    "Lab09": {
+      "url": "https://raw.githubusercontent.com/NIST-ISODB/isodb-library/9e1ee472967d66ec7845e23c5d5b986eca5ff020/Library/10.1007s104500189958x/10.1007s10450-018-9958-x.Lab09.json",
+      "sha256": "08fbd2bb0a43bb9901664c8c60d158aa514e29efedc94fa3c59afe3b409d666d",
+      "original_rows": 23,
+      "rows_after_pressure_filter": 21
+    },
+    "Lab10": {
+      "url": "https://raw.githubusercontent.com/NIST-ISODB/isodb-library/9e1ee472967d66ec7845e23c5d5b986eca5ff020/Library/10.1007s104500189958x/10.1007s10450-018-9958-x.Lab10.json",
+      "sha256": "fbe5f15dc296472b078897a7e45659a1611e42b4c246f2cf1b4fcfc5268ca6d4",
+      "original_rows": 44,
+      "rows_after_pressure_filter": 44
+    },
+    "Lab11": {
+      "url": "https://raw.githubusercontent.com/NIST-ISODB/isodb-library/9e1ee472967d66ec7845e23c5d5b986eca5ff020/Library/10.1007s104500189958x/10.1007s10450-018-9958-x.Lab11.json",
+      "sha256": "e69b67b97830b36a79260510800ae1133d7e32c6fe8569268f13147302319d0e",
+      "original_rows": 19,
+      "rows_after_pressure_filter": 19
+    },
+    "Lab12": {
+      "url": "https://raw.githubusercontent.com/NIST-ISODB/isodb-library/9e1ee472967d66ec7845e23c5d5b986eca5ff020/Library/10.1007s104500189958x/10.1007s10450-018-9958-x.Lab12.json",
+      "sha256": "38202117b6e6a833a6c29d3f66e68608ea17256142dd2c6b6e281bf4cbb311f1",
+      "original_rows": 20,
+      "rows_after_pressure_filter": 20
+    },
+    "Lab13": {
+      "url": "https://raw.githubusercontent.com/NIST-ISODB/isodb-library/9e1ee472967d66ec7845e23c5d5b986eca5ff020/Library/10.1007s104500189958x/10.1007s10450-018-9958-x.Lab13.json",
+      "sha256": "e06f5f4fca10bb8108c021d06ff6e3e48259a38c1789021a7b02c71cb9c0c09e",
+      "original_rows": 17,
+      "rows_after_pressure_filter": 16
+    }
+  }
+}
