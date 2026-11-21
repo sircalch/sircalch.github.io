@@ -1,0 +1,28 @@
+{
+  "source": "https://raw.githubusercontent.com/NIST-ISODB/isodb-library/9e1ee472967d66ec7845e23c5d5b986eca5ff020/Library/10.1007s104500189958x/10.1007s10450-018-9958-x.LogisticModel.json",
+  "input_sha256": "5a02f206291a6621a076cf6d2651366bce5cba7c15aa5128d7f581603cf5ad15",
+  "adsorpqc": "1.2.0",
+  "numpy": "2.5.2",
+  "scipy": "1.18.1",
+  "matplotlib": "3.11.1",
+  "schemes": [
+    {
+      "name": "Puntos intercalados",
+      "fit_rows": 96,
+      "test_rows": 23,
+      "fit_max_bar": 45.0,
+      "test_min_bar": 0.05,
+      "test_max_bar": 43.0,
+      "fit_aicc_winner": "Dual-Site Langmuir"
+    },
+    {
+      "name": "Extremo de alta presión",
+      "fit_rows": 96,
+      "test_rows": 23,
+      "fit_max_bar": 33.5,
+      "test_min_bar": 34.0,
+      "test_max_bar": 45.0,
+      "fit_aicc_winner": "Dual-Site Langmuir"
+    }
+  ]
+}
