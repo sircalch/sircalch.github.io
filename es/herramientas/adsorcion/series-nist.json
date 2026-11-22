@@ -19,6 +19,8 @@
     "Sips": 0.05698743873436581,
     "Toth": 0.05098364505388707
   },
+  "residual_definition": "predicted minus observed at measured points inside the training pressure range",
+  "residual_rows": 1288,
   "series": {
     "Lab01": {
       "url": "https://raw.githubusercontent.com/NIST-ISODB/isodb-library/9e1ee472967d66ec7845e23c5d5b986eca5ff020/Library/10.1007s104500189958x/10.1007s10450-018-9958-x.Lab01.json",
