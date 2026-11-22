@@ -76,6 +76,32 @@ def evaluate(series):
     return rows
 
 
+def evaluate_residuals(series):
+    rows = []
+    for name, (pressure, loading) in series.items():
+        other_series = [points for other, points in series.items() if other != name]
+        train_pressure, train_loading = (np.concatenate(axis) for axis in zip(*other_series))
+        minimum, maximum = train_pressure.min(), train_pressure.max()
+        in_range = (pressure >= minimum) & (pressure <= maximum)
+        test_pressure, test_loading = pressure[in_range], loading[in_range]
+        fits = adsorpqc.fit_all_isotherm_models(train_pressure, train_loading)["models"]
+        for model in MODELS:
+            predicted = fits[model].fitted_function(test_pressure)
+            for pressure_value, observed, prediction in zip(test_pressure, test_loading, predicted):
+                residual = float(prediction - observed)
+                if not np.isfinite(residual):
+                    raise ValueError(f"Residuo no finito en {name}, {model}.")
+                rows.append({
+                    "serie_reservada": name,
+                    "modelo": model,
+                    "presion_bar": float(pressure_value),
+                    "observado_mol_kg": float(observed),
+                    "predicho_mol_kg": float(prediction),
+                    "residuo_predicho_menos_observado_mol_kg": residual,
+                })
+    return rows
+
+
 def save_figure(rows, names, output):
     figure, axis = plt.subplots(figsize=(8.6, 6), layout="constrained")
     positions = np.arange(len(names))
@@ -93,9 +119,30 @@ def save_figure(rows, names, output):
     plt.close(figure)
 
 
+def save_residual_figure(rows, output):
+    figure, axes = plt.subplots(2, 2, figsize=(10, 7), sharex=True, layout="constrained")
+    values = {name: index for index, name in enumerate(sorted({row["serie_reservada"] for row in rows}))}
+    for axis, model in zip(axes.flat, MODELS):
+        selected = [row for row in rows if row["modelo"] == model]
+        pressure = [row["presion_bar"] for row in selected]
+        residual = [row["residuo_predicho_menos_observado_mol_kg"] for row in selected]
+        colors = [values[row["serie_reservada"]] for row in selected]
+        scatter = axis.scatter(pressure, residual, c=colors, cmap="viridis", vmin=0, vmax=12, s=13, alpha=.8)
+        axis.axhline(0, color="#152137", linewidth=.9, linestyle="--")
+        axis.set_title(model, loc="left", fontweight="bold")
+        axis.grid(alpha=.15)
+        axis.spines[["top", "right"]].set_visible(False)
+        axis.set_xlabel("Presión (bar)")
+        axis.set_ylabel("Predicho − observado (mol/kg)")
+    figure.colorbar(scatter, ax=axes, label="Serie reservada, Lab01 = 0 … Lab13 = 12")
+    figure.savefig(output, dpi=220)
+    plt.close(figure)
+
+
 def build(input_dir, output):
     series, sources = load_series(input_dir)
     rows = evaluate(series)
+    residual_rows = evaluate_residuals(series)
     means = {
         model: float(np.mean([row["rmse_mol_kg"] for row in rows if row["modelo"] == model]))
         for model in MODELS
@@ -117,6 +164,8 @@ def build(input_dir, output):
         "scipy": scipy.__version__,
         "matplotlib": matplotlib.__version__,
         "mean_rmse_mol_kg": means,
+        "residual_definition": "predicted minus observed at measured points inside the training pressure range",
+        "residual_rows": len(residual_rows),
         "series": sources,
     }
     output.mkdir(parents=True, exist_ok=True)
@@ -124,8 +173,13 @@ def build(input_dir, output):
         writer = csv.DictWriter(handle, fieldnames=rows[0])
         writer.writeheader()
         writer.writerows(rows)
+    with (output / "residuales-series-nist.csv").open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=residual_rows[0])
+        writer.writeheader()
+        writer.writerows(residual_rows)
     (output / "series-nist.json").write_text(json.dumps(metadata, indent=2, allow_nan=False) + "\n", encoding="utf-8")
     save_figure(rows, list(series), output / "figura-series-nist.png")
+    save_residual_figure(residual_rows, output / "figura-residuales-series-nist.png")
     return metadata
 
 

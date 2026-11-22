@@ -78,6 +78,13 @@ python evaluar_series.py resultados-series</code></pre>
 <p>Para repetir el ejercicio, elige las series con menor y mayor RMSE para Toth en el CSV. Compara sus intervalos de ajuste y el número de puntos evaluados antes de explicar por qué el promedio puede ocultar diferencias.</p>
 <p><a href="https://doi.org/10.1007/s10450-018-9958-x">Nguyen y colaboradores, estudio interlaboratorio</a> · <a href="https://github.com/NIST-ISODB/isodb-library/tree/9e1ee472967d66ec7845e23c5d5b986eca5ff020/Library/10.1007s104500189958x">Series archivadas en ISODB, revisión fija</a></p>
 </div>
+<h2 id="residuales-presion">Dónde se concentra el error</h2>
+<p>El residuo se define como predicción menos observación. Los puntos muestran los 322 valores evaluados dentro del intervalo de ajuste. Una nube alrededor de cero indica errores con menor desplazamiento sistemático en esa zona. La figura permite buscar cambios de dispersión o tramos de presión donde los modelos se separan.</p>
+<figure style="margin:1rem 0">
+<a href="figura-residuales-series-nist.png"><img src="figura-residuales-series-nist.png" width="2200" height="1540" loading="lazy" style="max-width:100%;height:auto" alt="Cuatro paneles muestran residuales contra presión para Langmuir, Dual-Site Langmuir, Sips y Toth. Los colores identifican la serie reservada."></a>
+<figcaption>Residuales de los puntos evaluados. La línea horizontal marca predicción igual a observación.</figcaption>
+</figure>
+<p><a href="residuales-series-nist.csv" download>Descargar los 1,288 residuales (CSV)</a> · <a href="figura-residuales-series-nist.png" download>Descargar la figura de residuales</a></p>
 </section>
 </main>
 <footer><a href="../../collaborate.html">Contacto académico</a> · <a href="../../software.html">Software científico</a></footer>
