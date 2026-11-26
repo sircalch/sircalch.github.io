@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Del sensor a la lectura | Andrés Monreal Ciencia</title>
+<meta name="description" content="Actividad de 25 minutos sobre sensores, sesgo y dispersión con lecturas para usar en clase.">
+<link rel="canonical" href="https://sircalch.github.io/es/herramientas/ejercicios-biomedica/hoja-de-clase.html">
+<link rel="stylesheet" href="../recursos.css">
+<style>
+main { max-width: 800px; }
+.datos { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; text-align: center; }
+.datos th, .datos td { border-bottom: 1px solid var(--line); padding: .34rem .24rem; }
+.datos th:first-child { text-align: left; }
+.datos caption { text-align: left; color: var(--muted); margin-bottom: .35rem; }
+.respuesta { border-bottom: 1px solid var(--line); min-height: 2.25rem; }
+.docente { border-top: 1px solid var(--line); margin-top: 1.4rem; padding-top: .8rem; }
+summary { cursor: pointer; font-weight: 700; }
+@media (max-width: 420px) {
+  .datos { font-size: .88rem; }
+  .datos th, .datos td { padding-inline: .18rem; }
+}
+@media print {
+  @page { margin: 15mm; }
+  header, .acciones, .docente, footer { display: none; }
+  main { width: auto; padding: 0; }
+  body { color: black; font-size: 10.5pt; line-height: 1.4; }
+  h1 { font-size: 22pt; }
+  h2 { font-size: 13pt; margin: .85rem 0 .3rem; break-after: avoid; }
+  p { margin: .35rem 0 .65rem; }
+  .lead { margin-block-end: .65rem; }
+  table { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<header><nav aria-label="Navegación principal">
+<a class="brand" href="../../">Andrés Monreal Ciencia</a>
+<a class="nav-tools" href="./">Ejercicios de biomédica</a>
+</nav></header>
+<main>
+<h1>Del sensor a la lectura</h1>
+<p class="lead">Hoja de clase de Andrés Monreal Ciencia · 25 minutos</p>
+<p>Nombre ______________________________________　 Fecha ______________</p>
+<p class="acciones"><button type="button" id="imprimir">Imprimir hoja para estudiantes</button></p>
+
+<h2>1. Dibuja la cadena de medición · 7 min</h2>
+<p>Elige un termómetro digital o una báscula. Dibuja cuatro etapas. Identifica la magnitud física, la señal del sensor, el procesamiento y la lectura en pantalla. Anota unidades donde correspondan. Marca dónde podría aparecer un desplazamiento constante y dónde podría introducirse variación aleatoria.</p>
+<div class="respuesta" aria-hidden="true"></div>
+<div class="respuesta" aria-hidden="true"></div>
+
+<h2>2. Compara dos series · 10 min</h2>
+<p>La referencia del experimento es <strong>10 unidades arbitrarias</strong>. Usa las lecturas de la tabla o genera los dos casos en el <a href="../medicion/">laboratorio de medición</a> con cinco repeticiones. Calcula la media, la diferencia entre la media y la referencia y la desviación estándar muestral.</p>
+<table class="datos">
+<caption>Lecturas de ejemplo redondeadas a dos decimales (u. a.)</caption>
+<thead><tr><th scope="col">Caso</th><th scope="col">1</th><th scope="col">2</th><th scope="col">3</th><th scope="col">4</th><th scope="col">5</th></tr></thead>
+<tbody>
+<tr><th scope="row">A</th><td>12,00</td><td>12,00</td><td>12,00</td><td>12,00</td><td>12,00</td></tr>
+<tr><th scope="row">B</th><td>11,67</td><td>11,44</td><td>13,00</td><td>12,93</td><td>7,61</td></tr>
+</tbody>
+</table>
+<p>A · Sesgo 2, ruido 0<br>Media ________　 Diferencia ________　 Desviación estándar ________</p>
+<p>B · Sesgo 0, ruido 2<br>Media ________　 Diferencia ________　 Desviación estándar ________</p>
+
+<h2>3. Justifica tu decisión · 8 min</h2>
+<p>¿En cuál caso las lecturas son más repetibles? ¿Qué revisarías antes de confiar en cada serie? Explica por qué la media del caso B puede alejarse de 10 aunque el sesgo configurado sea cero.</p>
+<div class="respuesta" aria-hidden="true"></div>
+<div class="respuesta" aria-hidden="true"></div>
+
+<details class="docente">
+<summary>Clave y criterios para docentes</summary>
+<p>Asigna un punto por cada criterio.</p>
+<ol class="list">
+<li>Identifica cuatro etapas y sus unidades. En un termómetro, la temperatura se expresa en °C, la señal del circuito en V y el valor estimado en pantalla en °C. El procesamiento puede convertir el voltaje digitalizado en una estimación de temperatura.</li>
+<li>Para A obtiene media 12,00, diferencia +2,00 y desviación estándar 0,00. Para B obtiene media 11,33, diferencia +1,33 y desviación estándar 2,20, aproximadamente.</li>
+<li>Reconoce que A es más repetible y compara sus lecturas con una referencia para investigar el desplazamiento. Para B propone más repeticiones o revisar fuentes de ruido.</li>
+<li>Explica que con cinco lecturas la media puede separarse de la referencia por variación aleatoria. Distingue el ruido ingresado en el simulador de la dispersión observada en esta muestra.</li>
+</ol>
+</details>
+</main>
+<footer><a href="./">Volver a los ejercicios de medición</a></footer>
+<script>
+document.querySelector("#imprimir").addEventListener("click", () => window.print());
+</script>
+</body>
+</html>
